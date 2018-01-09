@@ -6,7 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
-app.get('/', function(req, res){
+app.get('/get', function(req, res){
+	console.log('haha')
   res.send('hello world');
 });
 
