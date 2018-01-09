@@ -1,8 +1,11 @@
-### node etc ###
+
+
 
 # Logs
 logs
 *.log
+.DS_Store
+node_modules
 
 # Runtime data
 pids
