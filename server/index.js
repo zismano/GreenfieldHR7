@@ -4,12 +4,14 @@ const path  = require('path');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, '../client/dist')));
+//app.use(express.static(path.join(__dirname, '../client/dist')));
 
-app.get('/get', function(req, res){
+app.get('/', function(req, res){
 	console.log('haha')
   res.send('hello world');
 });
+
+
 
 app.listen(3000, ()=>{
   console.log('server listen on port 3000')
