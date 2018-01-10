@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-
-class SearchByRestaurantName extends React.Component {
-    constructor(props) {
-  		super(props);
-    }
-
-    render() {
-  		return (
-  			<h3>SearchByRestaurantName</h3>
-  		)
-  	}
-}
-
-
-export default SearchByRestaurantName;
-||||||| merged common ancestors
-=======
 import React from 'react';
 import $ from 'jquery';
 import RestaurantDetails from './RestaurantDetails.jsx';
@@ -65,5 +45,3 @@ class SearchByRestaurantName extends React.Component {
 module.exports = {
 
 }
-
->>>>>>> complete searchbyname and searchbycategory
