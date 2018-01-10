@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000)
 
 
 app.use(bodyParser.json());
-//app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/', function(req, res){
   res.send('hello team 7');
