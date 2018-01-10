@@ -1,0 +1,2106 @@
+{
+    "businesses": [
+        {
+            "id": "è-tutto-qua-san-francisco-2",
+            "name": "È Tutto Qua",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lzjPKe_-LOoLcPgN8lGZ2A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/%C3%A8-tutto-qua-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1807,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7977561950684,
+                "longitude": -122.40625
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "270 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "270 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159891002",
+            "display_phone": "(415) 989-1002",
+            "distance": 3884.314449992132
+        },
+        {
+            "id": "bella-trattoria-san-francisco",
+            "name": "Bella Trattoria",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/LUDlW0tFfyrAZrrjWcBfQQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bella-trattoria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1141,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78148,
+                "longitude": -122.46085
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3854 Geary Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3854 Geary Blvd",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14152210305",
+            "display_phone": "(415) 221-0305",
+            "distance": 3269.1323891231937
+        },
+        {
+            "id": "sotto-mare-oysteria-and-seafood-san-francisco",
+            "name": "Sotto Mare Oysteria & Seafood",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/A5sqbVpCIMqUdae_TSMkjQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sotto-mare-oysteria-and-seafood-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2929,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.79979,
+                "longitude": -122.40834
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "552 Green St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "552 Green St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153983181",
+            "display_phone": "(415) 398-3181",
+            "distance": 4001.8695594966657
+        },
+        {
+            "id": "beretta-san-francisco",
+            "name": "Beretta",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Au1vrkX9VqUtKfzI3QMkdA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/beretta-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3183,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.753868,
+                "longitude": -122.420636
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1199 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1199 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156951199",
+            "display_phone": "(415) 695-1199",
+            "distance": 1646.668145945148
+        },
+        {
+            "id": "trattoria-contadina-san-francisco",
+            "name": "Trattoria Contadina",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/yUx721iSMInOPavZ_u0Avg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/trattoria-contadina-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1138,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.80018,
+                "longitude": -122.41228
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1800 Mason St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1800 Mason St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159825728",
+            "display_phone": "(415) 982-5728",
+            "distance": 3903.3766820492738
+        },
+        {
+            "id": "baonecci-ristorante-san-francisco",
+            "name": "Baonecci Ristorante",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iOQ4dB4hc-UeNoss8nRcNw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/baonecci-ristorante-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 864,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.799824,
+                "longitude": -122.407833
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "516 Green St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "516 Green St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159891806",
+            "display_phone": "(415) 989-1806",
+            "distance": 4026.6368028793977
+        },
+        {
+            "id": "italian-homemade-company-san-francisco",
+            "name": "Italian Homemade Company",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PHnJ_tB5HjE_bWUW6j2KrQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/italian-homemade-company-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 906,
+            "categories": [
+                {
+                    "alias": "grocery",
+                    "title": "Grocery"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.801752,
+                "longitude": -122.411851
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "716 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "716 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14157128874",
+            "display_phone": "(415) 712-8874",
+            "distance": 4079.8853014833
+        },
+        {
+            "id": "the-italian-homemade-company-san-francisco-6",
+            "name": "The Italian Homemade Company",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VbKB0r6aqXOm0XofT2qsYg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-italian-homemade-company-san-francisco-6?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 546,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "intlgrocery",
+                    "title": "International Grocery"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.79742,
+                "longitude": -122.43097
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1919 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1919 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14156559325",
+            "display_phone": "(415) 655-9325",
+            "distance": 3345.5883692425377
+        },
+        {
+            "id": "la-traviata-san-francisco",
+            "name": "La Traviata",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/dydNdanEXjnIVCum_mltyg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-traviata-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 527,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75126,
+                "longitude": -122.41869
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2854 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2854 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152820500",
+            "display_phone": "(415) 282-0500",
+            "distance": 1980.8007107554558
+        },
+        {
+            "id": "tommasos-ristorante-italiano-san-francisco",
+            "name": "Tommaso's Ristorante Italiano",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/A0Wts1C_Me3L8IHa_htB2g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tommasos-ristorante-italiano-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1455,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.797778,
+                "longitude": -122.405204
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1042 Kearny St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1042 Kearny St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153989696",
+            "display_phone": "(415) 398-9696",
+            "distance": 3935.6399907166096
+        },
+        {
+            "id": "fino-ristorante-and-bar-san-francisco",
+            "name": "Fino Ristorante & Bar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/wnZFldKz5Z9W9aXnnfuMlA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fino-ristorante-and-bar-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 977,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7879880715968,
+                "longitude": -122.412287082989
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "624 Post St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "624 Post St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14159282080",
+            "display_phone": "(415) 928-2080",
+            "distance": 2681.7650065956077
+        },
+        {
+            "id": "delfina-san-francisco",
+            "name": "Delfina",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0UbRqzsQZbGVj2QdCeb4cg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/delfina-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1903,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76131,
+                "longitude": -122.42431
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "3621 18th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3621 18th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14155524055",
+            "display_phone": "(415) 552-4055",
+            "distance": 752.90822465496
+        },
+        {
+            "id": "barbacco-san-francisco",
+            "name": "Barbacco",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/W-wbXYKq7555vyTMJozJWQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/barbacco-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1448,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7935921194034,
+                "longitude": -122.399338591436
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "220 California St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "220 California St",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14159551919",
+            "display_phone": "(415) 955-1919",
+            "distance": 3861.4283760445155
+        },
+        {
+            "id": "la-briciola-san-francisco",
+            "name": "La Briciola",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/uPvBFvXWIhS_8PH0-PNx2Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-briciola-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 812,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7815765578792,
+                "longitude": -122.395922343908
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "489 3rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "489 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14155120300",
+            "display_phone": "(415) 512-0300",
+            "distance": 3245.3259907611473
+        },
+        {
+            "id": "la-ciccia-san-francisco",
+            "name": "La Ciccia",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Z3vD-x_sAKlgTimgXJp_qw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-ciccia-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 969,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "sardinian",
+                    "title": "Sardinian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.742265,
+                "longitude": -122.426666
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "291 30th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94131",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "291 30th St",
+                    "San Francisco, CA 94131"
+                ]
+            },
+            "phone": "+14155508114",
+            "display_phone": "(415) 550-8114",
+            "distance": 2799.632682114942
+        },
+        {
+            "id": "trattoria-da-vittorio-san-francisco",
+            "name": "Trattoria da Vittorio",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/dpAZM2BWB6Q0KNaTrZPMHg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/trattoria-da-vittorio-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 549,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.73933,
+                "longitude": -122.46775
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "150 W Portal Ave",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94127",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "150 W Portal Ave",
+                    "San Francisco, CA 94127"
+                ]
+            },
+            "phone": "+14157420300",
+            "display_phone": "(415) 742-0300",
+            "distance": 4673.15585353161
+        },
+        {
+            "id": "54-mint-ristorante-italiano-san-francisco-2",
+            "name": "54 Mint - Ristorante Italiano",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/B5xQziW14iokOu9T3MXGpw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/54-mint-ristorante-italiano-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 993,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7826100091309,
+                "longitude": -122.407934829024
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "16 Mint Plz",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "16 Mint Plz",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155435100",
+            "display_phone": "(415) 543-5100",
+            "distance": 2455.6371671967117
+        },
+        {
+            "id": "franchino-san-francisco",
+            "name": "Franchino",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qxpXyasNU9eBLkljAvbIeQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/franchino-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1005,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79833,
+                "longitude": -122.40757
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "347 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "347 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159822157",
+            "display_phone": "(415) 982-2157",
+            "distance": 3883.7358225777098
+        },
+        {
+            "id": "caffe-macaroni-san-francisco-4",
+            "name": "Caffe Macaroni",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/KCTmktE5iruzjyL9KHMlcw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/caffe-macaroni-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 468,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7961197,
+                "longitude": -122.4043732
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "59 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "59 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159569737",
+            "display_phone": "(415) 956-9737",
+            "distance": 3814.5904319517063
+        },
+        {
+            "id": "lupa-trattoria-san-francisco",
+            "name": "Lupa Trattoria",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/7xQ-uyE4i-29P-zRIzQJHw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lupa-trattoria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 577,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75102,
+                "longitude": -122.43452
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "4109 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4109 24th St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14152825872",
+            "display_phone": "(415) 282-5872",
+            "distance": 1899.1129714869617
+        },
+        {
+            "id": "tonys-pizza-napoletana-san-francisco",
+            "name": "Tony's Pizza Napoletana",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/d8tM3JkgYW0roXBygLoSKg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tonys-pizza-napoletana-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3831,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.80032,
+                "longitude": -122.40894
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1570 Stockton St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1570 Stockton St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14158359888",
+            "display_phone": "(415) 835-9888",
+            "distance": 4030.7587315526916
+        },
+        {
+            "id": "cotogna-san-francisco",
+            "name": "Cotogna",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/AIPdXtCgwEIqurJGbIE_cw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cotogna-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1193,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7975,
+                "longitude": -122.40336
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "490 Pacific Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "490 Pacific Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14157758508",
+            "display_phone": "(415) 775-8508",
+            "distance": 3995.3288557285655
+        },
+        {
+            "id": "firenze-by-night-ristorante-san-francisco",
+            "name": "Firenze by Night Ristorante",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/jEjw5r3x00GIW0uOeaZeyA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/firenze-by-night-ristorante-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 870,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79887,
+                "longitude": -122.4091
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1429 Stockton St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1429 Stockton St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153928585",
+            "display_phone": "(415) 392-8585",
+            "distance": 3887.521604864656
+        },
+        {
+            "id": "perbacco-san-francisco",
+            "name": "Perbacco",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4A70I2FfagmfcflkgKm0BQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/perbacco-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1861,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7934543812786,
+                "longitude": -122.399336635582
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "230 California St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "230 California St",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14159550663",
+            "display_phone": "(415) 955-0663",
+            "distance": 3850.0104967563902
+        },
+        {
+            "id": "seven-hills-san-francisco",
+            "name": "Seven Hills",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ywOw-ze0h-nLAPlPZXcqVg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/seven-hills-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 836,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7953586,
+                "longitude": -122.4182303
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "1550 Hyde St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1550 Hyde St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14157751550",
+            "display_phone": "(415) 775-1550",
+            "distance": 3228.7197847089897
+        },
+        {
+            "id": "pazzia-restaurant-and-pizzeria-san-francisco",
+            "name": "Pazzia Restaurant & Pizzeria",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ow4Ymz0MMg49-usfGeiHdA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pazzia-restaurant-and-pizzeria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 872,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7834151615544,
+                "longitude": -122.398016998777
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "337 3rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "337 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14155121693",
+            "display_phone": "(415) 512-1693",
+            "distance": 3194.807856397472
+        },
+        {
+            "id": "spiazzo-ristorante-san-francisco",
+            "name": "Spiazzo Ristorante",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/67HuoK9sKfUvtMiuNbUmYw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/spiazzo-ristorante-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 536,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.74035,
+                "longitude": -122.46588
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "33 W Portal Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94127",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "33 W Portal Ave",
+                    "San Francisco, CA 94127"
+                ]
+            },
+            "phone": "+14156649511",
+            "display_phone": "(415) 664-9511",
+            "distance": 4480.366141279536
+        },
+        {
+            "id": "delarosa-san-francisco-3",
+            "name": "Delarosa",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/xKnjHh4ac1cAvV_uoQZv-A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/delarosa-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 695,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7856178857509,
+                "longitude": -122.404516608598
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "37 Yerba Buena Ln",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "37 Yerba Buena Ln",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158727363",
+            "display_phone": "(415) 872-7363",
+            "distance": 2903.9699355476396
+        },
+        {
+            "id": "nob-hill-cafe-san-francisco",
+            "name": "Nob Hill Cafe",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ERvUPqy2op9DQTmHeZBA5g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nob-hill-cafe-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1106,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.793182,
+                "longitude": -122.412648
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1152 Taylor St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1152 Taylor St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14157766500",
+            "display_phone": "(415) 776-6500",
+            "distance": 3174.921141433722
+        },
+        {
+            "id": "zero-zero-san-francisco",
+            "name": "Zero Zero",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0Yva3WnJe2QWZzmaAfdEbA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zero-zero-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2838,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78163,
+                "longitude": -122.40204
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "826 Folsom St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "826 Folsom St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14153488800",
+            "display_phone": "(415) 348-8800",
+            "distance": 2790.168399964896
+        },
+        {
+            "id": "il-casaro-pizzeria-and-mozzarella-bar-san-francisco",
+            "name": "Il Casaro Pizzeria & Mozzarella Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/K62xCcAyKVskvClKvAwz_A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/il-casaro-pizzeria-and-mozzarella-bar-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 763,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7984832,
+                "longitude": -122.4073981
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "348 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "348 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14156779455",
+            "display_phone": "(415) 677-9455",
+            "distance": 3908.9784838257196
+        },
+        {
+            "id": "uva-enoteca-san-francisco",
+            "name": "Uva Enoteca",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/SHsA8McuPwHGZmcXDhtjLA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/uva-enoteca-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 849,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7720139920712,
+                "longitude": -122.43152461946
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "568 Haight St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "568 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14158292024",
+            "display_phone": "(415) 829-2024",
+            "distance": 588.839466264204
+        },
+        {
+            "id": "mangia-tutti-ristorante-san-francisco",
+            "name": "Mangia Tutti Ristorante",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/omiDctybfG6RrHf3Ksvkpg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mangia-tutti-ristorante-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 362,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79448,
+                "longitude": -122.40375
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "635 Clay St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "635 Clay St",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14157882088",
+            "display_phone": "(415) 788-2088",
+            "distance": 3697.0623490593957
+        },
+        {
+            "id": "piccolo-forno-san-francisco",
+            "name": "Piccolo Forno",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/N5bcxCkUBnzYQ2nEpG4xrw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/piccolo-forno-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 290,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.8013699308642,
+                "longitude": -122.411981038749
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "725 Columbus Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "725 Columbus Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14157570087",
+            "display_phone": "(415) 757-0087",
+            "distance": 4036.1026036026683
+        },
+        {
+            "id": "amarena-san-francisco-3",
+            "name": "Amarena",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e-cdz4CAicS7fSVOZLdtpA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/amarena-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 510,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7976935,
+                "longitude": -122.4202447
+            },
+            "transactions": [
+                "restaurant_reservation",
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2162 Larkin St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2162 Larkin St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14154470441",
+            "display_phone": "(415) 447-0441",
+            "distance": 3468.327071798428
+        },
+        {
+            "id": "capannina-san-francisco",
+            "name": "Capannina",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-ArbgSSs3H9qygXTEapGGg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/capannina-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 762,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7977488,
+                "longitude": -122.4291735
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "1809 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1809 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14154098001",
+            "display_phone": "(415) 409-8001",
+            "distance": 3373.1820182533456
+        },
+        {
+            "id": "pane-e-vino-san-francisco",
+            "name": "Pane E Vino",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/RsUhNxS9LYILjwAHXPXsbg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pane-e-vino-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 367,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7978439331055,
+                "longitude": -122.427597045898
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1715 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1715 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14154412111",
+            "display_phone": "(415) 441-2111",
+            "distance": 3393.512751732436
+        },
+        {
+            "id": "a-mano-san-francisco-2",
+            "name": "a Mano",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_4dCSv3MuAhNjGbdGm3ibw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/a-mano-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 321,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.776963880538,
+                "longitude": -122.423868469312
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "450 Hayes St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "450 Hayes St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14155067401",
+            "display_phone": "(415) 506-7401",
+            "distance": 1128.3840766498781
+        },
+        {
+            "id": "ideale-san-francisco",
+            "name": "Ideale",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DCF9XUhNKzO3eecItsPeWg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ideale-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 648,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.799001,
+                "longitude": -122.407311
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1309 Grant Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1309 Grant Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153914129",
+            "display_phone": "(415) 391-4129",
+            "distance": 3963.4950696074543
+        },
+        {
+            "id": "pachino-trattoria-and-pizzeria-san-francisco",
+            "name": "Pachino Trattoria & Pizzeria",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/eNu12E0McGwrNJd4Onm3-Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pachino-trattoria-and-pizzeria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 432,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7912633,
+                "longitude": -122.4039616
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "318 Kearny St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94104",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "318 Kearny St",
+                    "San Francisco, CA 94104"
+                ]
+            },
+            "phone": "+14159564056",
+            "display_phone": "(415) 956-4056",
+            "distance": 3402.0127992698876
+        },
+        {
+            "id": "fior-d-italia-san-francisco-4",
+            "name": "Fior d'Italia",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/k1LkjWhY8yDPIj9x07Ezbw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fior-d-italia-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 410,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.80427,
+                "longitude": -122.4136
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2237 Mason St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2237 Mason St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14159861886",
+            "display_phone": "(415) 986-1886",
+            "distance": 4294.063763540614
+        },
+        {
+            "id": "montesacro-pinseria-enoteca-san-francisco-5",
+            "name": "Montesacro Pinseria-Enoteca",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ZsgrHsx2UlV-QjuFrw2gqA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/montesacro-pinseria-enoteca-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 393,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7815976,
+                "longitude": -122.410121
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "510 Stevenson St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "510 Stevenson St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14157953040",
+            "display_phone": "(415) 795-3040",
+            "distance": 2239.37702916022
+        },
+        {
+            "id": "sodinis-green-valley-restaurant-san-francisco",
+            "name": "Sodini's Green Valley Restaurant",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/yZ4CgHmYMSAHmwUxpb46tA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sodinis-green-valley-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 773,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7998466491699,
+                "longitude": -122.407653808594
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "510 Green St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "510 Green St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14152910499",
+            "display_phone": "(415) 291-0499",
+            "distance": 4033.6586225419796
+        },
+        {
+            "id": "il-borgo-san-francisco",
+            "name": "Il Borgo",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/r4fjC8Zs5IwV6oBzT2X15Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/il-borgo-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 595,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.77569,
+                "longitude": -122.42628
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "500 Fell St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "500 Fell St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14152559108",
+            "display_phone": "(415) 255-9108",
+            "distance": 937.173544239666
+        },
+        {
+            "id": "gaspares-pizza-house-and-italian-restaurant-san-francisco",
+            "name": "Gaspare's Pizza House & Italian Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/SnSGltekzNC9UlGxqn1x4A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gaspares-pizza-house-and-italian-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 857,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7806,
+                "longitude": -122.47915
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "5546 Geary Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5546 Geary Blvd",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14153875025",
+            "display_phone": "(415) 387-5025",
+            "distance": 4711.073500396889
+        },
+        {
+            "id": "poesia-san-francisco",
+            "name": "Poesia",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fZTBJVDwc4q7EkJ7BXP9xw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/poesia-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 701,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76115,
+                "longitude": -122.43431
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "4072 18th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4072 18th St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14152529325",
+            "display_phone": "(415) 252-9325",
+            "distance": 877.7630908634259
+        },
+        {
+            "id": "acquerello-san-francisco",
+            "name": "Acquerello",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/B02w1PK53NC_xlrinEoxZQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/acquerello-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 987,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "venues",
+                    "title": "Venues & Event Spaces"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.79157,
+                "longitude": -122.4213296
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "1722 Sacramento St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1722 Sacramento St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14155675432",
+            "display_phone": "(415) 567-5432",
+            "distance": 2755.7833071859677
+        },
+        {
+            "id": "albona-ristorante-istriano-san-francisco",
+            "name": "Albona Ristorante Istriano",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/O-vVLrxvouQLKOJdEXRoxQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/albona-ristorante-istriano-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 637,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.8044804521307,
+                "longitude": -122.4142137131
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "545 Francisco St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "545 Francisco St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14154411040",
+            "display_phone": "(415) 441-1040",
+            "distance": 4301.22366875948
+        },
+        {
+            "id": "barzotto-san-francisco",
+            "name": "BARZOTTO",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tGT-HBecK7-e1dd0sTo7Hg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/barzotto-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 246,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7525211773737,
+                "longitude": -122.420917153358
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1270 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1270 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152851200",
+            "display_phone": "(415) 285-1200",
+            "distance": 1775.6083429869018
+        },
+        {
+            "id": "locanda-san-francisco",
+            "name": "Locanda",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/u103gYDteZsQsez81q3nWA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/locanda-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 898,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76401,
+                "longitude": -122.4215
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "557 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "557 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158636800",
+            "display_phone": "(415) 863-6800",
+            "distance": 682.1989149145779
+        }
+    ],
+    "total": 2500,
+    "region": {
+        "center": {
+            "longitude": -122.4282073975,
+            "latitude": 37.7674132179
+        }
+    }
+}
