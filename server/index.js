@@ -9,11 +9,10 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/', function(req, res){
+	console.log('environment is ', process.env.GOOGLEMAP_KEY)
   res.send('hello team 7');
 });
 
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
 })
-
-// example
