@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/', function(req, res){
-	console.log('environment is ', process.env)
   res.send('hello team 7');
 });
 
