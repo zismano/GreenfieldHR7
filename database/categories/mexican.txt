@@ -1,0 +1,2050 @@
+{
+    "businesses": [
+        {
+            "id": "tropisueño-san-francisco-3",
+            "name": "Tropisueño",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hUZgDmue1VRfvIXai6I0wg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tropisue%C3%B1o-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3579,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7853008468227,
+                "longitude": -122.403918653727
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "75 Yerba Buena Ln",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "75 Yerba Buena Ln",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14152430299",
+            "display_phone": "(415) 243-0299",
+            "distance": 2917.737647253378
+        },
+        {
+            "id": "el-farolito-san-francisco-2",
+            "name": "El Farolito",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/OPnKCvgBR2-lQ1-yahrpiA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-farolito-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 4252,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75265,
+                "longitude": -122.41812
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2779 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2779 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158247877",
+            "display_phone": "(415) 824-7877",
+            "distance": 1862.423138226948
+        },
+        {
+            "id": "don-pistos-san-francisco-2",
+            "name": "Don Pisto's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9oDu7WFzaLXhNblXfvr1NA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/don-pistos-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1641,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.80078,
+                "longitude": -122.40784
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "510 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "510 Union St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153950939",
+            "display_phone": "(415) 395-0939",
+            "distance": 4111.162475800255
+        },
+        {
+            "id": "la-taqueria-san-francisco-2",
+            "name": "La Taqueria",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Vg14X7hOLoMyVlk3iAQ4ng/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-taqueria-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3276,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.750883,
+                "longitude": -122.418123
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2889 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2889 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152857117",
+            "display_phone": "(415) 285-7117",
+            "distance": 2040.6931435980218
+        },
+        {
+            "id": "gracias-madre-san-francisco",
+            "name": "Gracias Madre",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Yy2vzxq0fAJUA5Q0cpziFw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gracias-madre-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2648,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.761606,
+                "longitude": -122.419241
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2211 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2211 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156831346",
+            "display_phone": "(415) 683-1346",
+            "distance": 1018.917125514018
+        },
+        {
+            "id": "nopalito-san-francisco",
+            "name": "Nopalito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/f13-4rbvvHDkhyYIttMnMQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nopalito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1659,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77343530099,
+                "longitude": -122.438993048014
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "306 Broderick St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "306 Broderick St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155353969",
+            "display_phone": "(415) 535-3969",
+            "distance": 1160.662025965996
+        },
+        {
+            "id": "the-little-chihuahua-san-francisco",
+            "name": "The Little Chihuahua",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/o0o5tMuXhw2qZM5KgwOc6Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-little-chihuahua-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1360,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7720399,
+                "longitude": -122.43688
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "292 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "292 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14152558225",
+            "display_phone": "(415) 255-8225",
+            "distance": 926.6750903886459
+        },
+        {
+            "id": "pancho-villa-taqueria-san-francisco",
+            "name": "Pancho Villa Taqueria",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/O2SSf_9ES8CsH5lnXvGT-Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pancho-villa-taqueria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2162,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.764857,
+                "longitude": -122.4210934
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3071 16th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3071 16th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158648840",
+            "display_phone": "(415) 864-8840",
+            "distance": 686.898342050284
+        },
+        {
+            "id": "nopalito-san-francisco-3",
+            "name": "Nopalito",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ivWbAmbGMo0_aruu2kTKsg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nopalito-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1024,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "comfortfood",
+                    "title": "Comfort Food"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.765409579693,
+                "longitude": -122.466281482937
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1224 9th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1224 9th Ave",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14152339966",
+            "display_phone": "(415) 233-9966",
+            "distance": 3354.160324344266
+        },
+        {
+            "id": "colibri-mexican-bistro-san-francisco",
+            "name": "Colibri Mexican Bistro",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/WvH2JL9-9M8OguzllZSKbg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/colibri-mexican-bistro-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1882,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7871606463558,
+                "longitude": -122.410636659841
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "438 Geary St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "438 Geary St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154402737",
+            "display_phone": "(415) 440-2737",
+            "distance": 2684.4599104773397
+        },
+        {
+            "id": "taqueria-cancún-san-francisco-5",
+            "name": "Taqueria Cancún",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mj0hcBWZwIZ_ToD3UYfqLQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taqueria-canc%C3%BAn-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1933,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76047,
+                "longitude": -122.41951
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2288 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2288 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152529560",
+            "display_phone": "(415) 252-9560",
+            "distance": 1080.738366991578
+        },
+        {
+            "id": "tacorea-san-francisco",
+            "name": "Tacorea",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rHxbA24tQgh8eIDrHGhCOA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacorea-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 882,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.789806,
+                "longitude": -122.410709
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "809 Bush St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "809 Bush St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14158851325",
+            "display_phone": "(415) 885-1325",
+            "distance": 2926.595709050032
+        },
+        {
+            "id": "garaje-san-francisco",
+            "name": "Garaje",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_nN_DhLXkfwEkwPNxne9hw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/garaje-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1281,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.781752952057,
+                "longitude": -122.396121970462
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "475 3rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "475 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14156440838",
+            "display_phone": "(415) 644-0838",
+            "distance": 3239.6020046732224
+        },
+        {
+            "id": "el-toreador-restaurant-san-francisco-2",
+            "name": "El Toreador Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/aNwoWvw_1d7xgcV3ARIw7w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-toreador-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 807,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.74046,
+                "longitude": -122.46663
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "50 W Portal Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94127",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "50 W Portal Ave",
+                    "San Francisco, CA 94127"
+                ]
+            },
+            "phone": "+14155668104",
+            "display_phone": "(415) 566-8104",
+            "distance": 4517.216174197708
+        },
+        {
+            "id": "papito-hayes-san-francisco",
+            "name": "Papito Hayes",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hx8z0xJYGETvCrdD-RovJg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/papito-hayes-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 383,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.776635,
+                "longitude": -122.423396
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "425 Hayes St",
+                "address2": "Ste A",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "425 Hayes St",
+                    "Ste A",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14155540541",
+            "display_phone": "(415) 554-0541",
+            "distance": 1109.1954058300319
+        },
+        {
+            "id": "papito-potrero-hill-san-francisco",
+            "name": "Papito Potrero Hill",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5yh_cB3OcTma_7ZHZkbRog/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/papito-potrero-hill-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 594,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.762331217976,
+                "longitude": -122.39734047586
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "317 Connecticut St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "317 Connecticut St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14156950147",
+            "display_phone": "(415) 695-0147",
+            "distance": 2771.5125227172057
+        },
+        {
+            "id": "taqueria-los-mayas-san-francisco",
+            "name": "Taqueria Los Mayas",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OF519TZ4twt6uqdtAdBrSw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taqueria-los-mayas-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 139,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7828267189761,
+                "longitude": -122.462883666158
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "331 Clement St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "331 Clement St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14155482800",
+            "display_phone": "(415) 548-2800",
+            "distance": 3496.579366056864
+        },
+        {
+            "id": "velvet-cantina-san-francisco",
+            "name": "Velvet Cantina",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-ldYn_T8Bhi-E5ZDmghYTQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/velvet-cantina-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1143,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.753802,
+                "longitude": -122.419701
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3349 23rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3349 23rd St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156484142",
+            "display_phone": "(415) 648-4142",
+            "distance": 1688.149088187592
+        },
+        {
+            "id": "taqueria-guadalajara-san-francisco",
+            "name": "Taqueria Guadalajara",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Z9S7WKeOGszE88ten23Rrw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taqueria-guadalajara-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 791,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7212907373905,
+                "longitude": -122.437459006906
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "4798 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94112",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4798 Mission St",
+                    "San Francisco, CA 94112"
+                ]
+            },
+            "phone": "+14154695480",
+            "display_phone": "(415) 469-5480",
+            "distance": 5205.797797535226
+        },
+        {
+            "id": "el-metate-restaurant-san-francisco",
+            "name": "El Metate Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/20tlVL1_gQ7-D3ZxJZEGOQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-metate-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1035,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7556745300616,
+                "longitude": -122.409623820024
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2406 Bryant St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2406 Bryant St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156417209",
+            "display_phone": "(415) 641-7209",
+            "distance": 2091.0489015102557
+        },
+        {
+            "id": "padrecito-san-francisco",
+            "name": "Padrecito",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/KP_B4Cutv0KAXH9hNy4juA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/padrecito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 680,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7656775,
+                "longitude": -122.4500746
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "901 Cole St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "901 Cole St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14157425505",
+            "display_phone": "(415) 742-5505",
+            "distance": 1931.8124000289179
+        },
+        {
+            "id": "papalote-mexican-grill-san-francisco",
+            "name": "Papalote Mexican Grill",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/n3j80kX1x8zYJUfQtscf8g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/papalote-mexican-grill-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2121,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.75194,
+                "longitude": -122.42094
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3409 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3409 24th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14159708815",
+            "display_phone": "(415) 970-8815",
+            "distance": 1828.644648985266
+        },
+        {
+            "id": "tommys-mexican-restaurant-san-francisco-4",
+            "name": "Tommy's Mexican Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NIZqDPnLvLv34eTi8EC9xg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tommys-mexican-restaurant-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1074,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.77985,
+                "longitude": -122.4831
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "5929 Geary Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5929 Geary Blvd",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14153874747",
+            "display_phone": "(415) 387-4747",
+            "distance": 5022.202357356951
+        },
+        {
+            "id": "nicks-crispy-tacos-san-francisco-2",
+            "name": "Nick's Crispy Tacos",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/hVCVrVFjEHwZqA5ujDfxfg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nicks-crispy-tacos-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3049,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "sportsbars",
+                    "title": "Sports Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79607,
+                "longitude": -122.42196
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1500 Broadway",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1500 Broadway",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14154098226",
+            "display_phone": "(415) 409-8226",
+            "distance": 3238.098325086252
+        },
+        {
+            "id": "san-jalisco-san-francisco-2",
+            "name": "San Jalisco",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CWufOhzhVR7xWEeD0NT3kA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/san-jalisco-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 676,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75865,
+                "longitude": -122.41668
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "901 S Van Ness Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "901 S Van Ness Ave",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156488383",
+            "display_phone": "(415) 648-8383",
+            "distance": 1404.5775548595939
+        },
+        {
+            "id": "el-rancho-grande-san-francisco",
+            "name": "El Rancho Grande",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xnoOrXzLQ4pVdeYS2gdeGQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-rancho-grande-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 271,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77752,
+                "longitude": -122.43859
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "855 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "855 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14156738226",
+            "display_phone": "(415) 673-8226",
+            "distance": 1446.0795059092
+        },
+        {
+            "id": "el-burrito-express-san-francisco-3",
+            "name": "El Burrito Express",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EqzV4tuW_ZaQ1S0Od00-yA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-burrito-express-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 629,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78646,
+                "longitude": -122.43982
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1812 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1812 Divisadero St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14157764246",
+            "display_phone": "(415) 776-4246",
+            "distance": 2355.4455913067536
+        },
+        {
+            "id": "el-castillito-san-francisco-2",
+            "name": "El Castillito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/07pBan7XFlgL71eoOePwpw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-castillito-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 776,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7688743812288,
+                "longitude": -122.429237365723
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "136 Church St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "136 Church St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14156213428",
+            "display_phone": "(415) 621-3428",
+            "distance": 185.99457746266398
+        },
+        {
+            "id": "el-buen-comer-san-francisco-3",
+            "name": "El Buen Comer",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/aNOdUNdHQvJj2CaeiGUJfA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-buen-comer-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 195,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.74174,
+                "longitude": -122.42204
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3435 Mission St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3435 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158171542",
+            "display_phone": "(415) 817-1542",
+            "distance": 2904.7510438444356
+        },
+        {
+            "id": "la-corneta-taqueria-san-francisco-2",
+            "name": "La Corneta Taqueria",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Bo5bFIS9iabZXDawIrvY_g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-corneta-taqueria-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1007,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.73423,
+                "longitude": -122.43395
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2834 Diamond St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94131",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2834 Diamond St",
+                    "San Francisco, CA 94131"
+                ]
+            },
+            "phone": "+14154698757",
+            "display_phone": "(415) 469-8757",
+            "distance": 3724.183866316272
+        },
+        {
+            "id": "tacko-san-francisco",
+            "name": "Tacko",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7VdJnpbhFQt2Ks3Q8NwqMw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacko-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 610,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79824,
+                "longitude": -122.43601
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3115 Fillmore St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3115 Fillmore St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14157963534",
+            "display_phone": "(415) 796-3534",
+            "distance": 3498.7072389454115
+        },
+        {
+            "id": "la-palma-mexicatessen-san-francisco",
+            "name": "La Palma Mexicatessen",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/d9dAE9CK69V6l-ul1cHHBw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-palma-mexicatessen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 559,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.75297,
+                "longitude": -122.40994
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2884 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2884 24th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156471500",
+            "display_phone": "(415) 647-1500",
+            "distance": 2268.149870074346
+        },
+        {
+            "id": "tia-margarita-mexican-restaurant-san-francisco",
+            "name": "Tia Margarita Mexican Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bFGsDbOj6D7QACuKfpVNbw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tia-margarita-mexican-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 581,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7821795234627,
+                "longitude": -122.478293426534
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "300 19th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "300 19th Ave",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14157529274",
+            "display_phone": "(415) 752-9274",
+            "distance": 4698.359529966526
+        },
+        {
+            "id": "gallardos-mexican-restaurant-san-francisco",
+            "name": "Gallardos Mexican Restaurant",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lO5_vxy-8T-T_c9VCJ2fVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gallardos-mexican-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 354,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7620536,
+                "longitude": -122.4161007
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "3248 18th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3248 18th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14154369387",
+            "display_phone": "(415) 436-9387",
+            "distance": 1219.723557210298
+        },
+        {
+            "id": "tacorgasmico-san-francisco",
+            "name": "Tacorgasmico",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nUfcjT6JWEkMCXr8Cdz_Bg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacorgasmico-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 180,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "tex-mex",
+                    "title": "Tex-Mex"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7632910125469,
+                "longitude": -122.433849088848
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2337 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2337 Market St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14155650655",
+            "display_phone": "(415) 565-0655",
+            "distance": 675.30402566807
+        },
+        {
+            "id": "toma-san-francisco",
+            "name": "Toma",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-H3_CUp9Qi_hhHDGdlQd6A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/toma-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 252,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.80003,
+                "longitude": -122.43755
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3318 Steiner St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3318 Steiner St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14159218662",
+            "display_phone": "(415) 921-8662",
+            "distance": 3721.138487289502
+        },
+        {
+            "id": "matador-san-francisco-2",
+            "name": "Matador",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/0iXpzQAzmGR246ZKOnQacg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/matador-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 344,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78873,
+                "longitude": -122.41149
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "679 Sutter St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "679 Sutter St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14159238146",
+            "display_phone": "(415) 923-8146",
+            "distance": 2776.0687356519156
+        },
+        {
+            "id": "gordo-taqueria-san-francisco-2",
+            "name": "Gordo Taqueria",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/IV27LGPNPsU7g0Qcz9L11Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gordo-taqueria-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 670,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.78232,
+                "longitude": -122.48364
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2252 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2252 Clement St",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14153874484",
+            "display_phone": "(415) 387-4484",
+            "distance": 5144.6308992176055
+        },
+        {
+            "id": "la-oaxaqueña-san-francisco-2",
+            "name": "La Oaxaqueña",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8ovXsuKwJPuoK8AAmiy0LA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-oaxaque%C3%B1a-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 478,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76288,
+                "longitude": -122.41974
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2128 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2128 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156215446",
+            "display_phone": "(415) 621-5446",
+            "distance": 901.582449723294
+        },
+        {
+            "id": "flores-san-francisco",
+            "name": "Flores",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/r4PLUL8DK6ppX45vTfRDQA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/flores-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 227,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79768,
+                "longitude": -122.43269
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2030 Union St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2030 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14157962926",
+            "display_phone": "(415) 796-2926",
+            "distance": 3385.8569824663937
+        },
+        {
+            "id": "taqueria-dos-charros-san-francisco-2",
+            "name": "Taqueria Dos Charros",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/W9QvJ53hwWTg6sb0Q2tRJA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taqueria-dos-charros-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 152,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7182143688882,
+                "longitude": -122.474491011863
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "55 Cambon Dr",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94132",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "55 Cambon Dr",
+                    "San Francisco, CA 94132"
+                ]
+            },
+            "phone": "+14153346075",
+            "display_phone": "(415) 334-6075",
+            "distance": 6818.383121446398
+        },
+        {
+            "id": "panuchos-san-francisco",
+            "name": "Panuchos",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lmOuPseSSP-AcnTz8GreDg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/panuchos-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 116,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "beerbar",
+                    "title": "Beer Bar"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7979010152671,
+                "longitude": -122.407446621683
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "620 Broadway",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "620 Broadway",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14157887034",
+            "display_phone": "(415) 788-7034",
+            "distance": 3849.8636134211274
+        },
+        {
+            "id": "mateos-taqueria-san-francisco",
+            "name": "Mateo's Taqueria",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2uBC2hAZHrOhnq9kT2WYrg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mateos-taqueria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 340,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.75754,
+                "longitude": -122.41876
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2471 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2471 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156486000",
+            "display_phone": "(415) 648-6000",
+            "distance": 1376.711513788406
+        },
+        {
+            "id": "street-taco-san-francisco",
+            "name": "Street Taco",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/a_Ksy7b9z5eSWZ9sxiH3Iw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/street-taco-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 470,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7696105177356,
+                "longitude": -122.448901621221
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1607 Haight St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1607 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155254435",
+            "display_phone": "(415) 525-4435",
+            "distance": 1835.328538790912
+        },
+        {
+            "id": "el-farolito-san-francisco",
+            "name": "El Farolito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5nHTigkUmNfYM2jki5GdOQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-farolito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 593,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7211151123047,
+                "longitude": -122.437164306641
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "4817 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94112",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4817 Mission St",
+                    "San Francisco, CA 94112"
+                ]
+            },
+            "phone": "+14153375500",
+            "display_phone": "(415) 337-5500",
+            "distance": 5206.00985479527
+        },
+        {
+            "id": "taqueria-los-coyotes-san-francisco",
+            "name": "Taqueria Los Coyotes",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zNYeFJDfxasiGmFkf4tEHw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taqueria-los-coyotes-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 763,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7651299184884,
+                "longitude": -122.420415580273
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "3036 16th St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3036 16th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158613708",
+            "display_phone": "(415) 861-3708",
+            "distance": 730.45386646212
+        },
+        {
+            "id": "the-taco-shop-at-underdogs-san-francisco-2",
+            "name": "The Taco Shop At Underdog's",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/a0LpGvr-lWAsnK3sjOnapA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-taco-shop-at-underdogs-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1637,
+            "categories": [
+                {
+                    "alias": "sportsbars",
+                    "title": "Sports Bars"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7637901306152,
+                "longitude": -122.477653503418
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1824 Irving St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1824 Irving St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14155668700",
+            "display_phone": "(415) 566-8700",
+            "distance": 4368.326433558604
+        },
+        {
+            "id": "rosa-mexicano-san-francisco",
+            "name": "Rosa Mexicano",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ugk9Z8NbEPDajyzXNVWyXQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rosa-mexicano-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 529,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 37.793244,
+                "longitude": -122.3934263
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "30 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94105",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "30 Mission St",
+                    "San Francisco, CA 94105"
+                ]
+            },
+            "phone": "+14158744300",
+            "display_phone": "(415) 874-4300",
+            "distance": 4183.044582892399
+        },
+        {
+            "id": "tres-tequila-lounge-and-mexican-kitchen-san-francisco",
+            "name": "Tres Tequila Lounge & Mexican Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lw7f7sFTmHD0536dF2_4tg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tres-tequila-lounge-and-mexican-kitchen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1569,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 37.780146910538,
+                "longitude": -122.391329705715
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "130 Townsend St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "130 Townsend St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14152270500",
+            "display_phone": "(415) 227-0500",
+            "distance": 3537.037262126688
+        },
+        {
+            "id": "tacolicious-san-francisco",
+            "name": "Tacolicious",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/aDl4l-z3S_4ffexEhB3uiA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacolicious-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1427,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.8004125,
+                "longitude": -122.4404725
+            },
+            "transactions": [
+                "restaurant_reservation",
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2250 Chestnut St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2250 Chestnut St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14156496077",
+            "display_phone": "(415) 649-6077",
+            "distance": 3824.3826633148096
+        }
+    ],
+    "total": 2200,
+    "region": {
+        "center": {
+            "longitude": -122.4282073975,
+            "latitude": 37.7674132179
+        }
+    }
+}

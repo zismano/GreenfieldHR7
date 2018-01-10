@@ -1,0 +1,2179 @@
+{
+    "businesses": [
+        {
+            "id": "la-fusión-san-francisco-2",
+            "name": "La Fusión",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/7LZP0604HmgLFNeGre3rGw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-fusi%C3%B3n-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1023,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7916357455614,
+                "longitude": -122.403691572642
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "475 Pine St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94104",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "475 Pine St",
+                    "San Francisco, CA 94104"
+                ]
+            },
+            "phone": "+14157810894",
+            "display_phone": "(415) 781-0894",
+            "distance": 3449.0932311499996
+        },
+        {
+            "id": "parada-22-san-francisco",
+            "name": "Parada 22",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hJse8ZTnvFVyyJiTr-4R1g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/parada-22-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 983,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "puertorican",
+                    "title": "Puerto Rican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7691961,
+                "longitude": -122.452079
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1805 Haight St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1805 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14157501111",
+            "display_phone": "(415) 750-1111",
+            "distance": 2119.27225372
+        },
+        {
+            "id": "gilberths-latin-fusion-restaurant-san-francisco",
+            "name": "Gilberth's Latin Fusion Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oduS0n5lidmDr8T53VFkyw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gilberths-latin-fusion-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 273,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "tacos",
+                    "title": "Tacos"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7587060475115,
+                "longitude": -122.388232190892
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2427 3rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2427 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14159137163",
+            "display_phone": "(415) 913-7163",
+            "distance": 3651.620140648
+        },
+        {
+            "id": "destino-san-francisco-4",
+            "name": "Destino",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Mt4gjCGYwrtshTTHPRfLzw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/destino-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1151,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7712546,
+                "longitude": -122.4237757
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1815 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1815 Market St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155524451",
+            "display_phone": "(415) 552-4451",
+            "distance": 578.1495048155999
+        },
+        {
+            "id": "el-techo-san-francisco",
+            "name": "El Techo",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fXfH9JxGjOGC5pdxkwyOiQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-techo-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1312,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7567312,
+                "longitude": -122.4189169
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2518 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2518 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14155506970",
+            "display_phone": "(415) 550-6970",
+            "distance": 1441.4899257236
+        },
+        {
+            "id": "la-mar-cebichería-peruana-san-francisco-4",
+            "name": "La Mar Cebichería Peruana",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2gAijMp_chiTNQJaVc_1IQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-mar-cebicher%C3%ADa-peruana-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3193,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7974182368553,
+                "longitude": -122.395129846558
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "Pier 1 1/2 The Embarcadero",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "Pier 1 1/2 The Embarcadero",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14153978880",
+            "display_phone": "(415) 397-8880",
+            "distance": 4425.129455832
+        },
+        {
+            "id": "pica-pica-arepa-kitchen-san-francisco",
+            "name": "Pica Pica Arepa Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hAWS9IidumamHodFIUikIA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pica-pica-arepa-kitchen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1259,
+            "categories": [
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.766409,
+                "longitude": -122.421714
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "401 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "401 Valencia St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14154005453",
+            "display_phone": "(415) 400-5453",
+            "distance": 581.5050269958
+        },
+        {
+            "id": "limón-rotisserie-san-francisco-3",
+            "name": "Limón Rotisserie",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/wvbMWakjpf0c-0QeucFl9Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lim%C3%B3n-rotisserie-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2880,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7570666079255,
+                "longitude": -122.416596234642
+            },
+            "transactions": [
+                "restaurant_reservation",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1001 S Van Ness Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1001 S Van Ness Ave",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158212134",
+            "display_phone": "(415) 821-2134",
+            "distance": 1538.2642391963998
+        },
+        {
+            "id": "artesano-san-francisco-3",
+            "name": "Artesano",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GpDaxXosjMISLHFWJjyZrA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/artesano-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 245,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.786534,
+                "longitude": -122.450035
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3415 California St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3415 California St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14152215500",
+            "display_phone": "(415) 221-5500",
+            "distance": 2863.5625527979996
+        },
+        {
+            "id": "poc-chuc-san-francisco",
+            "name": "Poc-Chuc",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/E22Y127iIRI_InMnUPO0DQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/poc-chuc-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 497,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.765643,
+                "longitude": -122.417139
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2886 16th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2886 16th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155581583",
+            "display_phone": "(415) 558-1583",
+            "distance": 992.7900978179999
+        },
+        {
+            "id": "alma-cocina-san-francisco",
+            "name": "Alma Cocina",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/eGo0q8VBJQK8ozqfg_o8vw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/alma-cocina-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 66,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7523758,
+                "longitude": -122.4138638
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2801 Folsom St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2801 Folsom St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14153410389",
+            "display_phone": "(415) 341-0389",
+            "distance": 2094.2233594219997
+        },
+        {
+            "id": "radio-habana-social-club-san-francisco-3",
+            "name": "Radio Habana Social Club",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iXjEHyR3oQORYFzMVkSxBw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/radio-habana-social-club-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 196,
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75515,
+                "longitude": -122.42065
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1109 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1109 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158247659",
+            "display_phone": "(415) 824-7659",
+            "distance": 1513.627561246
+        },
+        {
+            "id": "loló-san-francisco-4",
+            "name": "Loló",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-_hqewRYasro3NpC-v4Fug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lol%C3%B3-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1734,
+            "categories": [
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7573462,
+                "longitude": -122.4214034
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "974 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "974 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156435656",
+            "display_phone": "(415) 643-5656",
+            "distance": 1269.226268684
+        },
+        {
+            "id": "franciscas-san-francisco",
+            "name": "Francisca's",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/02AGMn3OiH2V1Hosf-bgSQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/franciscas-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 44,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "venezuelan",
+                    "title": "Venezuelan"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7485021,
+                "longitude": -122.4179751
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "3047 Mission St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3047 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14153745747",
+            "display_phone": "(415) 374-5747",
+            "distance": 2298.564477902
+        },
+        {
+            "id": "piqueos-san-francisco",
+            "name": "Piqueo's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hTECvDRNanUqL1-NhJUgZg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/piqueos-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 586,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7387299,
+                "longitude": -122.41407
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "830 Cortland Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "830 Cortland Ave",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152828812",
+            "display_phone": "(415) 282-8812",
+            "distance": 3422.4462622319998
+        },
+        {
+            "id": "las-tinajas-restaurant-san-francisco",
+            "name": "Las Tinajas Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SZAc2rnnrS4lFw5TzPXJHg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/las-tinajas-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 165,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "nicaraguan",
+                    "title": "Nicaraguan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7595596313477,
+                "longitude": -122.419441223145
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2338 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2338 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156959933",
+            "display_phone": "(415) 695-9933",
+            "distance": 1161.043376138
+        },
+        {
+            "id": "el-nuevo-frutilandia-san-francisco",
+            "name": "El Nuevo Frutilandia",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/rmYEIuE4MONtk2MpJ-lh0g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-nuevo-frutilandia-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 306,
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                },
+                {
+                    "alias": "puertorican",
+                    "title": "Puerto Rican"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7524332,
+                "longitude": -122.4134542
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3077 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3077 24th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156482958",
+            "display_phone": "(415) 648-2958",
+            "distance": 2111.202862026
+        },
+        {
+            "id": "manitas-cafe-and-deli-san-francisco",
+            "name": "Manitas Cafe & Deli",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UaAKHJI4HnTwhsgnjjga_A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/manitas-cafe-and-deli-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 51,
+            "categories": [
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7733557,
+                "longitude": -122.4506623
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2078 Hayes St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2078 Hayes St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14152135566",
+            "display_phone": "(415) 213-5566",
+            "distance": 2081.272356706
+        },
+        {
+            "id": "tacorea-san-francisco",
+            "name": "Tacorea",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rHxbA24tQgh8eIDrHGhCOA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacorea-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 882,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.789806,
+                "longitude": -122.410709
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "809 Bush St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "809 Bush St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14158851325",
+            "display_phone": "(415) 885-1325",
+            "distance": 2926.706134236
+        },
+        {
+            "id": "the-castro-republic-san-francisco",
+            "name": "The Castro Republic",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EpUhOh_L3cOsn4Y0IodZzg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-castro-republic-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 221,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.764333486557,
+                "longitude": -122.432760447264
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2295 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2295 Market St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14159340525",
+            "display_phone": "(415) 934-0525",
+            "distance": 494.99677384999995
+        },
+        {
+            "id": "tacorgasmico-san-francisco",
+            "name": "Tacorgasmico",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nUfcjT6JWEkMCXr8Cdz_Bg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tacorgasmico-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 180,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "tex-mex",
+                    "title": "Tex-Mex"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7632910125469,
+                "longitude": -122.433849088848
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2337 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2337 Market St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14155650655",
+            "display_phone": "(415) 565-0655",
+            "distance": 675.1856096262
+        },
+        {
+            "id": "tropisueño-san-francisco-3",
+            "name": "Tropisueño",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hUZgDmue1VRfvIXai6I0wg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tropisue%C3%B1o-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3579,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7853008468227,
+                "longitude": -122.403918653727
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "75 Yerba Buena Ln",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "75 Yerba Buena Ln",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14152430299",
+            "display_phone": "(415) 243-0299",
+            "distance": 2917.907550588
+        },
+        {
+            "id": "cha-cha-cha-san-francisco-4",
+            "name": "Cha Cha Cha",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FvYChf4SOMdCeQH-z8C9LA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cha-cha-cha-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2956,
+            "categories": [
+                {
+                    "alias": "caribbean",
+                    "title": "Caribbean"
+                },
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                },
+                {
+                    "alias": "tapas",
+                    "title": "Tapas Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7691434,
+                "longitude": -122.4520399
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1801 Haight St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1801 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14153867670",
+            "display_phone": "(415) 386-7670",
+            "distance": 2103.7947481379997
+        },
+        {
+            "id": "cholita-linda-san-francisco",
+            "name": "Cholita Linda",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/E5uJrXSnhnox2aLvzEr1tg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cholita-linda-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 32,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "foodstands",
+                    "title": "Food Stands"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.8007468,
+                "longitude": -122.4588253
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "103 Montgomery St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94129",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "103 Montgomery St",
+                    "San Francisco, CA 94129"
+                ]
+            },
+            "phone": "+15106923762",
+            "display_phone": "(510) 692-3762",
+            "distance": 4606.063367748
+        },
+        {
+            "id": "los-panchos-san-francisco",
+            "name": "Los Panchos",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qH-xmxTe9J-03y9DuSYLGA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/los-panchos-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 265,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7455685,
+                "longitude": -122.4200766
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "3206 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3206 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152851033",
+            "display_phone": "(415) 285-1033",
+            "distance": 2549.502909544
+        },
+        {
+            "id": "azucar-lounge-san-francisco-4",
+            "name": "Azucar Lounge",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/19xr4p3lb4_JoDtNyIeNjQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/azucar-lounge-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 563,
+            "categories": [
+                {
+                    "alias": "lounges",
+                    "title": "Lounges"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "venues",
+                    "title": "Venues & Event Spaces"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77392,
+                "longitude": -122.411618
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "299 9th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "299 9th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14152552982",
+            "display_phone": "(415) 255-2982",
+            "distance": 1627.39920881
+        },
+        {
+            "id": "nopalito-san-francisco-3",
+            "name": "Nopalito",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ivWbAmbGMo0_aruu2kTKsg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nopalito-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1024,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "comfortfood",
+                    "title": "Comfort Food"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.765409579693,
+                "longitude": -122.466281482937
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1224 9th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1224 9th Ave",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14152339966",
+            "display_phone": "(415) 233-9966",
+            "distance": 3353.8549039600002
+        },
+        {
+            "id": "el-salvador-san-francisco",
+            "name": "El Salvador",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/W1g6xdLByHf23kjt3WYW1A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-salvador-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 92,
+            "categories": [
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76064,
+                "longitude": -122.41952
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2278 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2278 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158646668",
+            "display_phone": "(415) 864-6668",
+            "distance": 1068.919282782
+        },
+        {
+            "id": "mi-lindo-peru-san-francisco-5",
+            "name": "Mi Lindo Peru",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CeQetrkIMoL4lHDvSR1YnQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mi-lindo-peru-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 679,
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7450935396928,
+                "longitude": -122.420390950891
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3226 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3226 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156424897",
+            "display_phone": "(415) 642-4897",
+            "distance": 2575.3059405659997
+        },
+        {
+            "id": "la-santaneca-de-la-mission-san-francisco",
+            "name": "La Santaneca De La Mission",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/_LIDyOv6OKk4m1McXiyx5g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-santaneca-de-la-mission-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 305,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.75192,
+                "longitude": -122.41814
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2815 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2815 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152852131",
+            "display_phone": "(415) 285-2131",
+            "distance": 1929.4758673579997
+        },
+        {
+            "id": "pomelo-san-francisco",
+            "name": "Pomelo",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YwyeKybao3UuHcdyDMtVtw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pomelo-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 684,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                },
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7422996413,
+                "longitude": -122.426442294
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1793 Church St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94131",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1793 Church St",
+                    "San Francisco, CA 94131"
+                ]
+            },
+            "phone": "+14152852257",
+            "display_phone": "(415) 285-2257",
+            "distance": 2797.0596350439996
+        },
+        {
+            "id": "media-noche-san-francisco-4",
+            "name": "Media Noche",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/b55-ZjBnYvQZr1MYXHrWag/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/media-noche-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 186,
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.759937286377,
+                "longitude": -122.420761108398
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3465 19th St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3465 19th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156553904",
+            "display_phone": "(415) 655-3904",
+            "distance": 1051.06880537
+        },
+        {
+            "id": "don-pistos-san-francisco-2",
+            "name": "Don Pisto's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9oDu7WFzaLXhNblXfvr1NA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/don-pistos-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1641,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.80078,
+                "longitude": -122.40784
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "510 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "510 Union St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153950939",
+            "display_phone": "(415) 395-0939",
+            "distance": 4111.086066912
+        },
+        {
+            "id": "olivos-san-francisco",
+            "name": "Olivo's",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/UsH7jx_lhkIyRNQgQ65Y0Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/olivos-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 306,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7872267,
+                "longitude": -122.4184763
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1017 Larkin St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1017 Larkin St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14159313019",
+            "display_phone": "(415) 931-3019",
+            "distance": 2364.079582764
+        },
+        {
+            "id": "fresca-san-francisco-4",
+            "name": "Fresca",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Ry8qMNPZGAoLYDw_Ja5nrQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fresca-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1846,
+            "categories": [
+                {
+                    "alias": "tapas",
+                    "title": "Tapas Bars"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78931,
+                "longitude": -122.43361
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2114 Fillmore St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2114 Fillmore St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14154472768",
+            "display_phone": "(415) 447-2768",
+            "distance": 2482.009121152
+        },
+        {
+            "id": "cholita-linda-oakland",
+            "name": "Cholita Linda",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/K4OWpRaL4JR7Yw-sf127dQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cholita-linda-oakland?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 978,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "tacos",
+                    "title": "Tacos"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.8364704,
+                "longitude": -122.2625152
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4923 Telegraph Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Oakland",
+                "zip_code": "94609",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4923 Telegraph Ave",
+                    "Oakland, CA 94609"
+                ]
+            },
+            "phone": "+15105947610",
+            "display_phone": "(510) 594-7610",
+            "distance": 16458.83927116
+        },
+        {
+            "id": "lolinda-san-francisco",
+            "name": "Lolinda",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/wYzB4595TuYesGnyUt9lPw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lolinda-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1574,
+            "categories": [
+                {
+                    "alias": "steak",
+                    "title": "Steakhouses"
+                },
+                {
+                    "alias": "argentine",
+                    "title": "Argentine"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7566647,
+                "longitude": -122.4190863
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "2518 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2518 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14155506970",
+            "display_phone": "(415) 550-6970",
+            "distance": 1439.5139780716
+        },
+        {
+            "id": "sabor-de-san-miguel-san-francisco-4",
+            "name": "Sabor de San Miguel",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/NTjCDX-Lbd_G1-BcQo0zvg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sabor-de-san-miguel-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 115,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "foodtrucks",
+                    "title": "Food Trucks"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7446726,
+                "longitude": -122.4203066
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3263 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3263 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156415866",
+            "display_phone": "(415) 641-5866",
+            "distance": 2624.980311808
+        },
+        {
+            "id": "la-fina-estampa-san-francisco",
+            "name": "La Fina Estampa",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rx_DCG5rAibZDoO5c9leEQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-fina-estampa-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 202,
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.788479,
+                "longitude": -122.420715
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1407 Bush St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1407 Bush St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14153451685",
+            "display_phone": "(415) 345-1685",
+            "distance": 2419.74488309
+        },
+        {
+            "id": "mochica-san-francisco-2",
+            "name": "Mochica",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZR02IIq2cWRO4jTd3G9E9Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mochica-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 311,
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76242,
+                "longitude": -122.39718
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1469 18th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1469 18th St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14152780480",
+            "display_phone": "(415) 278-0480",
+            "distance": 2771.92802067
+        },
+        {
+            "id": "contigo-san-francisco-2",
+            "name": "Contigo",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ICDz424-bW-CjrAWwLy7ew/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/contigo-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 797,
+            "categories": [
+                {
+                    "alias": "spanish",
+                    "title": "Spanish"
+                },
+                {
+                    "alias": "tapas",
+                    "title": "Tapas Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7509,
+                "longitude": -122.43424
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "1320 Castro St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1320 Castro St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14152850250",
+            "display_phone": "(415) 285-0250",
+            "distance": 1912.06731471
+        },
+        {
+            "id": "cava-22-san-francisco",
+            "name": "Cava 22",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/5rj2uYuVb9UNGCYRUTOjbg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cava-22-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 188,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7552553,
+                "longitude": -122.4195151
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3239 22nd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3239 22nd St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156427224",
+            "display_phone": "(415) 642-7224",
+            "distance": 1546.331844523
+        },
+        {
+            "id": "tanguito-san-francisco",
+            "name": "Tanguito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dWICf8NhesjFCrW3cSWqiw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tanguito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 532,
+            "categories": [
+                {
+                    "alias": "argentine",
+                    "title": "Argentine"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "empanadas",
+                    "title": "Empanadas"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.807614,
+                "longitude": -122.417203
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2850 Jones St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2850 Jones St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14155774223",
+            "display_phone": "(415) 577-4223",
+            "distance": 4573.304608312
+        },
+        {
+            "id": "passion-peruana-san-francisco-3",
+            "name": "Passion Peruana",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/psb03tW29xMXKAq6A-hV4w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/passion-peruana-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 14,
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 37.805187,
+                "longitude": -122.4234402
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "location": {
+                "address1": "993 North Point St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "993 North Point St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14153689482",
+            "display_phone": "(415) 368-9482",
+            "distance": 4221.984720707999
+        },
+        {
+            "id": "martita-restaurant-san-francisco-2",
+            "name": "Martita Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kiMlKTna_fZGn9esOlknKQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/martita-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 28,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.71501,
+                "longitude": -122.44258
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "5278 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94112",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5278 Mission St",
+                    "San Francisco, CA 94112"
+                ]
+            },
+            "phone": "+14155858554",
+            "display_phone": "(415) 585-8554",
+            "distance": 5967.459917845999
+        },
+        {
+            "id": "nopalito-san-francisco",
+            "name": "Nopalito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/f13-4rbvvHDkhyYIttMnMQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nopalito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1659,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77343530099,
+                "longitude": -122.438993048014
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "306 Broderick St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "306 Broderick St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155353969",
+            "display_phone": "(415) 535-3969",
+            "distance": 1160.668399918
+        },
+        {
+            "id": "sun-rise-restaurant-san-francisco-2",
+            "name": "Sun Rise Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/f0na8D-bkaPxO52rp7zMkw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sun-rise-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 310,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7527008056641,
+                "longitude": -122.414703369141
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "3126 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3126 24th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152061219",
+            "display_phone": "(415) 206-1219",
+            "distance": 2022.1400552179998
+        },
+        {
+            "id": "fresca-san-francisco-6",
+            "name": "Fresca",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EjOZtZFq7_M0nONRcf_Njg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fresca-san-francisco-6?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 185,
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7639084,
+                "longitude": -122.465889
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "737 Irving St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "737 Irving St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14157425727",
+            "display_phone": "(415) 742-5727",
+            "distance": 3338.007250178
+        },
+        {
+            "id": "rincon-latino-san-francisco",
+            "name": "Rincon Latino",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/GUwDQGxsBnMWTeMtUhO2WA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rincon-latino-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 25,
+            "categories": [
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7171536,
+                "longitude": -122.440693
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "5080 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94112",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5080 Mission St",
+                    "San Francisco, CA 94112"
+                ]
+            },
+            "phone": "+14155868787",
+            "display_phone": "(415) 586-8787",
+            "distance": 5695.377977284
+        },
+        {
+            "id": "liquor-express-and-deli-san-francisco-2",
+            "name": "Liquor Express & Deli",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ga5yyPkZGXTcEgCwXw4Ywg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/liquor-express-and-deli-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 68,
+            "categories": [
+                {
+                    "alias": "salvadoran",
+                    "title": "Salvadoran"
+                },
+                {
+                    "alias": "beer_and_wine",
+                    "title": "Beer, Wine & Spirits"
+                },
+                {
+                    "alias": "delis",
+                    "title": "Delis"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.780574627831,
+                "longitude": -122.469850676482
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "4715 Geary Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4715 Geary Blvd",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14156663534",
+            "display_phone": "(415) 666-3534",
+            "distance": 3941.657165722
+        }
+    ],
+    "total": 960,
+    "region": {
+        "center": {
+            "longitude": -122.4282073975,
+            "latitude": 37.7674132179
+        }
+    }
+}

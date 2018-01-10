@@ -1,0 +1,2127 @@
+{
+    "businesses": [
+        {
+            "id": "pearls-deluxe-burgers-san-francisco-3",
+            "name": "Pearl's Deluxe Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/rPdSJl_K9cWknTJSsH9KDg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pearls-deluxe-burgers-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1967,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.787823,
+                "longitude": -122.413699
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "708 Post St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "708 Post St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14154096120",
+            "display_phone": "(415) 409-6120",
+            "distance": 2603.1447944128317
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-3",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/R_jqJrfJl0K8p-UxlalZ2w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2355,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7868189045762,
+                "longitude": -122.40416383317
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "721 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "721 Market St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155383437",
+            "display_phone": "(415) 538-3437",
+            "distance": 3020.190272618366
+        },
+        {
+            "id": "umami-burger-marina-district-san-francisco",
+            "name": "Umami Burger - Marina District",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/X0kYzrLC8hz6aurUHPNTkw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/umami-burger-marina-district-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2010,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7973057549931,
+                "longitude": -122.435245513916
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2184 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2184 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14154408626",
+            "display_phone": "(415) 440-8626",
+            "distance": 3380.953868730786
+        },
+        {
+            "id": "wesburger-n-more-san-francisco",
+            "name": "WesBurger 'N' More",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/dgOgStYABxn67qiAsfteLg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wesburger-n-more-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 331,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.761198586981,
+                "longitude": -122.419501330688
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2240 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2240 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14157459371",
+            "display_phone": "(415) 745-9371",
+            "distance": 1031.118019844972
+        },
+        {
+            "id": "roam-artisan-burgers-san-francisco-3",
+            "name": "Roam Artisan Burgers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/jacnd_-_1z3vlNKJg_f_SQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/roam-artisan-burgers-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 996,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.787682,
+                "longitude": -122.433853
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1923 Fillmore St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1923 Fillmore St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14158007801",
+            "display_phone": "(415) 800-7801",
+            "distance": 2309.8330786741417
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-4",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WfcMlSqrDdik7_3j-NmaEg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1141,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7640087,
+                "longitude": -122.433698
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2304 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2304 Market St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14155588123",
+            "display_phone": "(415) 558-8123",
+            "distance": 613.3899259162459
+        },
+        {
+            "id": "roam-artisan-burgers-san-francisco",
+            "name": "Roam Artisan Burgers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4JhOyupgvaLqF7csMPIm6A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/roam-artisan-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1428,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79773,
+                "longitude": -122.42844
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1785 Union St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1785 Union St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14154407626",
+            "display_phone": "(415) 440-7626",
+            "distance": 3380.983749829368
+        },
+        {
+            "id": "jennys-burgers-san-francisco",
+            "name": "Jenny's Burgers",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/v2t3CR4SFCclPuGdb8Eagg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/jennys-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 516,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7652702331543,
+                "longitude": -122.466728210449
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1233 9th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1233 9th Ave",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14157531453",
+            "display_phone": "(415) 753-1453",
+            "distance": 3394.701027555384
+        },
+        {
+            "id": "box-kitchen-san-francisco",
+            "name": "Box Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6lYNesrYPiU2Y4_HuFpysA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/box-kitchen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 592,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "waffles",
+                    "title": "Waffles"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7811510761365,
+                "longitude": -122.40636505138
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "431 Natoma St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "431 Natoma St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155807170",
+            "display_phone": "(415) 580-7170",
+            "distance": 2453.360746915342
+        },
+        {
+            "id": "native-burger-san-francisco",
+            "name": "Native Burger",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rwFlmwo9dOQCz9U4WJwhew/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/native-burger-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 39,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7815791,
+                "longitude": -122.4561358
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3420 Geary Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3420 Geary Blvd",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14156824197",
+            "display_phone": "(415) 682-4197",
+            "distance": 2912.274347530408
+        },
+        {
+            "id": "chez-maman-san-francisco-9",
+            "name": "Chez Maman",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/gccHe5ofFMpNyh8vmS0VSw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chez-maman-san-francisco-9?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1829,
+            "categories": [
+                {
+                    "alias": "french",
+                    "title": "French"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "creperies",
+                    "title": "Creperies"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7624388911845,
+                "longitude": -122.396692272318
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1401 18th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1401 18th St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14156559542",
+            "display_phone": "(415) 655-9542",
+            "distance": 2824.947828197486
+        },
+        {
+            "id": "hall-of-flame-burgers-san-francisco",
+            "name": "Hall Of Flame Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/agph3Jql5M4QNnKrGsT-tQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/hall-of-flame-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 478,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "sportsbars",
+                    "title": "Sports Bars"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7174879011283,
+                "longitude": -122.473734660797
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "73 Cambon Dr",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94132",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "73 Cambon Dr",
+                    "San Francisco, CA 94132"
+                ]
+            },
+            "phone": "+14155844444",
+            "display_phone": "(415) 584-4444",
+            "distance": 6844.266002125573
+        },
+        {
+            "id": "belly-san-francisco",
+            "name": "Belly",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/MaWSZAyQGMrWSMceWM-Q0A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/belly-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 306,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7805633544922,
+                "longitude": -122.481216430664
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "5740 Geary Blvd",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5740 Geary Blvd",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14159336232",
+            "display_phone": "(415) 933-6232",
+            "distance": 4884.773064658313
+        },
+        {
+            "id": "uncle-boys-san-francisco",
+            "name": "Uncle Boy's",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Qmy9btVP6AYjOjqMZwQTuA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/uncle-boys-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 536,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "hotdogs",
+                    "title": "Fast Food"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7772493,
+                "longitude": -122.4615654
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "245 Balboa St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "245 Balboa St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14157424468",
+            "display_phone": "(415) 742-4468",
+            "distance": 3129.3242437443278
+        },
+        {
+            "id": "bullshead-restaurant-san-francisco",
+            "name": "Bullshead Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/AWuY3xiD2lsuikGLAf5Y8g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bullshead-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 731,
+            "categories": [
+                {
+                    "alias": "steak",
+                    "title": "Steakhouses"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.740951,
+                "longitude": -122.465413
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "840 Ulloa St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94127",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "840 Ulloa St",
+                    "San Francisco, CA 94127"
+                ]
+            },
+            "phone": "+14156654350",
+            "display_phone": "(415) 665-4350",
+            "distance": 4399.682948498494
+        },
+        {
+            "id": "calibur-san-francisco",
+            "name": "Calibur",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zTbhc9ctJygs-1oqIPYNVg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/calibur-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 266,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7402382,
+                "longitude": -122.4668427
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "68 W Portal Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94127",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "68 W Portal Ave",
+                    "San Francisco, CA 94127"
+                ]
+            },
+            "phone": "+14157424931",
+            "display_phone": "(415) 742-4931",
+            "distance": 4549.69493390128
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-5",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GuYM6NHVfHKhBKr2GV-Hig/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 724,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.800234,
+                "longitude": -122.439811
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2201 Chestnut St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2201 Chestnut St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14159316258",
+            "display_phone": "(415) 931-6258",
+            "distance": 3789.287546786886
+        },
+        {
+            "id": "big-chef-toms-belly-burgers-san-francisco",
+            "name": "Big Chef Tom's Belly Burgers",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/2lIQPlRGjDTYHPXvgUxTew/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/big-chef-toms-belly-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 312,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77246,
+                "longitude": -122.41653
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1550 Howard St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1550 Howard St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14155131331",
+            "display_phone": "(415) 513-1331",
+            "distance": 1166.7293301421118
+        },
+        {
+            "id": "gotts-roadside-san-francisco-2",
+            "name": "Gott's Roadside",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cl_GX_UvSny84ujWtV4cMw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gotts-roadside-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2423,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7960849485032,
+                "longitude": -122.394304275513
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1 Ferry Bldg",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1 Ferry Bldg",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14153183423",
+            "display_phone": "(415) 318-3423",
+            "distance": 4363.681774998976
+        },
+        {
+            "id": "burger-bar-san-francisco",
+            "name": "Burger Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kkklrvNHKCHwZjuU_25gyQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burger-bar-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2115,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 37.7872902008062,
+                "longitude": -122.407428324222
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "251 Geary St",
+                "address2": "Fl 6",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "251 Geary St",
+                    "Fl 6",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14152964272",
+            "display_phone": "(415) 296-4272",
+            "distance": 2867.086531194294
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-6",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IxN1BPB_Q8HRkoL_yXLwcQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-6?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1121,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.784646,
+                "longitude": -122.403592
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "783 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "783 Mission St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158821750",
+            "display_phone": "(415) 882-1750",
+            "distance": 2890.0296911675878
+        },
+        {
+            "id": "sams-san-francisco",
+            "name": "Sam's",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ivWhpDPgt0KXYaDhrNYOoQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sams-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 514,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.79807,
+                "longitude": -122.4075
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "618 Broadway",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "618 Broadway",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14153911539",
+            "display_phone": "(415) 391-1539",
+            "distance": 3856.220777755852
+        },
+        {
+            "id": "umami-burger-soma-district-san-francisco",
+            "name": "Umami Burger Soma District",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jeUaPl9fk6v4V_CksHAV_w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/umami-burger-soma-district-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 760,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.777703,
+                "longitude": -122.392959
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "242 King St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "242 King St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14159048626",
+            "display_phone": "(415) 904-8626",
+            "distance": 3302.6409984842358
+        },
+        {
+            "id": "beeps-burgers-san-francisco",
+            "name": "Beep's Burgers",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PWNtQ0-WHMRG3VuzREnofQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/beeps-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 486,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.72317,
+                "longitude": -122.45391
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "1051 Ocean Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94112",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1051 Ocean Ave",
+                    "San Francisco, CA 94112"
+                ]
+            },
+            "phone": "+14155842650",
+            "display_phone": "(415) 584-2650",
+            "distance": 5409.863318149565
+        },
+        {
+            "id": "burger-shack-san-francisco",
+            "name": "Burger Shack",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3lCbgpA0U1IqQjgc8mUpKw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burger-shack-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 53,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.80548,
+                "longitude": -122.41212
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2237 Powell St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2237 Powell St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14155236818",
+            "display_phone": "(415) 523-6818",
+            "distance": 4462.662836401196
+        },
+        {
+            "id": "causwells-san-francisco-5",
+            "name": "Causwells",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/e6Q0lELP6ji3EtrWTvycKg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/causwells-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 570,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.8001342713833,
+                "longitude": -122.441983893514
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "2346 Chestnut St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2346 Chestnut St",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14154476081",
+            "display_phone": "(415) 447-6081",
+            "distance": 3831.702312426746
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-12",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CqVjbOjyXut1HnCkPj2Y5Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-12?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 402,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7928058550794,
+                "longitude": -122.394083711639
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "98 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94105",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "98 Mission St",
+                    "San Francisco, CA 94105"
+                ]
+            },
+            "phone": "+14159741200",
+            "display_phone": "(415) 974-1200",
+            "distance": 4118.984709563208
+        },
+        {
+            "id": "rove-kitchen-san-francisco",
+            "name": "Rove Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/COB2_0YdYHyX1264bexFLQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rove-kitchen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 469,
+            "categories": [
+                {
+                    "alias": "beerbar",
+                    "title": "Beer Bar"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7877664572471,
+                "longitude": -122.412939658872
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "678 Post St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "678 Post St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14155677466",
+            "display_phone": "(415) 567-7466",
+            "distance": 2631.0670173824856
+        },
+        {
+            "id": "mos-grill-san-francisco",
+            "name": "Mo's Grill",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/UgTht2xu-wSmo6VEr2BzRw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mos-grill-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 755,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7990761399269,
+                "longitude": -122.407195642591
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "1322 Grant Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1322 Grant Ave",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14157883779",
+            "display_phone": "(415) 788-3779",
+            "distance": 3989.197916478576
+        },
+        {
+            "id": "wayfare-tavern-san-francisco-2",
+            "name": "Wayfare Tavern",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Q6_WFMWeO7AtvKMLBWsPbg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wayfare-tavern-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 3402,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7939484886016,
+                "longitude": -122.402307987213
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "558 Sacramento St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "558 Sacramento St",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14157729060",
+            "display_phone": "(415) 772-9060",
+            "distance": 3726.4983284984296
+        },
+        {
+            "id": "garaje-san-francisco",
+            "name": "Garaje",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_nN_DhLXkfwEkwPNxne9hw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/garaje-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1281,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "gastropubs",
+                    "title": "Gastropubs"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.781752952057,
+                "longitude": -122.396121970462
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "475 3rd St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "475 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14156440838",
+            "display_phone": "(415) 644-0838",
+            "distance": 3239.6020046732224
+        },
+        {
+            "id": "marlowe-san-francisco-2",
+            "name": "Marlowe",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/uweSiOf0XBB4BPk_ibHVyg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/marlowe-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2319,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "brasseries",
+                    "title": "Brasseries"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7783200510611,
+                "longitude": -122.396771288052
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "500 Brannan St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "500 Brannan St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14157771413",
+            "display_phone": "(415) 777-1413",
+            "distance": 3017.475402620858
+        },
+        {
+            "id": "papa-maks-burgers-san-francisco",
+            "name": "Papa Mak's Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qOiNA70s3R5513k4gfKccg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/papa-maks-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 222,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.75279,
+                "longitude": -122.50409
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3755 Noriega St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3755 Noriega St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14153403171",
+            "display_phone": "(415) 340-3171",
+            "distance": 6871.86035393516
+        },
+        {
+            "id": "barneys-gourmet-hamburgers-san-francisco-2",
+            "name": "Barney's Gourmet Hamburgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iSKVQbiz_BA9Euggg66pXQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/barneys-gourmet-hamburgers-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 740,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7515,
+                "longitude": -122.43501
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "4138 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4138 24th St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14152827770",
+            "display_phone": "(415) 282-7770",
+            "distance": 1871.477317897484
+        },
+        {
+            "id": "big-mouth-burgers-san-francisco",
+            "name": "Big Mouth Burgers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tSIhKVD3nvKqybUpzSPQdQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/big-mouth-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 488,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.752250817471,
+                "longitude": -122.42045135982
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3392 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3392 24th St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158214821",
+            "display_phone": "(415) 821-4821",
+            "distance": 1818.62966758529
+        },
+        {
+            "id": "double-decker-san-francisco",
+            "name": "Double Decker",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZTx1Y5U0HP5gqAd9UEj5LQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/double-decker-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 402,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "chicken_wings",
+                    "title": "Chicken Wings"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7774173014343,
+                "longitude": -122.424011276668
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "465 Grove St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "465 Grove St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14155528042",
+            "display_phone": "(415) 552-8042",
+            "distance": 1171.947893186064
+        },
+        {
+            "id": "napa-valley-burger-company-sausalito",
+            "name": "Napa Valley Burger Company",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/y0Y3Q8-4yYLVKBdtJTjahg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/napa-valley-burger-company-sausalito?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 673,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.855457,
+                "longitude": -122.478966
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "670 Bridgeway",
+                "address2": "",
+                "address3": "",
+                "city": "Sausalito",
+                "zip_code": "94965",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "670 Bridgeway",
+                    "Sausalito, CA 94965"
+                ]
+            },
+            "phone": "+14153321454",
+            "display_phone": "(415) 332-1454",
+            "distance": 10757.655120564548
+        },
+        {
+            "id": "burgermeister-san-francisco-2",
+            "name": "Burgermeister",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QdFimQLTgJ_va8lXIcaslg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burgermeister-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 518,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.76601,
+                "longitude": -122.44969
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "86 Carl St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "86 Carl St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155661274",
+            "display_phone": "(415) 566-1274",
+            "distance": 1893.08125400253
+        },
+        {
+            "id": "in-n-out-burger-san-francisco",
+            "name": "In-N-Out Burger",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/31hVzIDtWCWW6XstzJaqkQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/in-n-out-burger-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1587,
+            "categories": [
+                {
+                    "alias": "hotdogs",
+                    "title": "Fast Food"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.80775,
+                "longitude": -122.41853
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "333 Jefferson St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "333 Jefferson St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+18007861000",
+            "display_phone": "(800) 786-1000",
+            "distance": 4565.148396909284
+        },
+        {
+            "id": "popsons-san-francisco-2",
+            "name": "Popsons",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Jt4yin58SDdG4LBrGj5pHQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/popsons-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 178,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "hotdog",
+                    "title": "Hot Dogs"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.78266,
+                "longitude": -122.41029
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "998 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "998 Market St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14156587554",
+            "display_phone": "(415) 658-7554",
+            "distance": 2317.033138052546
+        },
+        {
+            "id": "bills-place-san-francisco",
+            "name": "Bill's Place",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/oyKNWuNet39LedEGHSy_nQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bills-place-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 688,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7818,
+                "longitude": -122.48415
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2315 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2315 Clement St",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14152215262",
+            "display_phone": "(415) 221-5262",
+            "distance": 5174.918325089344
+        },
+        {
+            "id": "smashburger-san-francisco-2",
+            "name": "Smashburger",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Q4rpxiK_XTY85SjgHBOxSQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/smashburger-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 329,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7662174804428,
+                "longitude": -122.407808706329
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2300 16th St",
+                "address2": "Ste 293",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2300 16th St",
+                    "Ste 293",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158902410",
+            "display_phone": "(415) 890-2410",
+            "distance": 1797.9798568626939
+        },
+        {
+            "id": "4505-burgers-and-bbq-san-francisco",
+            "name": "4505 Burgers & BBQ",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/BiOYQzeOCNWIYTH-52CIIQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/4505-burgers-and-bbq-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1215,
+            "categories": [
+                {
+                    "alias": "bbq",
+                    "title": "Barbeque"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7761896,
+                "longitude": -122.4382846
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "705 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "705 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14152316993",
+            "display_phone": "(415) 231-6993",
+            "distance": 1317.9071531448958
+        },
+        {
+            "id": "super-duper-burgers-san-francisco-10",
+            "name": "Super Duper Burgers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/oZo0cG-N_5o2AO5s45MCxQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/super-duper-burgers-san-francisco-10?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 205,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7915153503418,
+                "longitude": -122.403961181641
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "346 Kearny St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "346 Kearny St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14156779936",
+            "display_phone": "(415) 677-9936",
+            "distance": 3417.534430540678
+        },
+        {
+            "id": "burgermeister-san-francisco",
+            "name": "Burgermeister",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/LVX2CGY4YMiP1GFyu0cFCw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burgermeister-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 411,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7686067023537,
+                "longitude": -122.429285499184
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "138 Church St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "138 Church St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14154372874",
+            "display_phone": "(415) 437-2874",
+            "distance": 163.070571371248
+        },
+        {
+            "id": "buffalo-burger-restaurant-san-francisco",
+            "name": "Buffalo Burger Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gU98exwl1oaqKetCZAqVEw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/buffalo-burger-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 375,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.78026,
+                "longitude": -122.47641
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "5317 Geary Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "5317 Geary Blvd",
+                    "San Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14156681267",
+            "display_phone": "(415) 668-1267",
+            "distance": 4477.245162218794
+        },
+        {
+            "id": "tanguito-san-francisco",
+            "name": "Tanguito",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dWICf8NhesjFCrW3cSWqiw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tanguito-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 532,
+            "categories": [
+                {
+                    "alias": "argentine",
+                    "title": "Argentine"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "empanadas",
+                    "title": "Empanadas"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.807614,
+                "longitude": -122.417203
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "2850 Jones St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2850 Jones St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14155774223",
+            "display_phone": "(415) 577-4223",
+            "distance": 4573.520230742945
+        },
+        {
+            "id": "counter-offer-san-francisco",
+            "name": "Counter Offer",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TkPrV89sLwN9LcYSWCZ9VQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/counter-offer-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 19,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7603002510241,
+                "longitude": -122.417151282963
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "800 S Van Ness Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "800 S Van Ness Ave",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14153410169",
+            "display_phone": "(415) 341-0169",
+            "distance": 1253.0398417509039
+        },
+        {
+            "id": "ziggys-burgers-san-francisco",
+            "name": "Ziggy's Burgers",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CkxkWB-z_n54y3_bjkpQrg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ziggys-burgers-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 473,
+            "categories": [
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 37.7938716,
+                "longitude": -122.3966162
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "21 Drumm St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94111",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "21 Drumm St",
+                    "San Francisco, CA 94111"
+                ]
+            },
+            "phone": "+14153918181",
+            "display_phone": "(415) 391-8181",
+            "distance": 4047.5658691756057
+        },
+        {
+            "id": "junior-barbecue-burger-san-francisco",
+            "name": "Junior Barbecue Burger",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AkypnD8_0P_aPYk3uQlWag/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/junior-barbecue-burger-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 64,
+            "categories": [
+                {
+                    "alias": "foodstands",
+                    "title": "Food Stands"
+                },
+                {
+                    "alias": "brazilian",
+                    "title": "Brazilian"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7472833544016,
+                "longitude": -122.395780161023
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "98 Napoleon St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94124",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "98 Napoleon St",
+                    "San Francisco, CA 94124"
+                ]
+            },
+            "phone": "+16502712479",
+            "display_phone": "(650) 271-2479",
+            "distance": 3608.147847760416
+        }
+    ],
+    "total": 2600,
+    "region": {
+        "center": {
+            "longitude": -122.4282073975,
+            "latitude": 37.7674132179
+        }
+    }
+}
