@@ -25,10 +25,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 authRoutes(app);
 
-app.get('/', function(req, res){
-  res.send('hello team 7');
-});
-
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
 })
