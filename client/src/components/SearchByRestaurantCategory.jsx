@@ -3,11 +3,8 @@ import $ from 'jquery';
 import RestaurantDetails from './RestaurantDetails.jsx';
 
 class SearchByRestaurantCategory extends React.Component {
-	constructor() {
-		super()
-		this.state = {
-			restaurants:[]
-		}
+	constructor(props) {
+		super(props)
 	}
 
 	handleSearchClick(category) {
@@ -16,12 +13,11 @@ class SearchByRestaurantCategory extends React.Component {
       	method: 'GET',
       	contentType: 'application/json',
       	success: (results)=>{
-           this.setState({
-           	restaurants: results
-           })
+      	    console.log('front end get data from server', results[0])
+            this.props.handleSearchResults(results);
       	},
       	error: (err)=>{
-      		console.err(err);
+      		console.log(err);
       	}
       })
 	}
@@ -29,19 +25,11 @@ class SearchByRestaurantCategory extends React.Component {
 	render() {
 		return (
 			<div>
-			<input type="text" placeholder="name" ref={input=>this.restaurantCategory = input} />
-			<button onClick={this.handleSearchClick(this.restaurantCategory.value).bind(this)} >Search by Restaurant Category</button>
-			{this.restaurants.map(restaurant=>{
-				return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
-							
-			})}
+			<input type="text" placeholder="category" ref={input=>this.restaurantCategory = input} />
+			<button onClick={()=>this.handleSearchClick(this.restaurantCategory.value)} >Search by Restaurant Category</button>
 			</div>
-
 		)
-
 	}
 }
 
-module.exports = {
-
-}
+export default SearchByRestaurantCategory;

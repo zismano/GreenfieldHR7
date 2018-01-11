@@ -1,6 +1,5 @@
 import React from 'react';
 import $ from 'jquery';
-import WriteReview from './WriteReview.jsx'
 
 class RestaurantDetails extends React.Component {
 	constructor(props) {
@@ -25,7 +24,6 @@ class RestaurantDetails extends React.Component {
 				<br/>
 				{restaurant.stars}
 			</p>
-			<WriteReview />
             </div>
 		)
 	}

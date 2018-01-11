@@ -31,6 +31,7 @@ app.get('/restaurant/category/:category', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
+			console.log('server get this result from db', results[0])
             res.status(200).json(results);
 		}
 	})

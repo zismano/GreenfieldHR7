@@ -58,6 +58,8 @@ class App extends React.Component {
 				</div>
       		</div>
 		);
+    }
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
+

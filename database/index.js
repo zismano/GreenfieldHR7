@@ -8,23 +8,41 @@ const client = new pg.Client({
 client.connect();
 
 let searchByRestaurantName = (name, callback) => {
-	client.query('SELECT * from restaurants where name = ?',[name] , (err, res) => {
+	const text = 'SELECT * from restaurants where name like $1::text';
+	client.query(text,[`%${name}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	    callback(null, res.rows);
-	})
-	  client.end()
+	  	if (res.rows.length === 0) {
+	  		client.query('select * from restaurants where category = $1', ['Burgers'], (err, resTwo)=>{
+	  			if(!err) {
+	  				callback(null, resTwo.rows)
+	  			}
+	  		})
+	  	} else {
+	  		callback(null, res.rows);	
+	  	}
+	  }
+    })
 }
 
 let searchByRestaurantCategory = (category, callback) => {
-	client.query('SELECT * from restaurants where category = ?',[category] , (err, res) => {
+	const text = 'SELECT * from restaurants where category like $1::text';
+	client.query(text,[`%${category}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	    callback(null, res.rows);
+	    if (res.rows.length === 0) {
+	  		client.query('select * from restaurants where category = $1', ['Burgers'], (err, resTwo)=>{
+	  			if(!err) {
+	  				callback(null, resTwo.rows)
+	  			}
+	  		})
+	  	} else {
+	  		callback(null, res.rows);	
+	  	}
+	  }
 	})
-	  client.end()
 }
 
 module.exports = {
