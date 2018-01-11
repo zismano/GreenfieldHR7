@@ -1,17 +1,35 @@
 import React from 'react';
-
+import $ from 'jquery';
+import RestaurantDetails from './RestaurantDetails.jsx';
 
 class SearchByRestaurantName extends React.Component {
-    constructor(props) {
-  		super(props);
-    }
+	constructor(props) {
+		super(props)
+	}
 
-    render() {
-  		return (
-  			<h3>SearchByRestaurantName</h3>
-  		)
-  	}
+	handleSearchClick(name) {
+      $.ajax({
+      	url: `/restaurant/name/${name}`,
+      	method: 'GET',
+      	contentType: 'application/json',
+      	success: (results)=>{
+      	    console.log('front end get data from server', results[0])
+            this.props.handleSearchResults(results);
+      	},
+      	error: (err)=>{
+      		console.log(err);
+      	}
+      })
+	}
+
+	render() {
+		return (
+			<div>
+			<input type="text" placeholder="name" ref={input=>this.restaurantName = input} />
+			<button onClick={()=>this.handleSearchClick(this.restaurantName.value)} >Search by Restaurant Name</button>
+			</div>
+		)
+	}
 }
-
 
 export default SearchByRestaurantName;

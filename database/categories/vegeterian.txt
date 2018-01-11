@@ -1,0 +1,2268 @@
+{
+    "businesses": [
+        {
+            "id": "shizen-vegan-sushi-bar-and-izakaya-san-francisco",
+            "name": "Shizen Vegan Sushi Bar & Izakaya",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ose-rlo_a7c6pybjIxjHbA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shizen-vegan-sushi-bar-and-izakaya-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 925,
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "izakaya",
+                    "title": "Izakaya"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.768314,
+                "longitude": -122.421642
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "370 14th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "370 14th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14156785767",
+            "display_phone": "(415) 678-5767",
+            "distance": 585.737078460076
+        },
+        {
+            "id": "thai-idea-vegetarian-san-francisco-2",
+            "name": "Thai Idea Vegetarian",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/WxPBP70WV8ZAUbBG3AWn1g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/thai-idea-vegetarian-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 623,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7834938,
+                "longitude": -122.4190575
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "710 Polk St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "710 Polk St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14154408344",
+            "display_phone": "(415) 440-8344",
+            "distance": 1960.647072107712
+        },
+        {
+            "id": "gracias-madre-san-francisco",
+            "name": "Gracias Madre",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Yy2vzxq0fAJUA5Q0cpziFw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/gracias-madre-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2648,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.761606,
+                "longitude": -122.419241
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2211 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2211 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156831346",
+            "display_phone": "(415) 683-1346",
+            "distance": 1018.9435812933439
+        },
+        {
+            "id": "greens-restaurant-san-francisco-3",
+            "name": "Greens Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/VpToYCQUIKSpUEcTjIpt1g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/greens-restaurant-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1841,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.8068382346187,
+                "longitude": -122.432214908073
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "Fort Mason",
+                "address2": "Bldg A",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94123",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "Fort Mason",
+                    "Bldg A",
+                    "San Francisco, CA 94123"
+                ]
+            },
+            "phone": "+14157716222",
+            "display_phone": "(415) 771-6222",
+            "distance": 4398.093580890696
+        },
+        {
+            "id": "ananda-fuara-san-francisco",
+            "name": "Ananda Fuara",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/U2rq-OdVqUaWZIVAOgyI5Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ananda-fuara-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 944,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77798,
+                "longitude": -122.4162
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1298 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1298 Market St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14156211994",
+            "display_phone": "(415) 621-1994",
+            "distance": 1538.0081772699339
+        },
+        {
+            "id": "golden-era-vegan-restaurant-san-francisco-2",
+            "name": "Golden Era Vegan Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lL8J_f92X53PqRtVs0a8IA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/golden-era-vegan-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 375,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vietnamese",
+                    "title": "Vietnamese"
+                },
+                {
+                    "alias": "juicebars",
+                    "title": "Juice Bars & Smoothies"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7814734450825,
+                "longitude": -122.416835837066
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "395 Golden Gate Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "395 Golden Gate Ave",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154878687",
+            "display_phone": "(415) 487-8687",
+            "distance": 1855.6405294135598
+        },
+        {
+            "id": "indochine-vegan-san-francisco-2",
+            "name": "Indochine Vegan",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/HyzoxstZmQrqb4UWBMaXTA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/indochine-vegan-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 237,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "asianfusion",
+                    "title": "Asian Fusion"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7646623774103,
+                "longitude": -122.421955168247
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "508 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "508 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14157010700",
+            "display_phone": "(415) 701-0700",
+            "distance": 628.984288733392
+        },
+        {
+            "id": "enjoy-vegetarian-restaurant-san-francisco-3",
+            "name": "Enjoy Vegetarian Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UjNJrFF9XG-r_mT0iP77KQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/enjoy-vegetarian-restaurant-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 475,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.760425567627,
+                "longitude": -122.469100952148
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "754 Kirkham St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "754 Kirkham St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14156820826",
+            "display_phone": "(415) 682-0826",
+            "distance": 3681.3629315847957
+        },
+        {
+            "id": "enjoy-vegetarian-restaurant-san-francisco-2",
+            "name": "Enjoy Vegetarian Restaurant",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/T7elYy5MZX9mrcr2QjSDCg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/enjoy-vegetarian-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 433,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7959058,
+                "longitude": -122.4052473
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "839 Kearny St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "839 Kearny St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14159567868",
+            "display_phone": "(415) 956-7868",
+            "distance": 3741.3087687659217
+        },
+        {
+            "id": "moya-san-francisco",
+            "name": "Moya",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5J540WEkOaLTW8Pn8glV_w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/moya-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 334,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.776067,
+                "longitude": -122.414074
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "121 9th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "121 9th St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14154315544",
+            "display_phone": "(415) 431-5544",
+            "distance": 1571.385422161334
+        },
+        {
+            "id": "cha-ya-san-francisco-5",
+            "name": "Cha-Ya",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wITQpHPHJYOy1zInJaZahw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cha-ya-san-francisco-5?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1099,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.760753,
+                "longitude": -122.421787
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "762 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "762 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14152527825",
+            "display_phone": "(415) 252-7825",
+            "distance": 931.143490973728
+        },
+        {
+            "id": "veganburg-san-francisco",
+            "name": "VeganBurg",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/28nB1hRFWtSdOSicisKgqQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/veganburg-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 432,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "burgers",
+                    "title": "Burgers"
+                },
+                {
+                    "alias": "hotdogs",
+                    "title": "Fast Food"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.77017,
+                "longitude": -122.44646
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1466 Haight St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1466 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155488000",
+            "display_phone": "(415) 548-8000",
+            "distance": 1638.1353855144498
+        },
+        {
+            "id": "burma-superstar-san-francisco-2",
+            "name": "Burma Superstar",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UaR8ZJlXHHWO3t-47tp0jg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burma-superstar-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 5992,
+            "categories": [
+                {
+                    "alias": "burmese",
+                    "title": "Burmese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.782787322998,
+                "longitude": -122.462539672852
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "309 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "309 Clement St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14153872147",
+            "display_phone": "(415) 387-2147",
+            "distance": 3471.763462830826
+        },
+        {
+            "id": "cuisine-of-nepal-san-francisco",
+            "name": "Cuisine of Nepal",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Ps6UvrXCnzj3UJT1f1372w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cuisine-of-nepal-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 310,
+            "categories": [
+                {
+                    "alias": "himalayan",
+                    "title": "Himalayan/Nepalese"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.74097,
+                "longitude": -122.42318
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "3486 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3486 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156472222",
+            "display_phone": "(415) 647-2222",
+            "distance": 2971.382298255802
+        },
+        {
+            "id": "burma-love-san-francisco-2",
+            "name": "Burma Love",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ofu7k8bW9GxG_kBlcTF30w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/burma-love-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 745,
+            "categories": [
+                {
+                    "alias": "burmese",
+                    "title": "Burmese"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76961,
+                "longitude": -122.42205
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "211 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "211 Valencia St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14158612100",
+            "display_phone": "(415) 861-2100",
+            "distance": 590.589353145084
+        },
+        {
+            "id": "shangri-la-vegetarian-restaurant-san-francisco",
+            "name": "Shangri-La Vegetarian Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/JPSLJY2NCr5iTMV7MX3d8g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/shangri-la-vegetarian-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 394,
+            "categories": [
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "kosher",
+                    "title": "Kosher"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7636899,
+                "longitude": -122.47977
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2026 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2026 Irving St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14157312548",
+            "display_phone": "(415) 731-2548",
+            "distance": 4554.735123976057
+        },
+        {
+            "id": "loving-hut-san-francisco-2",
+            "name": "Loving Hut",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/4gCJVGfTxcV6m8SXkUiFRQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/loving-hut-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 329,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.76442,
+                "longitude": -122.46361
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "524 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94122",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "524 Irving St",
+                    "San Francisco, CA 94122"
+                ]
+            },
+            "phone": "+14157311957",
+            "display_phone": "(415) 731-1957",
+            "distance": 3131.765611719658
+        },
+        {
+            "id": "firefly-restaurant-san-francisco-4",
+            "name": "Firefly Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Iw2w_QRazIRIr9G7Rb7EjQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/firefly-restaurant-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1374,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.751206,
+                "longitude": -122.438189
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "4288 24th St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94114",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4288 24th St",
+                    "San Francisco, CA 94114"
+                ]
+            },
+            "phone": "+14158217652",
+            "display_phone": "(415) 821-7652",
+            "distance": 2004.4826817079297
+        },
+        {
+            "id": "tadu-ethiopian-kitchen-san-francisco-3",
+            "name": "Tadu Ethiopian Kitchen",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pUg-HAc0dCxV4iORG8NJZA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tadu-ethiopian-kitchen-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 502,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7848298,
+                "longitude": -122.4142271
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "484 Ellis St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "484 Ellis St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154096649",
+            "display_phone": "(415) 409-6649",
+            "distance": 2292.005469178872
+        },
+        {
+            "id": "massawa-restaurant-san-francisco-2",
+            "name": "Massawa Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/f_-srGHdq-U9OofpoyC17g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/massawa-restaurant-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 196,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.799714357237,
+                "longitude": -122.408007364852
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "532 Green St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94133",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "532 Green St",
+                    "San Francisco, CA 94133"
+                ]
+            },
+            "phone": "+14156214129",
+            "display_phone": "(415) 621-4129",
+            "distance": 4006.567873130026
+        },
+        {
+            "id": "golden-burma-san-francisco-3",
+            "name": "Golden Burma",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/6n9JX7sZMp0Xfp5Ibt7HXw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/golden-burma-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 62,
+            "categories": [
+                {
+                    "alias": "burmese",
+                    "title": "Burmese"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "soup",
+                    "title": "Soup"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.775032043457,
+                "longitude": -122.403167724609
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "15 Boardman St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "15 Boardman St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14157358282",
+            "display_phone": "(415) 735-8282",
+            "distance": 2356.9774444825657
+        },
+        {
+            "id": "oasis-cafe-san-francisco-3",
+            "name": "Oasis Cafe",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iwutElltXjmQSxySFSJRUQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/oasis-cafe-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 179,
+            "categories": [
+                {
+                    "alias": "ethiopian",
+                    "title": "Ethiopian"
+                },
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7778538803103,
+                "longitude": -122.438572457672
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "901 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "901 Divisadero St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14154744900",
+            "display_phone": "(415) 474-4900",
+            "distance": 1475.762596447488
+        },
+        {
+            "id": "lao-table-san-francisco",
+            "name": "Lao Table",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/f4imYxyfTG2psUVgdyRu0Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lao-table-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 367,
+            "categories": [
+                {
+                    "alias": "laotian",
+                    "title": "Laotian"
+                },
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.78752,
+                "longitude": -122.39872
+            },
+            "transactions": [
+                "delivery",
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "149 2nd St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94105",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "149 2nd St",
+                    "San Francisco, CA 94105"
+                ]
+            },
+            "phone": "+14152789991",
+            "display_phone": "(415) 278-9991",
+            "distance": 3420.4130442848914
+        },
+        {
+            "id": "green-tiffin-san-francisco",
+            "name": "Green Tiffin",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/b-V86QmuygeUVpfxjExXng/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/green-tiffin-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 22,
+            "categories": [
+                {
+                    "alias": "fooddeliveryservices",
+                    "title": "Food Delivery Services"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7906672986185,
+                "longitude": -122.399631526306
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "95014",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "San Francisco, CA 95014"
+                ]
+            },
+            "phone": "+14152837856",
+            "display_phone": "(415) 283-7856",
+            "distance": 3604.708418455032
+        },
+        {
+            "id": "sons-and-daughters-san-francisco",
+            "name": "Sons & Daughters",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jxd_BvDdRIZ_adRw_UigGQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sons-and-daughters-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 610,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7902105196387,
+                "longitude": -122.409271089461
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "708 Bush St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "708 Bush St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14153918311",
+            "display_phone": "(415) 391-8311",
+            "distance": 3032.50870911957
+        },
+        {
+            "id": "lucky-creation-vegetarian-restaurant-san-francisco",
+            "name": "Lucky Creation Vegetarian Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6dhYHiPb8qrbyzq873xxEw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lucky-creation-vegetarian-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 446,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7951059659376,
+                "longitude": -122.407378596858
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "854 Washington St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94108",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "854 Washington St",
+                    "San Francisco, CA 94108"
+                ]
+            },
+            "phone": "+14159890818",
+            "display_phone": "(415) 989-0818",
+            "distance": 3582.3796504199136
+        },
+        {
+            "id": "udupi-palace-san-francisco",
+            "name": "Udupi Palace",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wNZ0uGHb9JcPjqze-EgoRw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/udupi-palace-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1182,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7566757202148,
+                "longitude": -122.420799255371
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1007 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1007 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14159708000",
+            "display_phone": "(415) 970-8000",
+            "distance": 1351.3061040095458
+        },
+        {
+            "id": "picnic-on-third-san-francisco",
+            "name": "Picnic on Third",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qNtxCAiGuEW826MwRWbpJA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/picnic-on-third-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 201,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7815361,
+                "longitude": -122.3959045
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "493 3rd St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "493 3rd St",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14155002569",
+            "display_phone": "(415) 500-2569",
+            "distance": 3243.203700351192
+        },
+        {
+            "id": "als-place-san-francisco",
+            "name": "AL's Place",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bzLV0IRnjM3ZvmIs2rEw4Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/als-place-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 544,
+            "categories": [
+                {
+                    "alias": "seafood",
+                    "title": "Seafood"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7490078521491,
+                "longitude": -122.42025397718
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "1499 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1499 Valencia St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14154166136",
+            "display_phone": "(415) 416-6136",
+            "distance": 2162.777328380582
+        },
+        {
+            "id": "la-mediterranee-san-francisco-8",
+            "name": "La Mediterranee",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yPEtwC3g87-gOjcaYKZixw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-mediterranee-san-francisco-8?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1348,
+            "categories": [
+                {
+                    "alias": "mideastern",
+                    "title": "Middle Eastern"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "armenian",
+                    "title": "Armenian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7900665,
+                "longitude": -122.4338783
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2210 Fillmore St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94115",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2210 Fillmore St",
+                    "San Francisco, CA 94115"
+                ]
+            },
+            "phone": "+14159212956",
+            "display_phone": "(415) 921-2956",
+            "distance": 2575.054483122208
+        },
+        {
+            "id": "tuba-authentic-turkish-restaurant-san-francisco",
+            "name": "Tuba Authentic Turkish Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5Wwf7SvMSDEzQZ1e9GSkyQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tuba-authentic-turkish-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 797,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "turkish",
+                    "title": "Turkish"
+                },
+                {
+                    "alias": "mideastern",
+                    "title": "Middle Eastern"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7548912,
+                "longitude": -122.4228895
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1007 Guerrero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1007 Guerrero St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14158268822",
+            "display_phone": "(415) 826-8822",
+            "distance": 1468.803207911526
+        },
+        {
+            "id": "chapeau-san-francisco",
+            "name": "Chapeau",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qAdGIt3Gd0eTXwW0WjZamw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chapeau-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 2500,
+            "categories": [
+                {
+                    "alias": "french",
+                    "title": "French"
+                },
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.78327,
+                "longitude": -122.46066
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "126 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "126 Clement St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14157509787",
+            "display_phone": "(415) 750-9787",
+            "distance": 3362.405045584566
+        },
+        {
+            "id": "bite-san-francisco",
+            "name": "Bite",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/7uYT0GGhsNmNQZ0zfv_s6w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bite-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 608,
+            "categories": [
+                {
+                    "alias": "delis",
+                    "title": "Delis"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7884239641,
+                "longitude": -122.415666133
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "912 Sutter St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94104",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "912 Sutter St",
+                    "San Francisco, CA 94104"
+                ]
+            },
+            "phone": "+14155632483",
+            "display_phone": "(415) 563-2483",
+            "distance": 2583.304956948338
+        },
+        {
+            "id": "kin-khao-san-francisco-2",
+            "name": "Kin Khao",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tRONEA8uY-QlhX8OHPWvdA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kin-khao-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1303,
+            "categories": [
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7852278803726,
+                "longitude": -122.409348137336
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "55 Cyril Magnin St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "55 Cyril Magnin St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14153627456",
+            "display_phone": "(415) 362-7456",
+            "distance": 2582.9631229934957
+        },
+        {
+            "id": "mateos-taqueria-san-francisco",
+            "name": "Mateo's Taqueria",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2uBC2hAZHrOhnq9kT2WYrg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mateos-taqueria-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 340,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.75754,
+                "longitude": -122.41876
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "2471 Mission St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94110",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "2471 Mission St",
+                    "San Francisco, CA 94110"
+                ]
+            },
+            "phone": "+14156486000",
+            "display_phone": "(415) 648-6000",
+            "distance": 1376.7472596438158
+        },
+        {
+            "id": "love-n-haight-deli-san-francisco",
+            "name": "Love N Haight Deli",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/GnL_5VIpyYMcEvC6tpE9bw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/love-n-haight-deli-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 410,
+            "categories": [
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.772004,
+                "longitude": -122.431261
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "553 Haight St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "553 Haight St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14152528190",
+            "display_phone": "(415) 252-8190",
+            "distance": 576.74792980493
+        },
+        {
+            "id": "souvla-san-francisco-3",
+            "name": "Souvla",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zWdepWanMEHyq2QPotQgSA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/souvla-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 251,
+            "categories": [
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                },
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7745092706543,
+                "longitude": -122.437982037663
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "531 Divisadero St",
+                "address2": "",
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "531 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14154005458",
+            "display_phone": "(415) 400-5458",
+            "distance": 1166.5322387784638
+        },
+        {
+            "id": "pica-pica-arepa-kitchen-san-francisco",
+            "name": "Pica Pica Arepa Kitchen",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hAWS9IidumamHodFIUikIA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pica-pica-arepa-kitchen-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1259,
+            "categories": [
+                {
+                    "alias": "gluten_free",
+                    "title": "Gluten-Free"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.766409,
+                "longitude": -122.421714
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "401 Valencia St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94103",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "401 Valencia St",
+                    "San Francisco, CA 94103"
+                ]
+            },
+            "phone": "+14154005453",
+            "display_phone": "(415) 400-5453",
+            "distance": 581.608005926522
+        },
+        {
+            "id": "little-delhi-san-francisco",
+            "name": "Little Delhi",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/CfvU68fhM_dcwyNz_RIt9A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/little-delhi-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1799,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7842968,
+                "longitude": -122.4091908
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "83 Eddy St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "83 Eddy St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14153983173",
+            "display_phone": "(415) 398-3173",
+            "distance": 2513.62226064362
+        },
+        {
+            "id": "mandalay-san-francisco",
+            "name": "Mandalay",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/q_L7VpQUya-f-191ZMcnLg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mandalay-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1880,
+            "categories": [
+                {
+                    "alias": "burmese",
+                    "title": "Burmese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7851484,
+                "longitude": -122.4643918
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "4348 California St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "4348 California St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14153863896",
+            "display_phone": "(415) 386-3896",
+            "distance": 3742.8696059942
+        },
+        {
+            "id": "the-dosa-brothers-san-francisco-4",
+            "name": "The Dosa Brothers",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2vMBidhKdknKm5Urcr7XWA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/the-dosa-brothers-san-francisco-4?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 234,
+            "categories": [
+                {
+                    "alias": "streetvendors",
+                    "title": "Street Vendors"
+                },
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.7890223310083,
+                "longitude": -122.402008838536
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "598 Market St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94104",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "598 Market St",
+                    "San Francisco, CA 94104"
+                ]
+            },
+            "phone": "+14153436242",
+            "display_phone": "(415) 343-6242",
+            "distance": 3328.016398578248
+        },
+        {
+            "id": "souvla-san-francisco",
+            "name": "Souvla",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZKZ8PfX7ptxX8kwuRP0nww/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/souvla-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 901,
+            "categories": [
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7765190062963,
+                "longitude": -122.424959243416
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "517 Hayes St",
+                "address2": null,
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "517 Hayes St",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154005458",
+            "display_phone": "(415) 400-5458",
+            "distance": 1052.02380301473
+        },
+        {
+            "id": "kitchen-istanbul-san-francisco",
+            "name": "Kitchen Istanbul",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GCPDzryQgDMYBWgLQjbGsg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kitchen-istanbul-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 369,
+            "categories": [
+                {
+                    "alias": "greek",
+                    "title": "Greek"
+                },
+                {
+                    "alias": "turkish",
+                    "title": "Turkish"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.782849,
+                "longitude": -122.46321
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "349 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "349 Clement St",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14157539479",
+            "display_phone": "(415) 753-9479",
+            "distance": 3522.904758748206
+        },
+        {
+            "id": "rooh-san-francisco",
+            "name": "ROOH",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Aqx54zQGy-4usrESxqEfdA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rooh-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 229,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7813044077209,
+                "longitude": -122.392686848497
+            },
+            "transactions": [
+                "restaurant_reservation"
+            ],
+            "price": "$$$",
+            "location": {
+                "address1": "333 Brannan St",
+                "address2": "Ste 150",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "333 Brannan St",
+                    "Ste 150",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14155254174",
+            "display_phone": "(415) 525-4174",
+            "distance": 3483.264518281908
+        },
+        {
+            "id": "nourish-cafe-san-francisco",
+            "name": "Nourish Cafe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/yLmFpmLOZ-Rf8H7F3BEK_g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nourish-cafe-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 285,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.785267457366,
+                "longitude": -122.464657276869
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "189 6th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94118",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "189 6th Ave",
+                    "San Francisco, CA 94118"
+                ]
+            },
+            "phone": "+14155718780",
+            "display_phone": "(415) 571-8780",
+            "distance": 3755.4320945611857
+        },
+        {
+            "id": "august-1-five-san-francisco",
+            "name": "August 1 Five",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vIBy0KqgyPpvawphnzfwlg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/august-1-five-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 426,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.780529,
+                "longitude": -122.420089
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "524 Van Ness Ave",
+                "address2": null,
+                "address3": null,
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "524 Van Ness Ave",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14157715900",
+            "display_phone": "(415) 771-5900",
+            "distance": 1623.6473499618478
+        },
+        {
+            "id": "indian-paradox-san-francisco-2",
+            "name": "Indian Paradox",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/wE2oglUO6BDz8zsqOCJRaw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/indian-paradox-san-francisco-2?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 106,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.77152,
+                "longitude": -122.43688
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "258 Divisadero St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94117",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "258 Divisadero St",
+                    "San Francisco, CA 94117"
+                ]
+            },
+            "phone": "+14155935386",
+            "display_phone": "(415) 593-5386",
+            "distance": 893.465628848286
+        },
+        {
+            "id": "straw-san-francisco",
+            "name": "Straw",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/gZDB5C6Sa83Kigk7bEzaNw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/straw-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 1527,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.774056,
+                "longitude": -122.424198
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation",
+                "delivery"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "203 Octavia Blvd",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94102",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "203 Octavia Blvd",
+                    "San Francisco, CA 94102"
+                ]
+            },
+            "phone": "+14154313663",
+            "display_phone": "(415) 431-3663",
+            "distance": 818.4257110182918
+        },
+        {
+            "id": "pagan-restaurant-san-francisco",
+            "name": "Pagan Restaurant",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/9wtT0fCT-UxZ6nNeQ3Ed1g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pagan-restaurant-san-francisco?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 480,
+            "categories": [
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                },
+                {
+                    "alias": "burmese",
+                    "title": "Burmese"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.7814753,
+                "longitude": -122.4932401
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "3199 Clement St",
+                "address2": "",
+                "address3": "",
+                "city": "San  Francisco",
+                "zip_code": "94121",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3199 Clement St",
+                    "San  Francisco, CA 94121"
+                ]
+            },
+            "phone": "+14157512598",
+            "display_phone": "(415) 751-2598",
+            "distance": 5930.916636236274
+        },
+        {
+            "id": "aicha-moroccan-cuisine-san-francisco-3",
+            "name": "Aicha Moroccan Cuisine",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SS5qYDfplOnBYw6fey-Mwg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aicha-moroccan-cuisine-san-francisco-3?adjust_creative=K1km0uE-8HKa438oAtYCGQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=K1km0uE-8HKa438oAtYCGQ",
+            "review_count": 417,
+            "categories": [
+                {
+                    "alias": "moroccan",
+                    "title": "Moroccan"
+                },
+                {
+                    "alias": "halal",
+                    "title": "Halal"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 37.788917,
+                "longitude": -122.420446
+            },
+            "transactions": [
+                "pickup",
+                "restaurant_reservation"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1303 Polk St",
+                "address2": "",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94109",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "1303 Polk St",
+                    "San Francisco, CA 94109"
+                ]
+            },
+            "phone": "+14153459947",
+            "display_phone": "(415) 345-9947",
+            "distance": 2486.5677649947797
+        }
+    ],
+    "total": 1500,
+    "region": {
+        "center": {
+            "longitude": -122.4282073975,
+            "latitude": 37.7674132179
+        }
+    }
+}
