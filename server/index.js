@@ -14,7 +14,7 @@ app.set('port', process.env.PORT || 3000)
 
 
 app.use(bodyParser.json());
-//app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 
 app.use(cookieSession({
@@ -24,10 +24,6 @@ app.use(cookieSession({
 app.use(passport.initialize());
 app.use(passport.session());
 authRoutes(app);
-
-app.get('/', function(req, res){
-  res.send('hello team 7');
-});
 
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
