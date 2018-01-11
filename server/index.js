@@ -1,17 +1,14 @@
 const express = require('express');
 const bodyParser  = require('body-parser');
 const path  = require('path');
+require('./services/passport.js');
+const authRoutes = require('./routes/authRoutes.js');
+const cookieSession = require('cookie-session');
+const googleClient = require('../config.js');
 const passport = require('passport');
-const googleStrategy = require('passport-google-oauth20').Strategy
+
 const app = express();
 
-passport.use(new googleStrategy({
-	clientID: 'PLACEHOLDERID',
-	clientSecret: 'PLACEHOLDERSECRET',
-	callbackURL: 'auth/google/callback'
-}, (accessToken, refreshToken, profile, done) => {
-	console.log(profile);
-}));
 
 app.set('port', process.env.PORT || 3000)
 
@@ -20,11 +17,17 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 
-app.get('/auth/google', passport.authenticate('google', {
-	scope: ['profile']
+app.use(cookieSession({
+	maxAge: 24 * 3600000,
+	keys: [googleClient.cookieKey]
 }));
+app.use(passport.initialize());
+app.use(passport.session());
+authRoutes(app);
 
-app.get('/auth/google/callback', passport.authenticate('google'));
+app.get('/', function(req, res){
+  res.send('hello team 7');
+});
 
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
