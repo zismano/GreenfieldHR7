@@ -79,7 +79,7 @@ class RestaurantDetails extends React.Component {
 				<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
       </div>
 				<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
-            </div>
+      </div>
 		)
 	}
 }
