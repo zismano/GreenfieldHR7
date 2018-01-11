@@ -45,6 +45,10 @@ app.get('/restaurant/category/:category', (req, res)=>{
 	})
 });
 
+app.get('/restaurant/near', (req, res) => {
+	console.log('listening to reqs on /restaurant/near');
+});
+
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
 })

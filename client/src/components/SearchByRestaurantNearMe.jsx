@@ -12,7 +12,7 @@ class SearchByRestaurantNearMe extends React.Component {
 
 	handleSearch() {
 		$.ajax({
-			url: '/resaturants/near',
+			url: '/restaurant/near',
 			method: 'GET',
 			success: (restaurants) => {
 				console.log('results from search ', restaurants);
