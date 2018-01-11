@@ -1,59 +1,49 @@
-var mysql = require('mysql');
-
-var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : '',
-  database : 'yowl'
+const fs = require('fs');
+const path = require('path');
+const pg = require('pg');
+var conString = "pg://localhost:5432/postgres";
+const client = new pg.Client({
+	connectionString: conString //change to connectionString: process.env.DATABASE_URL when deployed to Heroku
+   // ssl: true
 });
 
-connection.connect();
+client.connect();
 
-// insert a restaurant to DB if not missing fields nor is already in DB
-let checkAndInsertRestToDB = (rest) => {
-	if (rest.name && rest.categories[0].title && rest.phone && rest.price && 
-		rest.coordinates.latitude && rest.coordinates.longitude && 
-		rest.location.city === "San Francisco" && rest.location["address1"] && 
-		rest.location.state === "CA" && rest.location.zip_code) {
-		findRestInDB(rest, (err, results) => {
-			if (err) {
-				console.log(`Error finding rest in DB ${err}`);
-			} else if (!results.length) {
-				insertRestToDB(rest);		
-			} else {
-				console.log(`${rest} is already in DB`);	
-			}
-		});
-	} else {
-		console.log(`Restaurant ${rest} is missing field(s) and wasn't inserted`);
-	}
-};
-
-// returns restaurant based on its name and address (check for duplicates)
-let findRestInDB = (rest, callback) => {
-	const query = 'SELECT * FROM restaurants WHERE name=? AND address=?';
-	connection.query(query, [rest.name, rest.location["address1"]], (err, results) => {
-		callback(err, results);
-	});
-}; 
-
-// inserts restaurant to DB
-let insertRestToDB = (rest) => {
-	const query = 'INSERT INTO restaurants \
+var insertRestaurantsToDatabase = (restaurants) => {
+	var restaurants = JSON.parse(restaurants);
+	var queryStr = 'INSERT INTO restaurants \
 		(name, category, phone, price, latitude, longitude, city, address, state, zip) \
-		VALUES (?, ?, ? ,?, ?, ?, ?, ?, ?, ?)';
-	params = [rest.name, rest.categories[0].title, rest.phone, rest.price, 
-		rest.coordinates.latitude, rest.coordinates.longitude, rest.location.city,
-		rest.location["address1"], rest.location.state, Number(rest.location.zip_code)];
-	connection.query(query, params, function (error, results) {
-  		if (error) {
-  			console.log(`Error insert ${rest} to DB`);
-  		} else {
-	  		console.log(`Insert ${rest.name} to DB`);			
-  		}
-	});			
-};
+		VALUES ($1, $2, $3 ,$4, $5, $6, $7, $8, $9, $10)';
+	restaurants.businesses.map(restaurant => {
+		var inputs = [restaurant.name, restaurant.categories[0].title, restaurant.phone, restaurant.price, 
+			restaurant.coordinates.latitude, restaurant.coordinates.longitude, restaurant.location.city,
+			restaurant.location["address1"], restaurant.location.state, Number(restaurant.location.zip_code)];
+		client.query(queryStr, inputs, (error, results) => {
+	  		if (error) {
+	  			console.log(`Error insert ${restaurant} to DB`);
+	  		}
+		});
+	});
+}
 
-module.exports = {
-	checkAndInsertRestToDB
-};
+var readFiles = (dirname) => {
+  	fs.readdir(dirname, (err, filenames) => {
+    	if (err) {
+      		console.err(err);
+    	} else {
+	    	filenames.forEach(filename => {
+	      		fs.readFile(dirname + filename, 'utf-8', (err, restaurants) => {
+	        		if (err) {
+      					console.err(err);
+	        		} else {
+	        			insertRestaurantsToDatabase(restaurants);
+	        		}
+	      		});
+	    	});
+    	}
+  	});
+}
+
+//populate restaurants table by running node seed.js in command line with line below uncommented (there should be 548 rows)
+//readFiles(path.join(__dirname, '../database/categories/'));
+
