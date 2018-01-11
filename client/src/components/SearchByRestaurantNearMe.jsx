@@ -11,16 +11,17 @@ class SearchByRestaurantNearMe extends React.Component {
     }
 
 	handleSearch() {
-		// $.ajax({
-		// 	url: '/resaturants/near',
-		// 	method: 'GET',
-		// 	success: (resaturants) => {
-		// 		this.setState({resaturants: resaturants});
-		// 	}, 
-		// 	failuire: (err) => {
-		// 		console.error(err);
-		// 	}
-		// });
+		$.ajax({
+			url: '/resaturants/near',
+			method: 'GET',
+			success: (restaurants) => {
+				console.log('results from search ', restaurants);
+				//this.props.handleSearchResults(restaurants);
+			}, 
+			failuire: (err) => {
+				console.error(err);
+			}
+		});
 	}
 		
 
