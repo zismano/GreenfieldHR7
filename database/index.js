@@ -56,9 +56,39 @@ let getAllRestaurants = (callback) => {
 	});
 }
 
+let addUser = (userInfo, callback) => {
+	const selectQuery = 'select * from users where gmailid = $1';
+	const insertQuery = 'insert into users (gmailaddress, gmailid, firstName, lastName) values ($1, $2, $3, $4)';
+	client.query(selectQuery, [userInfo.id], (err, res) => {
+		if (err) {
+			callack(err.stack, null);
+		} else {
+			if (res.rows.length === 0) {
+				client.query(insertQuery, [userInfo.emails[0].value, userInfo.id, userInfo.name.givenName, userInfo.name.familyName], (err, res2) => {
+					callback(null, res.rows);
+				})
+			} else {
+				callback(null, res.rows);
+			}
+		}
+	})
+}
+
+let searchUser = (id, callback) => {
+	const selectQuery = 'select * from users where id = $1';
+	client.query(selectQuery, [id], (err, res) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, res);
+		}
+	})
+}
 
 module.exports = {
 	searchByRestaurantName: searchByRestaurantName,
-    searchByRestaurantCategory: searchByRestaurantCategory,
-    getAllRestaurants: getAllRestaurants
+  searchByRestaurantCategory: searchByRestaurantCategory,
+  addUser: addUser,
+  searchUser: searchUser,
+  getAllRestaurants: getAllRestaurants
 }
