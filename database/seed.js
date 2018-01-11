@@ -44,5 +44,6 @@ var readFiles = (dirname) => {
   	});
 }
 
-//populate DB by uncommenting out the line below and saving file
+//populate restaurants table by running node seed.js in command line with line below uncommented (there should be 548 rows)
 //readFiles(path.join(__dirname, '../database/categories/'));
+
