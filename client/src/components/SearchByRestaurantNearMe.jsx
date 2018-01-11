@@ -1,21 +1,35 @@
 import React from 'react';
-import Key = 
+import $ from 'jquery';
 
 class SearchByRestaurantNearMe extends React.Component {
     constructor(props) {
   		  super(props);
 
-  		  this.state({restaurants: []});
+  		  this.state = {restaurants: []};
+
+  		  this.handleSearch = this.handleSearch.bind(this);
     }
 
-	//create ajax req to get location
-	//create UI button that triggers ajax req
+	handleSearch() {
+		// $.ajax({
+		// 	url: '/resaturants/near',
+		// 	method: 'GET',
+		// 	success: (resaturants) => {
+		// 		this.setState({resaturants: resaturants});
+		// 	}, 
+		// 	failuire: (err) => {
+		// 		console.error(err);
+		// 	}
+		// });
+	}
 		
 
 
     render() {
   		  return (
-            <h3>SearchByRestaurantNearMe</h3>
+  		  	<div>
+            	<button onClick={this.handleSearch}>Near Me</button>
+            </div>
         )
   	}
 }

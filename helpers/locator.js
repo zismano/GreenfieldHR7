@@ -29,15 +29,15 @@ let locator = (userLat, userLon, callback) => {
 
 let hypotenator = (latA, lonA, latB, lonB) => {
 	const R = 6371;
-	let dLat = deg2rad(latB-latA); 
-	let dLon = deg2rad(lonB-lonA); 
-	let a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(deg2rad(latA)) * Math.cos(deg2rad(latB)) * Math.sin(dLon/2) * Math.sin(dLon/2); 
+	let dLat = degreeToRadians(latB-latA); 
+	let dLon = degreeToRadians(lonB-lonA); 
+	let a = Math.sin(dLat/2) * Math.sin(dLat/2) + Math.cos(degreeToRadians(latA)) * Math.cos(degreeToRadians(latB)) * Math.sin(dLon/2) * Math.sin(dLon/2); 
 	let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
 	let d = R * c; 
-	return d; // distance in km
+	return d;
 };
 
-let deg2rad = (degree) => {
+let degreeToRadians = (degree) => {
     return degree * (Math.PI/180);
 };
 
