@@ -24,9 +24,9 @@ class SearchByRestaurantName extends React.Component {
 
 	render() {
 		return (
-			<div>
-			<input type="text" placeholder="name" ref={input=>this.restaurantName = input} />
-			<button onClick={()=>this.handleSearchClick(this.restaurantName.value)} >Search by Restaurant Name</button>
+			<div className="col">
+				<input type="text" placeholder="name" ref={input=>this.restaurantName = input} /><br/>
+				<button onClick={()=>this.handleSearchClick(this.restaurantName.value)} >Search by Restaurant Name</button>
 			</div>
 		)
 	}
