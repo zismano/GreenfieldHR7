@@ -10,13 +10,19 @@ class Search extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.state={restaurants: []};
+		this.state={
+			restaurants: [],
+			restaurantDetailView: false
+		};
 
 		this.handleSearchResults = this.handleSearchResults.bind(this);
 	}
 
 	handleSearchResults(restaurants) {
-		this.setState({restaurants: restaurants});
+		this.setState({
+			restaurantDetailView: true,
+			restaurants: restaurants
+		});
 	}
 
 	render() {
@@ -25,6 +31,9 @@ class Search extends React.Component {
 				<SearchByRestaurantName handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantCategory handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} />
+				{this.state.restaurantDetailView && this.state.restaurants.map(restaurant=>{
+					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
+				})}
 
 				{this.state.restaurants.map(restaurant => 
 					<RestaurantDetails 

@@ -8,10 +8,11 @@ class RestaurantDetails extends React.Component {
 	}
 
 	render() {
+		console.log(this.props.restaurant)
 		let restaurant = this.props.restaurant;
 		return(
 			<div className="restaurant-box">
-			<img src="" />
+			<img alt="map" src={restaurant.map} />
 			<p>
 				{restaurant.name}
 				<br/>
@@ -27,6 +28,7 @@ class RestaurantDetails extends React.Component {
 				<br/>
 				{restaurant.distance ? restaurant.distance : ''}
 			</p>
+
             </div>
 		)
 	}
