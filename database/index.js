@@ -45,7 +45,20 @@ let searchByRestaurantCategory = (category, callback) => {
 	})
 }
 
+let getAllRestaurants = (callback) => {
+	const queryStr = 'SELECT * FROM restaurants';
+	client.query(queryStr, (err, restaurants) => {
+		if (err) {
+			callback(err, null);
+		} else {
+			callback(null, restaurants.rows);
+		}
+	});
+}
+
+
 module.exports = {
 	searchByRestaurantName: searchByRestaurantName,
-    searchByRestaurantCategory: searchByRestaurantCategory
+    searchByRestaurantCategory: searchByRestaurantCategory,
+    getAllRestaurants: getAllRestaurants
 }
