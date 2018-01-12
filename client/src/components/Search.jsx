@@ -3,7 +3,7 @@ import React from 'react';
 import SearchByRestaurantName from './SearchByRestaurantName.jsx';
 import SearchByRestaurantCategory from './SearchByRestaurantCategory.jsx';
 import SearchByRestaurantNearMe from './SearchByRestaurantNearMe.jsx';
-//import RestaurantDetails from './RestaurantDetails.jsx';
+import RestaurantDetails from './RestaurantDetails.jsx';
 
 
 class Search extends React.Component {
@@ -26,7 +26,12 @@ class Search extends React.Component {
 				<SearchByRestaurantCategory handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} />
 
-
+				{this.state.restaurants.map(restaurant => 
+					<RestaurantDetails 
+						key={restaurant.id}
+						restaurant={restaurant}
+					/>
+				)}
 			</div>
 		)
 	}

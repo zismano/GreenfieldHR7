@@ -8,7 +8,9 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
-const locator = require('../helpers/locator.js')
+const locator = require('../helpers/locator.js');
+const key = require('../config.js');
+
 const app = express();
 
 app.set('port', process.env.PORT || 3000)
@@ -51,7 +53,7 @@ app.get('/restaurant/near', (req, res) => {
 	var options = { 
 		method: 'POST',
   		url: 'https://www.googleapis.com/geolocation/v1/geolocate',
-  		qs: { key: '' },
+  		qs: { key: key.Geolocation_Token },
   		headers: { 
   			'Postman-Token': '9d7aa36d-eda8-21a1-9c39-b6b391772486',
      		'Cache-Control': 'no-cache' 
