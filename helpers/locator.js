@@ -24,7 +24,10 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 			if (distancesSorted[i] !== distancesSorted[i - 1]) {
 				var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
 				var restaurant = JSON.parse(restaurantStr);
-				restaurant.distance = distancesSorted[i];
+				var distanceRounded = Math.round(distancesSorted[i] * 10) / 10;
+				var distanceFormat = distanceRounded + 'km away';
+
+				restaurant.distance = distanceFormat;
 				
 				closestResults.push(restaurant);
 			}
