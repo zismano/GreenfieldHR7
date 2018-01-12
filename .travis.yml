@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-- '8'
+  - '8'
+# before_script:
+#   - npm run react-dev
+script: npm run react-dev & node ./server/index.js & npm run test
 notifications:
   slack:
     secure: xHWmBkaK7C9pFptcUmBhDK+2BpRem19MVe+9HJ4EAyiCmIy9rqL0HeZUx054IIN1O1CJf0H3PLCiVY7/D9ioWsgdNhmywLOpz2Qtw7w1FV0opOab9k/I2NNsdNm4XuERWzrAJQEUHKGd+OQi7QexyRhUyqiKegwO25ev4zN523FZhRAcZRALO27pzq87gqjBhMaLrE2TDqm7a1F5jKAv82ifxEtX7mclv8Xb9Y2vIf2DTbgAjC0QpcWHP0vUFqeXUvUQVo5rjJvJ5445Ldgt8YEJwtDjXu2gsa8oEy16wQbJSYCMINyp9oOXACvsN+hKKs90VaiXRcvNk5i+nB6XCu8RmcWQw0erPHGQv+3LLNGH651txqUIWnq2IxlFcull09QYkLWRsPJaJj7vJfbsvvl+bnBZmsC3mVfte4QxW6EZH5bLqLkGYKoJhrfwuzGkY+OqfLjim5zKy2EXj/DUqQy8ExlybTxPbtZBBBA6D2HOVm38d5SWwrZuGcGlzQ00SwMdV+QF+Wzp4SWjnJcepBoBbAjYR/j/4Z+ibpA8UwhhpehgTwGoc1AOdSAeDu0rget3hk1vAT+N2dixr1sS6t7799JpL2MOHJ0cW67Qgx9PmWGYD4CckirKGyHHj4TVX11XXA9C50x27gbGTzm+9dVmMI7Sb8DXmAs9/JGpvS0=

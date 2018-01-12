@@ -16,7 +16,8 @@
     "test": "mocha test/test.js"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "test/setup.js"
+    "setupTestFrameworkScriptFile": "test/setup.js",
+    "test": "mocha test/test.js --exit" 
   },
   "dependencies": {
     "airbnb-browser-shims": "^2.0.0",
