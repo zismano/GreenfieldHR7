@@ -9,7 +9,7 @@ const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
 const locator = require('../helpers/locator.js');
-const key = require('../config.js');
+const config = require('../config.js');
 
 const app = express();
 

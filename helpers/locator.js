@@ -13,7 +13,9 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 			var resLat = parseFloat(restaurant.latitude);
 			var resLon = parseFloat(restaurant.longitude);
 			var distance = hypotenator(userLat, userLon, resLat, resLon);
+			var distanceFormat = (Math.round(distance * 10) / 10) + 'km away';
 
+			restaurant["distance"] = distanceFormat;
 			allResults[distance] = restaurant;
 			distances.push(distance);
 		});
@@ -22,13 +24,7 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 		
 		for (var i = 0; i < 10; i++) {
 			if (distancesSorted[i] !== distancesSorted[i - 1]) {
-				var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
-				var restaurant = JSON.parse(restaurantStr);
-				var distanceRounded = Math.round(distancesSorted[i] * 10) / 10;
-				var distanceFormat = distanceRounded + 'km away';
-
-				restaurant.distance = distanceFormat;
-				
+				var restaurant = allResults[distancesSorted[i]];
 				closestResults.push(restaurant);
 			}
 		}
