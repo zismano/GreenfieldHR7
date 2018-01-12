@@ -50,7 +50,6 @@ describe('server', function() {
  //     expect(parseBody).to.be.an('array');
  //     done();
  //   });
- // });
 
  it('should send back an array when searchy by category', function(done) {
    request('http://127.0.0.1:3000/restaurant/category/burger', function(error, response, body) {
@@ -61,7 +60,7 @@ describe('server', function() {
  });
 
  it('should send back parsable stringified JSON when search by name', function(done) {
-   request('http://127.0.0.1:3000/restaurant/name/san', function(err, res, body) {
+   request(`${baseUrl}/restaurant/name/san`, function(err, res, body) {
        expect(parse.bind(this, body)).to.not.throw();
        done();
    })
@@ -84,7 +83,7 @@ describe('server', function() {
  });
 
  it('Should 404 when asked for a nonexistent endpoint', function(done) {
-   request('http://127.0.0.1:3000/arglebargle', function(error, response, body) {
+   request(`${baseUrl}/arglebargle`, function(error, response, body) {
      expect(response.statusCode).to.equal(404);
      done();
    });
