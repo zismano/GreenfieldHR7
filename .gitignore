@@ -31,5 +31,6 @@ client/dist/bundle.js
 node_modules/
 bower_components/
 config/config.js
+config.js
 .env
 
