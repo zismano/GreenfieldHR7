@@ -28,8 +28,8 @@ class SearchByRestaurantNearMe extends React.Component {
 
     render() {
   		  return (
-  		  	<div>
-            	<button onClick={this.handleSearch}>Near Me</button>
+  		  	<div className="col">
+            	<button onClick={this.handleSearch}>Search by Restaurant Near Me</button>
             </div>
         )
   	}
@@ -37,3 +37,6 @@ class SearchByRestaurantNearMe extends React.Component {
 
 
 export default SearchByRestaurantNearMe;
+
+//add class to div
+	//float left
