@@ -4,11 +4,12 @@ const path  = require('path');
 require('./services/passport.js');
 const authRoutes = require('./routes/authRoutes.js');
 const cookieSession = require('cookie-session');
-const config = require('../config.js');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
 const locator = require('../helpers/locator.js');
+const config = require('../config.js');
+
 const app = express();
 
 app.set('port', process.env.PORT || 3000)
