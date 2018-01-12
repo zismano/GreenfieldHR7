@@ -7,9 +7,14 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
+<<<<<<< HEAD
 const locator = require('../helpers/locator.js');
 const config = require('../config.js');
 
+=======
+const locator = require('../helpers/locator.js')
+const config = require('../config.js');
+>>>>>>> i
 const app = express();
 
 app.set('port', process.env.PORT || 3000)
@@ -70,8 +75,8 @@ app.get('/restaurant/near', (req, res) => {
   			});
   		}
   	});
+});
 
 app.listen(app.get('port'), function() {
-  console.log('server listen on port ' + app.get('port'))
-})
-
+  console.log('server listen on port ' + app.get('port'));
+});
