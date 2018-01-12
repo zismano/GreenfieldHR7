@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "nodemon server/index.js",
-    "react-dev": "webpack -d --watch"
+    "react-dev": "webpack -d --watch",
+    "test": "mocha test/test.js --exit" 
   },
   "dependencies": {
     "airbnb-browser-shims": "^2.0.0",
