@@ -57,6 +57,7 @@
     "nodemon": "^1.14.9",
     "react-test-renderer": "^16.2.0",
     "supertest": "^3.0.0",
+    "utils-json-parse": "^1.0.0",
     "webpack": "^3.10.0"
   }
 }
