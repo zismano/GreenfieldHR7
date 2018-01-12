@@ -1,9 +1,9 @@
 const http = require("http");
 const GoogleMapsAPI = require('googlemaps');
-const googleMapsKey = require('../config/config.js');
+const config = require('../config.js');
 
 let publicConfig = {
-  key: googleMapsKey.GOOGLE_MAPS_STATIC_KEY,
+  key: config.googleMapsStaticKey,
   stagger_time:       1000, // for elevationPath 
   encode_polylines:   false,
   secure:             true, // use https 
