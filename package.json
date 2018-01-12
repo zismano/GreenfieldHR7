@@ -11,6 +11,7 @@
     "node": ">=6.4.0"
   },
   "scripts": {
+    "babel": "babel server/index.js",
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
     "test": "mocha test/test.js"
