@@ -9,7 +9,7 @@ const database = require('../database/index.js');
 const request = require('request');
 const locator = require('../helpers/locator.js');
 const config = require('../config.js');
-
+const googleMaps = require('../helpers/googleMaps.js')
 const app = express();
 
 app.set('port', process.env.PORT || 3000)
@@ -31,7 +31,15 @@ app.get('/restaurant/name/:name', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
-      res.status(200).json(results);
+			console.log('server get this result from db', results[0])
+			let count = 0;
+			results.map(restaurant=>{
+				restaurant.map = googleMaps.createMapURL(restaurant);
+				count++;
+                if (count === results.length) {
+                	res.status(200).json(results);
+                }
+			})
 		}
 	})
 });
@@ -43,7 +51,14 @@ app.get('/restaurant/category/:category', (req, res)=>{
 			res.status(404).send(err);
 		} else {
 			console.log('server get this result from db', results[0])
-            res.status(200).json(results);
+			let count = 0;
+			results.map(restaurant=>{
+				restaurant.map = googleMaps.createMapURL(restaurant);
+				count++;
+                if (count === results.length) {
+                	res.status(200).json(results);
+                }
+			})
 		}
 	})
 });
