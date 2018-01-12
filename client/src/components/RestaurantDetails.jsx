@@ -24,7 +24,7 @@ class RestaurantDetails extends React.Component {
 				<br/>
 				{restaurant.stars}
 			</p>
-            </div>
+      </div>
 		)
 	}
 }

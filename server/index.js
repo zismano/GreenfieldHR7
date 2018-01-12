@@ -4,7 +4,7 @@ const path  = require('path');
 require('./services/passport.js');
 const authRoutes = require('./routes/authRoutes.js');
 const cookieSession = require('cookie-session');
-const googleClient = require('../config.js');
+const config = require('../config.js');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.use(cookieSession({
 	maxAge: 24 * 3600000,
-	keys: [googleClient.cookieKey]
+	keys: [config.cookieKey]
 }));
 app.use(passport.initialize());
 app.use(passport.session());
@@ -51,7 +51,7 @@ app.get('/restaurant/near', (req, res) => {
 	var options = { 
 		method: 'POST',
   		url: 'https://www.googleapis.com/geolocation/v1/geolocate',
-  		qs: { key: '' },
+  		qs: { key: config.googleGeolocationKey },
   		headers: { 
   			'Postman-Token': '9d7aa36d-eda8-21a1-9c39-b6b391772486',
      		'Cache-Control': 'no-cache' 
