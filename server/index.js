@@ -25,9 +25,9 @@ app.use(passport.initialize());
 app.use(passport.session());
 authRoutes(app);
 
-app.get('/restaurant/name/:name', function(req, res){
+app.get('/restaurant/name/:name', (req, res)=>{
 	let name = req.params.name;
-	database.searchByRestaurantName(name, function(err, results){
+	database.searchByRestaurantName(name, (err, results)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
@@ -36,9 +36,9 @@ app.get('/restaurant/name/:name', function(req, res){
 	})
 });
 
-app.get('/restaurant/category/:category', function(req, res){
+app.get('/restaurant/category/:category', (req, res)=>{
 	let category = req.params.category;
-	database.searchByRestaurantCategory(category, function(err, results){
+	database.searchByRestaurantCategory(category, (err, results)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
@@ -70,7 +70,6 @@ app.get('/restaurant/near', (req, res) => {
   			});
   		}
   	});
-
 
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'))
