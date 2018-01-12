@@ -8,39 +8,39 @@ const client = new pg.Client({
 client.connect();
 
 let searchByRestaurantName = (name, callback) => {
-	const text = 'SELECT * from restaurants where name like $1::text';
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.name like $1::text';
 	client.query(text,[`%${name}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	  	if (res.rows.length === 0) {
-	  		client.query('select * from restaurants where category = $1', ['Burgers'], (err, resTwo)=>{
-	  			if(!err) {
-	  				callback(null, resTwo.rows)
-	  			}
-	  		})
-	  	} else {
+	  	// if (res.rows.length === 0) {
+	  	// 	client.query(text, ['Burgers'], (err, resTwo)=>{
+	  	// 		if(!err) {
+	  	// 			callback(null, resTwo.rows)
+	  	// 		}
+	  	// 	})
+	  	// } else {
 	  		callback(null, res.rows);	
-	  	}
+	  	//}
 	  }
     })
 }
 
 let searchByRestaurantCategory = (category, callback) => {
-	const text = 'SELECT * from restaurants where category like $1::text';
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.category like $1::text';
 	client.query(text,[`%${category}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	    if (res.rows.length === 0) {
-	  		client.query('select * from restaurants where category = $1', ['Burgers'], (err, resTwo)=>{
-	  			if(!err) {
-	  				callback(null, resTwo.rows)
-	  			}
-	  		})
-	  	} else {
+	   //  if (res.rows.length === 0) {
+	  	// 	client.query(text, ['Burgers'], (err, resTwo)=>{
+	  	// 		if(!err) {
+	  	// 			callback(null, resTwo.rows)
+	  	// 		}
+	  	// 	})
+	  	// } else {
 	  		callback(null, res.rows);	
-	  	}
+	  	// }
 	  }
 	})
 }
