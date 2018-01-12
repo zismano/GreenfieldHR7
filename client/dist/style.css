@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0px;
   color: #2C3E50;
-/*  background-image: url("./food2.png");
-*/  background-size: cover;
+  background-image: url("./food2.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #ECF0F1;
@@ -82,4 +82,23 @@ input {
 .reviewText {
   box-sizing: content-box;
   border: 2px solid black;
+}
+
+.restaurant-box {
+  float: left;
+  max-width: 99%;
+  display: block;
+  border: 5px;
+  padding: 15px;
+  margin: 15px;
+  background-color: grey;
+}
+.restaurant-map {
+  float: left;
+  max-width: 50%;
+  margin: 15px;
+}
+.restaurant-text {
+  color: white;
+  margin: 15px;
 }

@@ -4,11 +4,23 @@ const path  = require('path');
 require('./services/passport.js');
 const authRoutes = require('./routes/authRoutes.js');
 const cookieSession = require('cookie-session');
+<<<<<<< HEAD
+||||||| merged common ancestors
+const googleClient = require('../config.js');
+=======
+const googleClient = require('../config/config.js');
+>>>>>>> integrate map and render restaurant list
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
 const locator = require('../helpers/locator.js');
+<<<<<<< HEAD
 const config = require('../config.js');
+||||||| merged common ancestors
+const key = require('../config.js');
+=======
+const key = require('../config/config.js');
+>>>>>>> integrate map and render restaurant list
 const googleMaps = require('../helpers/googleMaps.js')
 const app = express();
 
@@ -67,7 +79,13 @@ app.get('/restaurant/near', (req, res) => {
 	var options = { 
 		method: 'POST',
   		url: 'https://www.googleapis.com/geolocation/v1/geolocate',
+<<<<<<< HEAD
   		qs: { key: config.googleGeolocationKey },
+||||||| merged common ancestors
+  		qs: { key: key.Geolocation_Token },
+=======
+  		qs: { key: key.googleGeolocationKey },
+>>>>>>> integrate map and render restaurant list
   		headers: { 
   			'Postman-Token': '9d7aa36d-eda8-21a1-9c39-b6b391772486',
      		'Cache-Control': 'no-cache' 
