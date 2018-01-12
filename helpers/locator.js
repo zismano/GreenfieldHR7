@@ -1,8 +1,8 @@
 const path = require('path');
 const db = require('../database/index.js');
 
-//TIME TO BEAT --> 189ms
-
+//Worst time: 450ms
+//Best time: 152ms
 var getCloseRestaurants = (userLat, userLon, callback) => {
 	db.getAllRestaurants((err, restaurants) => {
 		var allResults = {};
@@ -18,7 +18,7 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 			distances.push(distance);
 		});
 
-		var distancesSorted = distances.sort();
+		var distancesSorted = mergeSort(distances);
 		
 		for (var i = 0; i < 10; i++) {
 			var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
@@ -44,6 +44,36 @@ var hypotenator = (latA, lonA, latB, lonB) => {
 
 var degreeToRadians = (degree) => {
     return degree * (Math.PI/180);
+};
+
+const mergeSort = (arr) => {
+  if (arr.length < 2) {
+    return arr;
+  }
+
+  const middle = Math.floor(arr.length / 2);
+  const left = arr.slice(0, middle);
+  const right = arr.slice(middle);
+
+  return merge(mergeSort(left), mergeSort(right));
+};
+
+const merge = (left, right) => {
+  let result = [];
+  let leftIndex = 0;
+  let rightIndex = 0;
+
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] < right[rightIndex]) {
+      result.push(left[leftIndex]);
+      leftIndex++;
+    } else {
+      result.push(right[rightIndex]);
+      rightIndex++;
+    }
+  }
+
+  return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 };
 
 

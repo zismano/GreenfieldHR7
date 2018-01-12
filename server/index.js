@@ -51,7 +51,7 @@ app.get('/restaurant/near', (req, res) => {
 	var options = { 
 		method: 'POST',
   		url: 'https://www.googleapis.com/geolocation/v1/geolocate',
-  		qs: { key: 'AIzaSyCSRegvNfqAUA1pMq1iGCoFnyni6U7QwGk' },
+  		qs: { key: '' },
   		headers: { 
   			'Postman-Token': '9d7aa36d-eda8-21a1-9c39-b6b391772486',
      		'Cache-Control': 'no-cache' 
