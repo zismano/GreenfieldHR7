@@ -1,6 +1,7 @@
 import React from 'react';
-import $ from 'jquery';
 
+
+//NEED TO AT STARS TO OUTPUT
 class RestaurantDetails extends React.Component {
 	constructor(props) {
 		super(props)
@@ -14,15 +15,17 @@ class RestaurantDetails extends React.Component {
 			<p>
 				{restaurant.name}
 				<br/>
-				{restaurant.address1}
+				{restaurant.address}
 				<br/>
-				{restaurant.city} {restaurant.zip_code}
+				{restaurant.city}, {restaurant.state} {restaurant.zip}
 				<br/>
-				{restaurant.number}
+				{restaurant.phone}
 				<br/>
-				{restaurant.dollar}
+				{restaurant.price}
 				<br/>
 				{restaurant.stars}
+				<br/>
+				{restaurant.distance ? restaurant.distance : ''}
 			</p>
             </div>
 		)

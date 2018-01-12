@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
   margin: 0px;
   color: #2C3E50;
+  background-image: url("./food2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color: #ECF0F1;
 }
 
@@ -10,11 +14,25 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 3px;
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
   color: #ECF0F1;
   background-color: #E74C3C;
   font-size: .9em;
-  height: 30px;
+  height: 45px;
+  display: inline;
+  width: 95%;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0px;
+}
+
+input {
+  font-size: 16px;
+  background-color: rgba(245, 244, 244, 0.75);
+  display: inline;
+  font-family: sans-serif;
+  height: 35px;
+  width: 95%;
 }
 
 .logo {
@@ -51,4 +69,12 @@ button {
   padding: 5px;
   margin-right: 5px;
   font-size: 1.1em;
+}
+
+.col {
+  padding-top: 200px;
+  float: left;
+  width: 33%;
+  height: 86px;
+  position: relative;
 }

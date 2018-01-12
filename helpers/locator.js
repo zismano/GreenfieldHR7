@@ -21,11 +21,16 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 		var distancesSorted = mergeSort(distances);
 		
 		for (var i = 0; i < 10; i++) {
-			var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
-			var restaurant = JSON.parse(restaurantStr);
-			restaurant.distance = distancesSorted[i];
-			
-			closestResults.push(restaurant);
+			if (distancesSorted[i] !== distancesSorted[i - 1]) {
+				var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
+				var restaurant = JSON.parse(restaurantStr);
+				var distanceRounded = Math.round(distancesSorted[i] * 10) / 10;
+				var distanceFormat = distanceRounded + 'km away';
+
+				restaurant.distance = distanceFormat;
+				
+				closestResults.push(restaurant);
+			}
 		}
 
 		callback(closestResults);

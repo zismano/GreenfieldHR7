@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 
+
 class SearchByRestaurantNearMe extends React.Component {
     constructor(props) {
   		  super(props);
@@ -15,8 +16,7 @@ class SearchByRestaurantNearMe extends React.Component {
 			url: '/restaurant/near',
 			method: 'GET',
 			success: (restaurants) => {
-				console.log(restaurants);
-				//this.props.handleSearchResults(restaurants);
+				this.props.handleSearchResults(restaurants);
 			}, 
 			failuire: (err) => {
 				console.error(err);
@@ -28,8 +28,8 @@ class SearchByRestaurantNearMe extends React.Component {
 
     render() {
   		  return (
-  		  	<div>
-            	<button onClick={this.handleSearch}>Near Me</button>
+  		  	<div className="col">
+            	<button onClick={this.handleSearch}>Search by Restaurant Near Me</button>
             </div>
         )
   	}
@@ -37,3 +37,6 @@ class SearchByRestaurantNearMe extends React.Component {
 
 
 export default SearchByRestaurantNearMe;
+
+//add class to div
+	//float left
