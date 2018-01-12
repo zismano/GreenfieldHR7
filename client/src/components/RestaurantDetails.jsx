@@ -12,9 +12,9 @@ class RestaurantDetails extends React.Component {
 		let restaurant = this.props.restaurant;
 		return(
 			<div className="restaurant-box">
-			<img alt="map" src={rest.map} className="restaurant-map"/>
+			<img alt="map" src={restaurant.map} className="restaurant-map"/>
 			<p className="restaurant-text">
-			  {restaurant.name}
+				{restaurant.name}
 				<br/>
 				{restaurant.address}
 				<br/>

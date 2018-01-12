@@ -1,14 +1,6 @@
 const passport = require('passport');
 const googleStrategy = require('passport-google-oauth20').Strategy
-<<<<<<< HEAD
 const config = require('../../config.js');
-||||||| merged common ancestors
-
-const googleClient = require('../../config.js')
-=======
-
-const googleClient = require('../../config/config.js')
->>>>>>> integrate map and render restaurant list
 const database = require('../../database/index.js')
 
 passport.serializeUser((user, done) => {
