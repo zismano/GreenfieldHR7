@@ -1,10 +1,8 @@
 language: node_js
 node_js:
   - '8'
-compiler:
-  - babel
-# before_script:
-#   - npm run react-dev
+before_script:
+  - npm run babel
 script: npm run react-dev & node ./server/index.js & npm run test
 notifications:
   slack:
