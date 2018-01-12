@@ -94,5 +94,3 @@ describe('google map', function() {
     done();
   })
 })
-
-
