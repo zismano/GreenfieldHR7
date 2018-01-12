@@ -23,6 +23,8 @@ const expect = require('chai').expect;
 const pg = require('pg');
 const parse = require( 'utils-json-parse' );
 
+const staticMap = require('../helpers/googleMaps.js');
+
 describe('server', function() {
  it('should return the content of index.html', function(done) {
    request(`${baseUrl}/`, function(err, res, body) {
@@ -67,6 +69,26 @@ describe('server', function() {
      done();
    });
  });
- 
-
 });
+
+describe('server', function() {
+ it('should return the content of index.html', function(done) {
+   request(`${baseUrl}/`, function(err, res, body) {
+       expect(res.statusCode).to.equal(200);
+       done();
+   })
+ });
+});
+
+describe('google map', function() {
+  it('should return a url of a map', function(done) {
+    const rest = {
+      latitude: 37.787385,
+      longitude: -122.414625
+    }
+    let isMap = staticMap.createMapURL(rest).includes('https://maps.googleapis.com/maps/api/staticmap?center=37.787385%2C-122.414625');
+    console.log(isMap);
+    expect(isMap).to.equal(true);
+    done();
+  })
+})
