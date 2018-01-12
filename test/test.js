@@ -15,8 +15,8 @@ describe('Array', function() {
   })
 });
 
-//const baseUrl = `http://localhost:${process.env.PORT}`;
-const baseUrl = 'http://127.0.0.1:3000';
+const baseUrl = `http://localhost:${process.env.PORT}`;
+//const baseUrl = 'http://127.0.0.1:3000';
 
 const request = require('request');
 const expect = require('chai').expect;
@@ -25,7 +25,7 @@ const parse = require( 'utils-json-parse' );
 
 describe('server', function() {
  it('should return the content of index.html', function(done) {
-   request('http://127.0.0.1:3000/', function(err, res, body) {
+   request(`${baseUrl}/`, function(err, res, body) {
        expect(res.statusCode).to.equal(200);
        done();
    })
