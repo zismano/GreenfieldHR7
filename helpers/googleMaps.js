@@ -39,6 +39,6 @@ let createMapURL = (rest) => {
 }
 
 module.exports = {
-  createMapURL,
+  createMapURL: createMapURL
 };
 
