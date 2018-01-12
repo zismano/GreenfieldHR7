@@ -7,15 +7,10 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
-<<<<<<< HEAD
 const locator = require('../helpers/locator.js');
 const config = require('../config.js');
 const googleMaps = require('../helpers/googleMaps.js')
 
-=======
-const locator = require('../helpers/locator.js')
-const config = require('../config.js');
->>>>>>> i
 const app = express();
 
 app.set('port', process.env.PORT || 3000)
