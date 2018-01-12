@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const request = require('request');
 const expect = require('chai').expect;
 const pg = require('pg');
@@ -58,3 +59,19 @@ describe('server and database', function() {
 
 
     
+=======
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function(){
+      assert.equal(-1, [1,2,3].indexOf(4));
+    });
+  });
+
+  // describe('fail test', function() {
+  //   it('should return -1 when the value is not present', function(){
+  //     assert.equal(-1, [1,2,3,4].indexOf(4));
+  //   });  	
+  // })
+});
+>>>>>>> Add test
