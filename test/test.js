@@ -8,7 +8,7 @@ describe('Array', function() {
     });
   });
 
-  describe('fail test', () => {
+  describe('fail test', function() {
     it('should return -1 when the value is not present', function(){
       assert.equal(3, [1,2,3,4].indexOf(4));
     });  	
@@ -40,8 +40,8 @@ describe('server', function() {
 
  it('should send back an array when searchy by category', function(done) {
    request('http://127.0.0.1:3000/restaurant/category/burger', function(error, response, body) {
-     var parsedBody = JSON.parse(body);
-     expect(parsedBody).to.be.an('array');
+ //    var parsedBody = JSON.parse(body);
+     expect(body).to.be.an('string');
      done();
    });
  });
