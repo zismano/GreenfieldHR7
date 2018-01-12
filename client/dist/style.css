@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  color: #2C3E50;
+  background-color: #ECF0F1;
+}
+
+button {
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  color: #ECF0F1;
+  background-color: #E74C3C;
+  font-size: .9em;
+  height: 30px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: cursive;
+  color: #ffffff;
+}
+
+.main {
+  margin: 20px;
+}
+
+.nav {
+  background-color: #3D9970;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-selected {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.nav-unselected {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
