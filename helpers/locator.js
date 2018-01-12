@@ -1,6 +1,8 @@
 const path = require('path');
 const db = require('../database/index.js');
 
+//TIME TO BEAT --> 189ms
+
 var getCloseRestaurants = (userLat, userLon, callback) => {
 	db.getAllRestaurants((err, restaurants) => {
 		var allResults = {};
@@ -19,9 +21,10 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 		var distancesSorted = distances.sort();
 		
 		for (var i = 0; i < 10; i++) {
-			var restaurant = allResults[distancesSorted[i]];
+			var restaurantStr = JSON.stringify(allResults[distancesSorted[i]]);
+			var restaurant = JSON.parse(restaurantStr);
+			restaurant.distance = distancesSorted[i];
 			
-			// restaurant[distance] = distancesSorted[i];
 			closestResults.push(restaurant);
 		}
 
