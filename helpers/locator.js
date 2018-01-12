@@ -3,6 +3,7 @@ const db = require('../database/index.js');
 
 //Worst time: 450ms
 //Best time: 152ms
+
 var getCloseRestaurants = (userLat, userLon, callback) => {
 	db.getAllRestaurants((err, restaurants) => {
 		var allResults = {};
@@ -13,9 +14,9 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 			var resLat = parseFloat(restaurant.latitude);
 			var resLon = parseFloat(restaurant.longitude);
 			var distance = hypotenator(userLat, userLon, resLat, resLon);
-			var distanceFormat = (Math.round(distance * 10) / 10) + 'km away';
+			var distanceFormatted = (Math.round(distance * 10) / 10) + 'km away';
 
-			restaurant["distance"] = distanceFormat;
+			restaurant["distance"] = distanceFormatted;
 			allResults[distance] = restaurant;
 			distances.push(distance);
 		});
