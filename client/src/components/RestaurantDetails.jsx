@@ -1,4 +1,5 @@
 import React from 'react';
+import WriteReview from './WriteReview.jsx';
 
 
 //NEED TO AT STARS TO OUTPUT
@@ -27,7 +28,8 @@ class RestaurantDetails extends React.Component {
 				{restaurant.star}
 				<br/>
 				{restaurant.distance ? restaurant.distance : ''}
-				</p>
+			</p>
+			<WriteReview />
       </div>
 		)
 	}
