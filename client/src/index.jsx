@@ -12,7 +12,7 @@ class App extends React.Component {
 
 		this.state = {
 			view: 'search',
-			user: undefined
+			user: 'undefined'
 		};
 
 	    this.changeView = this.changeView.bind(this);
