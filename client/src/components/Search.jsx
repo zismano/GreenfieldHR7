@@ -26,8 +26,10 @@ class Search extends React.Component {
 	handleSearchResults(restaurants) {
 		this.setState({
 			restaurantDetailView: true,
-			restaurants: restaurants
+			restaurants: restaurants,
+			reviews: []
 		});
+		$( ".recent-reveiws-title" ).remove();
 	}
 
 	componentWillMount() {
@@ -40,6 +42,7 @@ class Search extends React.Component {
 			type: "GET",
 			success: (reviews) => {
 				console.log(reviews);
+				reviews = this.getDatePattern(reviews);
 				this.setState({
 					reviews: reviews
 				})
@@ -50,24 +53,11 @@ class Search extends React.Component {
 		});		
 	}
 
-	componentWillMount() {
-		this.getReviews();
-	}
-
-	getReviews() {
-		$.ajax({
-			url: '/reviews',
-			type: "GET",
-			success: (reviews) => {
-				console.log(reviews);
-				this.setState({
-					reviews: reviews
-				})
-			},
-			error: (err) => {
-				console.log(err);
-			}
-		});		
+	getDatePattern(reviews) {
+		for (var i = 0; i < reviews.length; i++) {
+			reviews[i].createddate = reviews[i].createddate.split("T")[0];
+		}
+		return reviews;
 	}
 
 	render() {
