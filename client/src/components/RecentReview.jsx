@@ -10,9 +10,17 @@ class RecentReview extends React.Component {
 			<div>
 				<div className="recent-reviews-box">
 					<p className="restaurant-text">
-						<div className="restaurant-name"><b>{review.name}</b></div>
+						<div className="restaurant-name"><b>{review.name}</b>
+							<span className="review-date">{review.createddate}</span>
+						</div>
 						<br/>
-						<b>Stars:</b> {review.star} {review.createddate}
+{/*						<b>Stars:</b> {review.star} {review.createddate}
+*/}					<b>Reviews:&nbsp;</b> 
+						{review.star === 1 ? <span>☆</span> : ''}
+						{review.star === 2 ? <span>☆☆</span> : ''}
+						{review.star === 3 ? <span>☆☆☆</span> : ''}
+						{review.star === 4 ? <span>☆☆☆☆</span> : ''}
+						{review.star === 5 ? <span>☆☆☆☆☆</span> : ''}
 						<br/><br/>
 						<b>{review.firstname} {review.lastname}:</b> {review.comment}
 					</p>
