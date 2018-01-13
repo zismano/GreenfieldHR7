@@ -109,6 +109,17 @@ let getBookmarkedRestaurants = (userId, callback) => {
 	});	
 }
 
+let bookmarkRestaurant = (userId, restaurantId, callback) => {
+	const queryStr = 'insert into bookmarks (user_id, restaurant_id) values ($1, $2)';
+	client.query(queryStr, [userId, restaurantId], (err, result) => {
+		if (err) {
+			callback(err, null);
+		} else {
+			callback(null, result);
+		}
+	})
+}
+
 
 module.exports = {
   searchByRestaurantName: searchByRestaurantName,
@@ -117,5 +128,6 @@ module.exports = {
   searchUser: searchUser,
   getAllRestaurants: getAllRestaurants,
   getReviews: getReviews,
-  getBookmarkedRestaurants: getBookmarkedRestaurants
+  getBookmarkedRestaurants: getBookmarkedRestaurants,
+  bookmarkRestaurant: bookmarkRestaurant
 }
