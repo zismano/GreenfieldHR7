@@ -22,7 +22,7 @@ class LoginButton extends React.Component {
 
 	render() {
 		return (
-			<a href="/auth/google">login</a>		
+			<a className="logIn" href="/auth/google">Login</a>		
 		)
 	}
 }

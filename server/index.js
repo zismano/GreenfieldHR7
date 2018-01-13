@@ -32,7 +32,7 @@ app.get('/restaurant/name/:name', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
-			console.log('server get this result from db', results[0])
+			//console.log('server get this result from db', results[0])
 			let count = 0;
 			results.map(restaurant=>{
 				restaurant.map = googleMaps.createMapURL(restaurant);
@@ -51,7 +51,7 @@ app.get('/restaurant/category/:category', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
-			console.log('server get this result from db', results[0])
+			//console.log('server get this result from db', results[0])
 			let count = 0;
 			results.map(restaurant=>{
 				restaurant.map = googleMaps.createMapURL(restaurant);
@@ -82,6 +82,10 @@ app.get('/restaurant/near', (req, res) => {
   			var geo = JSON.parse(body);
   			
   			locator.getCloseRestaurants(geo.location.lat, geo.location.lng, (restaurants) => {
+				restaurants.forEach(restaurant => {
+					restaurant.map = googleMaps.createMapURL(restaurant);
+				});
+  				
   				res.status(200).json(restaurants);
   			});
   		}

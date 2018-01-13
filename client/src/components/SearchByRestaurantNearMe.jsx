@@ -16,8 +16,7 @@ class SearchByRestaurantNearMe extends React.Component {
 			url: '/restaurant/near',
 			method: 'GET',
 			success: (restaurants) => {
-				console.log(restaurants);
-				//this.props.handleSearchResults(restaurants);
+				this.props.handleSearchResults(restaurants);
 			}, 
 			failuire: (err) => {
 				console.error(err);
