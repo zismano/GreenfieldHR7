@@ -178,3 +178,8 @@ input {
 .restaurant-name {
   font-size: 22px;
 }
+
+.reviewText {
+  box-sizing: content-box;
+  border: 2px solid black;
+}

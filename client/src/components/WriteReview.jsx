@@ -25,6 +25,7 @@ class WriteReview extends React.Component {
 	handleReviewSubmit(reviewText) {
 		console.log(reviewText);
 	}
+
 	render() {
 
 		var starsFormat = "rating medium star-icon direction-ltr value-" + this.state.reviewStars + " half color-negative label-hidden";
