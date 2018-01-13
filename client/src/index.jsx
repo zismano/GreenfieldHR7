@@ -5,7 +5,6 @@ import Search from './components/Search.jsx';
 import MyBookmarksList from './components/MyBookmarksList.jsx';
 import MyReviewsList from './components/MyReviewsList.jsx';
 import LoginButton from './components/LoginButton.jsx';
-//import WriteReview from './components/WriteReview.jsx';
 
 class App extends React.Component {
 	constructor(props) {

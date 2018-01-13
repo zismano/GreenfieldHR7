@@ -94,6 +94,19 @@ app.get('/restaurant/near', (req, res) => {
   	});
 });
 
+app.post('/user/review', (req, res) => {
+	var review = req.body;
+	console.log(review);
+	database.addReview(review, function(err, review) {
+		if (err) {
+			console.error('ERROR:', err);
+			res.sendStatus(500);
+		} else {
+			res.sendStatus(201);
+		}
+	})
+}),
+
 app.get('/restaurant/bookmark', (req, res) => {
 	database.getBookmarkedRestaurants(req.query.userId, (err, restaurants) => {
 		if (err) {

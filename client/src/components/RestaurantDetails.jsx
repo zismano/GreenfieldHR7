@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 import WriteReview from './WriteReview.jsx';
+import $ from 'jquery';
 
 
 class RestaurantDetails extends React.Component {
@@ -32,6 +33,23 @@ class RestaurantDetails extends React.Component {
 		}
 	}
 
+	handleReviewSubmit(review, event) {
+		var reviewInfo = {userId: this.props.user.id, restaurantId: this.props.restaurant.id, reviewComment: review.comment, reviewStars: review.stars}
+		$.ajax({
+			url: `/user/review`,
+			method: 'POST',
+			contentType: 'application/json',
+			data: JSON.stringify(reviewInfo),
+			success: () => {
+				console.log('Review post request successfuly sent');
+			},
+			error: (err) => {
+				console.error('ERROR:', err);
+			}
+		})
+		event.preventDefault();
+	}
+
 	render() {
 		console.log(this.props.restaurant)
 		let restaurant = this.props.restaurant;
@@ -58,7 +76,8 @@ class RestaurantDetails extends React.Component {
 					<br/>
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
 				</p>
-				<WriteReview />
+				<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
+      </div>
 				<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
             </div>
 		)

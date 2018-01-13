@@ -183,6 +183,29 @@ input {
   font-size: 22px;
 }
 
+.reviewText {
+  box-sizing: content-box;
+  border: 2px solid black;
+}
+
+.restaurant-box {
+  float: left;
+  max-width: 99%;
+  display: block;
+  border: 5px;
+  padding: 15px;
+  margin: 15px;
+  background-color: grey;
+}
+.restaurant-map {
+  float: left;
+  max-width: 50%;
+  margin: 15px;
+}
+.restaurant-text {
+  color: white;
+  margin: 15px;
+}
 .recent-reviews-box {
   float: left;
   width: 1100px;
@@ -204,7 +227,6 @@ input {
   margin-top: 20px;
   margin-left: 120px; /* this is not dynamic */
 }
-
 .review-date {
   float: right;
   font-size: 18px;
