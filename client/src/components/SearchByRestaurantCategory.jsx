@@ -24,15 +24,9 @@ class SearchByRestaurantCategory extends React.Component {
 
 	render() {
 		return (
-<<<<<<< HEAD
 			<div className="col">
 				<input type="text" placeholder="category" ref={input=>this.restaurantCategory = input} /><br/>
-				<button onClick={()=>this.handleSearchClick(this.restaurantCategory.value)} >Search by Restaurant Category</button>
-=======
-			<div>
-			<input type="text" placeholder="category" ref={input=>this.restaurantCategory = input} />
-			<button onClick={() => this.handleSearchClick(this.restaurantCategory.value)}> Search by Restaurant Category </button>
->>>>>>> i
+				<button onClick={() => this.handleSearchClick(this.restaurantCategory.value)} >Search by Restaurant Category</button>
 			</div>
 		)
 	}

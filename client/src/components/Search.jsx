@@ -12,10 +12,14 @@ class Search extends React.Component {
 	constructor(props) {
 		super(props);
 
+<<<<<<< HEAD
 		this.state={
 			restaurants: [],
 			restaurantDetailView: false
 		};
+=======
+		this.state={restaurants: [], reviews: []};
+>>>>>>> Fetch recent reviews work
 
 		this.handleSearchResults = this.handleSearchResults.bind(this);
 	}
@@ -37,6 +41,9 @@ class Search extends React.Component {
 			type: "GET",
 			success: (reviews) => {
 				console.log(reviews);
+				this.setState({
+					reviews: reviews
+				})
 			},
 			error: (err) => {
 				console.log(err);
@@ -61,7 +68,7 @@ class Search extends React.Component {
 						restaurant={restaurant}
 					/>
 				)}
-				<FetchRecentReviews reviews={this.state.restaurants} />
+				<FetchRecentReviews reviews={this.state.reviews} />
 			</div>
 		)
 	}
