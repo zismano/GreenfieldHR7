@@ -58,7 +58,6 @@ class App extends React.Component {
         		<div className="main">
 					{this.renderView()}
 				</div>
-				<WriteReview />
       		</div>
 		);
     }
