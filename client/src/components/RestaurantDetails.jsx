@@ -59,7 +59,7 @@ class RestaurantDetails extends React.Component {
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
 				</p>
 				<WriteReview />
-				<button className="bookmark-button" onClick={this.handleBookmark}>Bookmark</button>
+				<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
             </div>
 		)
 	}

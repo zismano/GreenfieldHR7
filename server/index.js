@@ -109,14 +109,10 @@ app.get('/restaurant/bookmark', (req, res) => {
 });
 
 app.post('/restaurant/bookmark', (req, res) => {
-	// console.log(req.body.userId);
-	// console.log(req.body.restaurantId);
-
 	database.bookmarkRestaurant(req.body.userId, req.body.restaurantId, (err, result) => {
 		if (err) {
 			res.status(404).send(err);
 		} else {
-			console.log(result);
 			res.status(202);
 		}
 	});
