@@ -7,7 +7,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
-const locator = require('../helpers/locator.js');
+const locator = require('../helpers/locator.js')
 const config = require('../config.js');
 const googleMaps = require('../helpers/googleMaps.js')
 
@@ -107,8 +107,41 @@ app.post('/user/review', (req, res) => {
 	})
 }),
 
-app.listen(app.get('port'), function() {
-  console.log('server listen on port ' + app.get('port'))
-})
+app.get('/restaurant/bookmark', (req, res) => {
+	database.getBookmarkedRestaurants(req.query.userId, (err, restaurants) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			restaurants.map(restaurant => {
+				restaurant.map = googleMaps.createMapURL(restaurant);
+			})
 
-// example
+			res.status(200).json(restaurants);
+		}
+	});
+});
+
+app.post('/restaurant/bookmark', (req, res) => {
+	database.bookmarkRestaurant(req.body.userId, req.body.restaurantId, (err, result) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			res.status(202);
+		}
+	});
+});
+
+app.get('/reviews', (req, res) => {
+	database.getReviews((err, reviews) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+      console.log(reviews);
+			res.status(200).json(reviews);
+		}
+	});
+});
+
+app.listen(app.get('port'), function() {
+  console.log('server listen on port ' + app.get('port'));
+});

@@ -162,6 +162,10 @@ input {
   background-color: rgba(52, 152, 219, 0.5);
 }
 
+.bookmarked {
+  background-color: rgba(30, 122, 30, 0.5);
+}
+
 .restaurant-map {
   float: left;
   border-style: solid;
@@ -201,4 +205,29 @@ input {
 .restaurant-text {
   color: white;
   margin: 15px;
+}
+.recent-reviews-box {
+  float: left;
+  width: 1100px;
+  display: block;
+  border: 2px solid;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 120px; /* this is not dynamic */
+  background-color: rgba(127, 63, 191, 0.5);
+}
+.recent-reveiws-title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  float: left;
+  width: 1100px;
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 120px; /* this is not dynamic */
+}
+.review-date {
+  float: right;
+  font-size: 18px;
 }

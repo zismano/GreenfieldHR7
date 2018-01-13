@@ -8,8 +8,9 @@ const client = new pg.Client({
 client.connect();
 
 let searchByRestaurantName = (name, callback) => {
-	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.name like $1::text';
-	client.query(text,[`%${name}%`] , (err, res) => {
+	const arguTwo = name[0].toUpperCase()+name.slice(1);
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.name like $1::text or a.name like $2::text';
+	client.query(text,[`%${name}%`, `%${arguTwo}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
@@ -27,8 +28,9 @@ let searchByRestaurantName = (name, callback) => {
 }
 
 let searchByRestaurantCategory = (category, callback) => {
-	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.category like $1::text';
-	client.query(text,[`%${category}%`] , (err, res) => {
+	const arguTwo = category[0].toUpperCase()+category.slice(1);
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.category like $1::text or a.category like $2::text';
+	client.query(text,[`%${category}%`, `%${arguTwo}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
@@ -97,11 +99,71 @@ let addReview = (review, callback) => {
 
 }
 
+let getReviews = (callback) => {
+	const numOfReviews = 5;
+	const selectQuery = 'select * from reviews join users on reviews.user_id = users.id join restaurants on reviews.restaurant_id = restaurants.id order by createdDate desc';
+	client.query(selectQuery, (err, resReviews) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			const selectQueryHour = 'select extract(hour from createddate) from reviews order by createdDate desc';
+			client.query(selectQueryHour, (err, resHours) => {
+				if (err) {
+					callback(err.stack, null);
+				} else {
+					const selectQueryMinute = 'select extract(minute from createddate) from reviews order by createdDate desc';				
+					client.query(selectQueryMinute, (err, resMinutes) => {
+						if (err) {
+							callback(err.stack, null);
+						} else {					
+							const recentReviews = resReviews.rows.slice(0, numOfReviews);
+							const recenetHours = resHours.rows.slice(0, numOfReviews);
+							const recentMinutes = resMinutes.rows.slice(0, numOfReviews);
+							for (let i = 0; i < numOfReviews; i++) {
+								recentReviews[i].hours = recenetHours[i].date_part;
+								recentReviews[i].minutes = recentMinutes[i].date_part;
+							}
+							callback(null, recentReviews);
+						}
+					});
+				}
+			})
+		}
+	})
+}
+
+let getBookmarkedRestaurants = (userId, callback) => {
+	const queryStr = 'select * from restaurants r join bookmarks b on r.id = b.restaurant_id where b.user_id = $1';
+	client.query(queryStr, [userId], (err, restaurants) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, restaurants.rows);
+		}
+	});	
+}
+
+let bookmarkRestaurant = (userId, restaurantId, callback) => {
+	const queryStr = 'insert into bookmarks (user_id, restaurant_id) values ($1, $2)';
+	client.query(queryStr, [userId, restaurantId], (err, result) => {
+		if (err) {
+			callback(err, null);
+		} else {
+			callback(null, result);
+		}
+	})
+}
+
+
+
 module.exports = {
-	searchByRestaurantName: searchByRestaurantName,
+  searchByRestaurantName: searchByRestaurantName,
   searchByRestaurantCategory: searchByRestaurantCategory,
   addUser: addUser,
   searchUser: searchUser,
   getAllRestaurants: getAllRestaurants,
-  addReview
+  addReview: addReview,
+  getReviews: getReviews,
+  getBookmarkedRestaurants: getBookmarkedRestaurants,
+  bookmarkRestaurant: bookmarkRestaurant
 }
