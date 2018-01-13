@@ -36,8 +36,6 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 
 			callback(closestResults);
 		}
-
-		
 	});
 }
 
@@ -87,22 +85,40 @@ var merge = (left, right) => {
 
 var getFavoriteCategories = (userId, callback) => {
 	db.getUserRestaurantCategories(userId, (err, categories) => {
-		//prioritization logic
-		var allCategories = {};
+		var visits = categories.length;
+		var favoriteCategories = [];
 
-		for (var i = 0; i < categories.length; i++) {
-			var category = categories[i];
+		if (visits > 0) {
+			var allCategories = {};
 
-			if (allResults[category]) {
-				allResults[category]++;
-			} else {
-				allResults[category] = 1;
+			categories.forEach(restaurant => {
+				if (allCategories[restaurant.category]) {
+					allCategories[restaurant.category]++;
+				} else {
+					allCategories[restaurant.category] = 1;
+				}
+			});
+
+			for (var category in allCategories) {
+				var frequency = allCategories[category] / visits;
+
+				if (frequency > 0.2) {
+					favoriteCategories.push(category);
+				}
 			}
 		}
-			//pass array back to parent func
+
+		callback(favoriteCategories);
 	});
 }
 
+// getFavoriteCategories(1, (err, result) => {
+// 	if (err) {
+// 		console.error(err);
+// 	} else {
+// 		console.log(result);
+// 	}
+// })
 
 module.exports = {
 	getCloseRestaurants: getCloseRestaurants	
