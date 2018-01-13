@@ -69,6 +69,7 @@ app.get('/restaurant/near', (req, res) => {
   			});
   		}
   	});
+});
 
 app.get('/reviews', (req, res) => {
 	database.getReviews((err, reviews) => {
