@@ -5,12 +5,20 @@ class RecentReview extends React.Component {
 		super(props);
 	}
 	render() {
+		let review = this.props.review;
 		return (
 			<div>
-				<div>{this.props.review.name}</div>
-				<div>{this.props.review.star}<span>" "</span>{this.props.review.createddate}</div>
-				<div>{`${this.props.review.firstname} ${this.props.review.lastname}: ${this.props.review.comment}`}</div>			
-			</div>
+				<div className="recent-reviews-box">
+					<p className="restaurant-text">
+						<div className="restaurant-name"><b>{review.name}</b></div>
+						<br/>
+						<b>Stars:</b> {review.star} {review.createddate}
+						<br/><br/>
+						<b>{review.firstname} {review.lastname}:</b> {review.comment}
+					</p>
+	      		</div>
+	      	</div>
+
 		);
 	}
 }

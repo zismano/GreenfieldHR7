@@ -26,8 +26,10 @@ class Search extends React.Component {
 	handleSearchResults(restaurants) {
 		this.setState({
 			restaurantDetailView: true,
-			restaurants: restaurants
+			restaurants: restaurants,
+			reviews: []
 		});
+		$( ".recent-reveiws-title" ).remove();
 	}
 
 	componentWillMount() {
