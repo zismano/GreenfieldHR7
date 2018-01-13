@@ -8,12 +8,11 @@ class FetchRecentReviews extends React.Component {
 
 	render() {
 		return (
-			// this.props.reviews.map(review => 
-			// 	<RecentReview review={review}/>
-			// )
-			<div>BLA</div>
+			this.props.reviews.map(review => 
+				<RecentReview review={review}/>
+			)
 		);
 	}
 }
 
-export default RecentReview;
+export default FetchRecentReviews;

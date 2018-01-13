@@ -71,6 +71,16 @@ app.get('/restaurant/near', (req, res) => {
   	});
 });
 
+app.get('/reviews', (req, res) => {
+	database.getReviews((err, reviews) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			res.status(200).json(reviews);
+		}
+	});
+});
+
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'));
 });

@@ -85,10 +85,23 @@ let searchUser = (id, callback) => {
 	})
 }
 
+let getReviews = (callback) => {
+	const selectQuery = 'select * from reviews join users on reviews.user_id = users.id join restaurants on reviews.restaurant_id = restaurants.id order by createdDate desc';
+	client.query(selectQuery, (err, res) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, res.rows.slice(0, 5));
+		}
+	})
+}
+
+
 module.exports = {
-	searchByRestaurantName: searchByRestaurantName,
+  searchByRestaurantName: searchByRestaurantName,
   searchByRestaurantCategory: searchByRestaurantCategory,
   addUser: addUser,
   searchUser: searchUser,
-  getAllRestaurants: getAllRestaurants
+  getAllRestaurants: getAllRestaurants,
+  getReviews: getReviews
 }
