@@ -123,6 +123,7 @@ app.get('/reviews', (req, res) => {
 		if (err) {
 			res.status(404).send(err);
 		} else {
+      console.log(reviews);
 			res.status(200).json(reviews);
 		}
 	});
