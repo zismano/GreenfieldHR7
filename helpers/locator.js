@@ -4,7 +4,7 @@ const db = require('../database/index.js');
 //Worst time: 450ms
 //Best time: 152ms
 
-var getCloseRestaurants = (userLat, userLon, callback) => {
+var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 	db.getAllRestaurants((err, restaurants) => {
 		var allResults = {};
 		var distances = [];
@@ -22,15 +22,22 @@ var getCloseRestaurants = (userLat, userLon, callback) => {
 		});
 
 		var distancesSorted = mergeSort(distances);
-		
-		for (var i = 0; i < 10; i++) {
-			if (distancesSorted[i] !== distancesSorted[i - 1]) {
-				var restaurant = allResults[distancesSorted[i]];
-				closestResults.push(restaurant);
+
+		if (userId) {
+			//
+			//
+		} else {
+			for (var i = 0; i < 10; i++) {
+				if (distancesSorted[i] !== distancesSorted[i - 1]) {
+					var restaurant = allResults[distancesSorted[i]];
+					closestResults.push(restaurant);
+				}
 			}
+
+			callback(closestResults);
 		}
 
-		callback(closestResults);
+		
 	});
 }
 
@@ -48,19 +55,19 @@ var degreeToRadians = (degree) => {
     return degree * (Math.PI/180);
 };
 
-const mergeSort = (arr) => {
+var mergeSort = (arr) => {
   if (arr.length < 2) {
     return arr;
   }
 
-  const middle = Math.floor(arr.length / 2);
-  const left = arr.slice(0, middle);
-  const right = arr.slice(middle);
+  var middle = Math.floor(arr.length / 2);
+  var left = arr.slice(0, middle);
+  var right = arr.slice(middle);
 
   return merge(mergeSort(left), mergeSort(right));
 };
 
-const merge = (left, right) => {
+var merge = (left, right) => {
   let result = [];
   let leftIndex = 0;
   let rightIndex = 0;
@@ -77,6 +84,24 @@ const merge = (left, right) => {
 
   return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 };
+
+var getFavoriteCategories = (userId, callback) => {
+	db.getUserRestaurantCategories(userId, (err, categories) => {
+		//prioritization logic
+		var allCategories = {};
+
+		for (var i = 0; i < categories.length; i++) {
+			var category = categories[i];
+
+			if (allResults[category]) {
+				allResults[category]++;
+			} else {
+				allResults[category] = 1;
+			}
+		}
+			//pass array back to parent func
+	});
+}
 
 
 module.exports = {

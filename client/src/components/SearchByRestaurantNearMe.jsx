@@ -12,11 +12,13 @@ class SearchByRestaurantNearMe extends React.Component {
     }
 
 	handleSearch() {
-		//add userId to ajax request
+		var query = {userId: this.props.user.id}
 
 		$.ajax({
 			url: '/restaurant/near',
 			method: 'GET',
+			contentType: 'application/json',
+			data: query,
 			success: (restaurants) => {
 				this.props.handleSearchResults(restaurants);
 			}, 
