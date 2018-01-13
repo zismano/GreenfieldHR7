@@ -2,12 +2,12 @@ body {
   font-family: sans-serif;
   margin: 0px;
   color: #2C3E50;
-  background-image: url("./food2.png");
-  background-size: cover;
+/*  background-image: url("./food2.png");
+*/  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #ECF0F1;
-}
+/*  background-color: #ECF0F1;
+*/}
 
 button {
   margin-top: 5px;

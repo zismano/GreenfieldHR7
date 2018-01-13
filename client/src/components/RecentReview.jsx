@@ -6,7 +6,11 @@ class RecentReview extends React.Component {
 	}
 	render() {
 		return (
-			<div>{this.props.review}</div>
+			<div>
+				<div>{this.props.review.name}</div>
+				<div>{this.props.review.star}<span>" "</span>{this.props.review.createddate}</div>
+				<div>{`${this.props.review.firstname} ${this.props.review.lastname}: ${this.props.review.comment}`}</div>			
+			</div>
 		);
 	}
 }
