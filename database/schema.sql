@@ -49,9 +49,8 @@ INSERT into users (gmailAddress, gmailId, firstName, lastName) VALUES ('jimmyctr
 INSERT into users (gmailAddress, gmailId, firstName, lastName) VALUES ('samuelthomasmartin@gmail.com', '123456', 'Sam', 'Martin');
 
 -- reviews
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 1, localtimestamp, 5, 'TEST1');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 2, localtimestamp, 4, 'TEST2');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 3, localtimestamp, 3, 'TEST3');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 2, localtimestamp, 4, 'TEST');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 3, localtimestamp, 3, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 4, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 5, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 6, localtimestamp, 5, 'TEST');
@@ -60,19 +59,16 @@ INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES 
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 9, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 10, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 50, localtimestamp, 5, 'TEST');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 51, localtimestamp, 4, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 52, localtimestamp, 3, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 53, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 54, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 55, localtimestamp, 5, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 56, localtimestamp, 4, 'TEST');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 57, localtimestamp, 3, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 58, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 59, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 100, localtimestamp, 5, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 101, localtimestamp, 4, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 102, localtimestamp, 3, 'TEST');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 103, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 104, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 105, localtimestamp, 5, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 106, localtimestamp, 4, 'TEST');
@@ -82,13 +78,21 @@ INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES 
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 150, localtimestamp, 5, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 151, localtimestamp, 4, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 152, localtimestamp, 3, 'TEST');
-INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 153, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 154, localtimestamp, 1, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 155, localtimestamp, 5, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 156, localtimestamp, 4, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 157, localtimestamp, 3, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 158, localtimestamp, 2, 'TEST');
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 159, localtimestamp, 1, 'TEST');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (1, 1, localtimestamp, 5, 'Great restaurant, good food');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 51, localtimestamp, 4, 'Best service ever!!!!');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 153, localtimestamp, 2, 'Love the food, so good');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (2, 57, localtimestamp, 3, 'Best location in SF');
+INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (3, 103, localtimestamp, 2, 'My family and I had wonderful time. My family and I had wonderful time');
+
+
+
+
 
 -- bookmarks
 INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 500);
