@@ -115,7 +115,6 @@ app.get('/restaurant/bookmark', (req, res) => {
 			restaurants.map(restaurant => {
 				restaurant.map = googleMaps.createMapURL(restaurant);
 			})
-
 			res.status(200).json(restaurants);
 		}
 	});
@@ -141,6 +140,19 @@ app.get('/reviews', (req, res) => {
 		}
 	});
 });
+
+app.post('/user/review', (req, res) => {
+	var review = req.body;
+	console.log(review);
+	database.addReview(review, function(err, review) {
+		if (err) {
+			console.error('ERROR:', err);
+			res.sendStatus(500);
+		} else {
+			res.sendStatus(201);
+		}
+	})
+}),
 
 app.listen(app.get('port'), function() {
   console.log('server listen on port ' + app.get('port'));
