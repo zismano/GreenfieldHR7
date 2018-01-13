@@ -9,6 +9,7 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 		var allResults = {};
 		var distances = [];
 		var closestResults = [];
+		var closestResultsWithFavorites = [];
 
 		restaurants.forEach(restaurant => {
 			var resLat = parseFloat(restaurant.latitude);
@@ -24,18 +25,44 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 		var distancesSorted = mergeSort(distances);
 
 		if (userId) {
-			//
-			//
-		} else {
-			for (var i = 0; i < 10; i++) {
-				if (distancesSorted[i] !== distancesSorted[i - 1]) {
-					var restaurant = allResults[distancesSorted[i]];
-					closestResults.push(restaurant);
-				}
-			}
+			getFavoriteCategories(userId, (err, favorites) => {
+				var favoriteCount = favorites.length;
 
-			callback(closestResults);
+				if (favoriteCount > 0) {
+					for (var i = 0; i < favoriteCount; i++) {
+						for (var j = 0; j < distancesSorted.length; j++) {
+							var restaurant = allResults[distancesSorted[j]];
+
+							if (restaurant.category === favorites[i]) {
+								restaurant.favorite = '**recommendation based on your history'
+
+								closestResultsWithFavorites.push(restaurant);
+							}
+						}
+					}
+
+					for (var z = 0; z < 5; z++) {
+						if (distancesSorted[z] !== distancesSorted[z - 1]) {
+							var restaurant = allResults[distancesSorted[z]];
+							closestResults.push(restaurant);
+						}
+					}
+
+					callback(closestResultsWithFavorites);
+					return;
+				}
+			});
 		}
+
+		for (var i = 0; i < 5; i++) {
+			if (distancesSorted[i] !== distancesSorted[i - 1]) {
+				var restaurant = allResults[distancesSorted[i]];
+				closestResults.push(restaurant);
+			}
+		}
+
+
+		callback(closestResults);
 	});
 }
 
@@ -111,14 +138,6 @@ var getFavoriteCategories = (userId, callback) => {
 		callback(favoriteCategories);
 	});
 }
-
-// getFavoriteCategories(1, (err, result) => {
-// 	if (err) {
-// 		console.error(err);
-// 	} else {
-// 		console.log(result);
-// 	}
-// })
 
 module.exports = {
 	getCloseRestaurants: getCloseRestaurants	
