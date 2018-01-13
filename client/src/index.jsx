@@ -5,7 +5,6 @@ import Search from './components/Search.jsx';
 import MyBookmarksList from './components/MyBookmarksList.jsx';
 import MyReviewsList from './components/MyReviewsList.jsx';
 import LoginButton from './components/LoginButton.jsx';
-//import WriteReview from './components/WriteReview.jsx';
 
 class App extends React.Component {
 	constructor(props) {
@@ -25,7 +24,7 @@ class App extends React.Component {
 
   	renderView() {
     	if (this.state.view === 'search') {
-      		return <Search changeView={this.changeView} />
+      		return <Search changeView={this.changeView} user={this.state.user} />
     	} else if (this.state.view === 'bookmarks') {
       		return <MyBookmarksList changeView={this.changeView} />
     	} else if (this.state.view === 'reviews') {

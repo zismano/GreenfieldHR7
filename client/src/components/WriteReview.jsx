@@ -1,9 +1,9 @@
 import React from 'react';
-import $ from 'jquery';
 
 class WriteReview extends React.Component {
 	constructor(props) {
 		super(props);
+
 		this.state = {
 			reviewText: '',
 			reviewStars: -1
@@ -22,8 +22,10 @@ class WriteReview extends React.Component {
 		});
 	}
 
-	handleReviewSubmit(reviewText) {
-		console.log(reviewText);
+	handleReview(reviewText, event) {
+		var stars = this.state.reviewStars + 1;
+		var review = {comment: reviewText, stars: stars}
+		this.props.handleReviewSubmit(review, event);
 	}
 
 	render() {
@@ -62,7 +64,7 @@ class WriteReview extends React.Component {
 			            <i className="star-filled"></i>
 			        </div>
 					</div>
-				<button className="reviewSubmit" onClick={() => this.handleReviewSubmit(this.review.value)}> Submit </button>
+				<button className="reviewSubmit" onClick={(event) => this.handleReview(this.review.value, event)}> Submit </button>
 				</div>
 			</form>
 		)
