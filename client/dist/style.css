@@ -93,12 +93,19 @@ input {
   margin: 15px;
   background-color: grey;
 }
+
 .restaurant-map {
   float: left;
   max-width: 50%;
   margin: 15px;
 }
+
 .restaurant-text {
   color: white;
   margin: 15px;
+}
+
+.reviewText {
+  box-sizing: content-box;
+  border: 2px solid black;
 }
