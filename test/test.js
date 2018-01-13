@@ -47,4 +47,3 @@ describe('server and database', function() {
       done();
     });
   });
-});

@@ -32,7 +32,8 @@ app.get('/restaurant/name/:name', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
-			//console.log('server get this result from db', results[0])
+			console.log('server get this result from db', results[0])
+
 			let count = 0;
 			results.map(restaurant=>{
 				restaurant.map = googleMaps.createMapURL(restaurant);
@@ -51,7 +52,8 @@ app.get('/restaurant/category/:category', (req, res)=>{
 		if (err) {
 			res.status(404).send(err);
 		} else {
-			//console.log('server get this result from db', results[0])
+			console.log('server get this result from db', results[0])
+
 			let count = 0;
 			results.map(restaurant=>{
 				restaurant.map = googleMaps.createMapURL(restaurant);
