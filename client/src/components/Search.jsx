@@ -35,12 +35,10 @@ class Search extends React.Component {
 					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
 				})}
 
-				{this.state.restaurants.map(restaurant => 
-					<RestaurantDetails 
-						key={restaurant.id}
-						restaurant={restaurant}
-					/>
-				)}
+				{this.state.restaurantDetailView && this.state.restaurants.map(restaurant=>{
+					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
+				})}
+
 			</div>
 		)
 	}
