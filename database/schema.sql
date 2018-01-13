@@ -91,16 +91,16 @@ INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES 
 INSERT into reviews (user_id, restaurant_id, createdDate, star, comment) VALUES (4, 159, localtimestamp, 1, 'TEST');
 
 -- bookmarks
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 500);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 501);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 502);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 503);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 504);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 505);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 506);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 507);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 508);
-INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 509);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 10);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 11);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 12);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 13);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 14);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 15);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 16);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 17);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 18);
+INSERT into bookmarks (user_id, restaurant_id) VALUES (1, 19);
 INSERT into bookmarks (user_id, restaurant_id) VALUES (2, 600);
 INSERT into bookmarks (user_id, restaurant_id) VALUES (2, 601);
 INSERT into bookmarks (user_id, restaurant_id) VALUES (2, 602);

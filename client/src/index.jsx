@@ -25,9 +25,9 @@ class App extends React.Component {
 
   	renderView() {
     	if (this.state.view === 'search') {
-      		return <Search changeView={this.changeView} />
+      		return <Search user={this.state.user} changeView={this.changeView} />
     	} else if (this.state.view === 'bookmarks') {
-      		return <MyBookmarksList changeView={this.changeView} />
+      		return <MyBookmarksList user={this.state.user} changeView={this.changeView} />
     	} else if (this.state.view === 'reviews') {
       		return <MyReviewsList changeView={this.changeView} />
     	}

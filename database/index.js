@@ -98,6 +98,28 @@ let getReviews = (callback) => {
 	})
 }
 
+let getBookmarkedRestaurants = (userId, callback) => {
+	const queryStr = 'select * from restaurants r join bookmarks b on r.id = b.restaurant_id where b.user_id = $1';
+	client.query(queryStr, [userId], (err, restaurants) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, restaurants.rows);
+		}
+	});	
+}
+
+let bookmarkRestaurant = (userId, restaurantId, callback) => {
+	const queryStr = 'insert into bookmarks (user_id, restaurant_id) values ($1, $2)';
+	client.query(queryStr, [userId, restaurantId], (err, result) => {
+		if (err) {
+			callback(err, null);
+		} else {
+			callback(null, result);
+		}
+	})
+}
+
 
 module.exports = {
   searchByRestaurantName: searchByRestaurantName,
@@ -105,5 +127,7 @@ module.exports = {
   addUser: addUser,
   searchUser: searchUser,
   getAllRestaurants: getAllRestaurants,
-  getReviews: getReviews
+  getReviews: getReviews,
+  getBookmarkedRestaurants: getBookmarkedRestaurants,
+  bookmarkRestaurant: bookmarkRestaurant
 }

@@ -94,6 +94,30 @@ app.get('/restaurant/near', (req, res) => {
   	});
 });
 
+app.get('/restaurant/bookmark', (req, res) => {
+	database.getBookmarkedRestaurants(req.query.userId, (err, restaurants) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			restaurants.map(restaurant => {
+				restaurant.map = googleMaps.createMapURL(restaurant);
+			})
+
+			res.status(200).json(restaurants);
+		}
+	});
+});
+
+app.post('/restaurant/bookmark', (req, res) => {
+	database.bookmarkRestaurant(req.body.userId, req.body.restaurantId, (err, result) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			res.status(202);
+		}
+	});
+});
+
 app.get('/reviews', (req, res) => {
 	database.getReviews((err, reviews) => {
 		if (err) {

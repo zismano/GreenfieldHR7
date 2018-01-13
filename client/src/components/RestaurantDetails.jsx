@@ -1,10 +1,35 @@
 import React from 'react';
+import $ from 'jquery';
 import WriteReview from './WriteReview.jsx';
 
 
 class RestaurantDetails extends React.Component {
 	constructor(props) {
 		super(props)
+
+		this.handleBookmark = this.handleBookmark.bind(this);
+	}
+
+	handleBookmark() {
+		if (this.props.user) {	
+			var query = {
+				userId: this.props.user.id,
+				restaurantId: this.props.restaurant.id
+			}
+
+			$.ajax({
+				url: '/restaurant/bookmark',
+				method: 'POST',
+				contentType: 'application/json',
+    			data: JSON.stringify(query),
+    			complete: () => {
+    				console.log('added bookmark to bookmarks table')
+    			},
+    			failure: (err) => {
+    				console.error(err);
+    			}
+			});
+		}
 	}
 
 	render() {
@@ -14,7 +39,9 @@ class RestaurantDetails extends React.Component {
 			<div className="restaurant-box">
 				<img alt="map" src={restaurant.map} className="restaurant-map"/>
 				<p className="restaurant-text">
-					<div className="restaurant-name"><b>{restaurant.name}</b></div>
+					<div className="restaurant-name">
+						<b>{restaurant.name}</b>
+					</div>
 					<br/>
 					<b>Address:</b> {restaurant.address}. {restaurant.city}, {restaurant.state} {restaurant.zip}
 					<br/>
@@ -32,6 +59,7 @@ class RestaurantDetails extends React.Component {
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
 				</p>
 				<WriteReview />
+				<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
             </div>
 		)
 	}
