@@ -94,6 +94,20 @@ app.get('/restaurant/near', (req, res) => {
   	});
 });
 
+app.get('/restaurant/bookmark', (req, res) => {
+	database.getBookmarkedRestaurants(req.query.userId, (err, restaurants) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			restaurants.map(restaurant => {
+				restaurant.map = googleMaps.createMapURL(restaurant);
+			})
+
+			res.status(200).json(restaurants);
+		}
+	});
+});
+
 app.get('/reviews', (req, res) => {
 	database.getReviews((err, reviews) => {
 		if (err) {

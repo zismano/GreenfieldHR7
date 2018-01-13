@@ -98,6 +98,17 @@ let getReviews = (callback) => {
 	})
 }
 
+let getBookmarkedRestaurants = (userId, callback) => {
+	const queryStr = 'select * from restaurants r join bookmarks b on r.id = b.restaurant_id where b.user_id = $1';
+	client.query(queryStr, [userId], (err, restaurants) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, restaurants.rows);
+		}
+	});	
+}
+
 
 module.exports = {
   searchByRestaurantName: searchByRestaurantName,
@@ -105,5 +116,6 @@ module.exports = {
   addUser: addUser,
   searchUser: searchUser,
   getAllRestaurants: getAllRestaurants,
-  getReviews: getReviews
+  getReviews: getReviews,
+  getBookmarkedRestaurants: getBookmarkedRestaurants
 }

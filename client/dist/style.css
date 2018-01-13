@@ -162,6 +162,10 @@ input {
   background-color: rgba(52, 152, 219, 0.5);
 }
 
+.bookmarked {
+  background-color: rgba(30, 122, 30, 0.5);
+}
+
 .restaurant-map {
   float: left;
   border-style: solid;

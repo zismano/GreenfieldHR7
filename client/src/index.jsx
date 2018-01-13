@@ -29,7 +29,7 @@ class App extends React.Component {
     	} else if (this.state.view === 'bookmarks') {
       		return <MyBookmarksList changeView={this.changeView} />
     	} else if (this.state.view === 'reviews') {
-      		return <MyReviewsList changeView={this.changeView} />
+      		return <MyReviewsList user={this.state.user} changeView={this.changeView} />
     	}
   	}
 
