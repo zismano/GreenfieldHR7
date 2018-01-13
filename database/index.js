@@ -154,6 +154,17 @@ let bookmarkRestaurant = (userId, restaurantId, callback) => {
 	})
 }
 
+let getUserRestaurantCategories = (userId, callback) => {
+	const queryStr = 'select category from restaurants join reviews on restaurants.id = reviews.restaurant_id where reviews.user_id = $1';
+	client.query(queryStr, [userId], (err, restaurants) => {
+		if (err) {
+			callback(err.stack, null);
+		} else {
+			callback(null, restaurants.rows);
+		}
+	});
+}
+
 
 
 module.exports = {
@@ -165,5 +176,6 @@ module.exports = {
   addReview: addReview,
   getReviews: getReviews,
   getBookmarkedRestaurants: getBookmarkedRestaurants,
-  bookmarkRestaurant: bookmarkRestaurant
+  bookmarkRestaurant: bookmarkRestaurant,
+  getUserRestaurantCategories: getUserRestaurantCategories
 }

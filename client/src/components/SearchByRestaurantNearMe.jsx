@@ -12,6 +12,8 @@ class SearchByRestaurantNearMe extends React.Component {
     }
 
 	handleSearch() {
+		//add userId to ajax request
+
 		$.ajax({
 			url: '/restaurant/near',
 			method: 'GET',
