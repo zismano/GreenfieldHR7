@@ -12,14 +12,11 @@ class Search extends React.Component {
 	constructor(props) {
 		super(props);
 
-<<<<<<< HEAD
 		this.state={
 			restaurants: [],
+			reviews: [],
 			restaurantDetailView: false
 		};
-=======
-		this.state={restaurants: [], reviews: []};
->>>>>>> Fetch recent reviews work
 
 		this.handleSearchResults = this.handleSearchResults.bind(this);
 	}
@@ -29,6 +26,26 @@ class Search extends React.Component {
 			restaurantDetailView: true,
 			restaurants: restaurants
 		});
+	}
+
+	componentWillMount() {
+		this.getReviews();
+	}
+
+	getReviews() {
+		$.ajax({
+			url: '/reviews',
+			type: "GET",
+			success: (reviews) => {
+				console.log(reviews);
+				this.setState({
+					reviews: reviews
+				})
+			},
+			error: (err) => {
+				console.log(err);
+			}
+		});		
 	}
 
 	componentWillMount() {
@@ -62,12 +79,6 @@ class Search extends React.Component {
 					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
 				})}
 
-				{this.state.restaurants.map(restaurant => 
-					<RestaurantDetails 
-						key={restaurant.id}
-						restaurant={restaurant}
-					/>
-				)}
 				<FetchRecentReviews reviews={this.state.reviews} />
 			</div>
 		)

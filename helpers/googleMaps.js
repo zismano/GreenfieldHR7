@@ -3,7 +3,11 @@ const GoogleMapsAPI = require('googlemaps');
 const config = require('../config.js');
 
 let publicConfig = {
+<<<<<<< HEAD
   key: config.googleMapsStaticKey,
+=======
+  key: process.env.GOOGLE_MAPS_STATIC_KEY || googleMapsKey.GOOGLE_MAPS_STATIC_KEY,
+>>>>>>> 73c1481fcfa2d5d5038e00615977079af166465a
   stagger_time:       1000, // for elevationPath 
   encode_polylines:   false,
   secure:             true, // use https 
