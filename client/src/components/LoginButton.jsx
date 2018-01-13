@@ -12,7 +12,7 @@ class LoginButton extends React.Component {
 			method: 'GET',
 			contentType: 'application/json',
 			success: (user) => {
-				console.log('user info', user);
+				this.props.handleLogin(user);
 			},
 			error: (err) => {
 				console.error('ERROR', err);

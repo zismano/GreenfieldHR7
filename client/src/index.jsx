@@ -11,7 +11,10 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 
-		this.state = {view: 'search'};
+		this.state = {
+			view: 'search',
+			user: undefined
+		};
 
 	    this.changeView = this.changeView.bind(this);
 	}
@@ -30,6 +33,11 @@ class App extends React.Component {
     	}
   	}
 
+  handleLogin(userInfo) {
+  	this.setState({
+  		user: userInfo
+  	});
+  }
 	render() {
 		return (
 			<div>
@@ -53,7 +61,7 @@ class App extends React.Component {
 			            onClick={() => this.changeView('reviews')}>
 			            My Reviews
           			</span>
-          			<LoginButton />
+          			<LoginButton handleLogin={this.handleLogin.bind(this)}/>
         		</div>
         		<div className="main">
 					{this.renderView()}
