@@ -7,7 +7,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const database = require('../database/index.js');
 const request = require('request');
-const locator = require('../helpers/locator.js');
+const locator = require('../helpers/locator.js')
 const config = require('../config.js');
 const googleMaps = require('../helpers/googleMaps.js')
 
@@ -94,8 +94,16 @@ app.get('/restaurant/near', (req, res) => {
   	});
 });
 
-app.listen(app.get('port'), function() {
-  console.log('server listen on port ' + app.get('port'))
-})
+app.get('/reviews', (req, res) => {
+	database.getReviews((err, reviews) => {
+		if (err) {
+			res.status(404).send(err);
+		} else {
+			res.status(200).json(reviews);
+		}
+	});
+});
 
-// example
+app.listen(app.get('port'), function() {
+  console.log('server listen on port ' + app.get('port'));
+});

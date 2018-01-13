@@ -13,10 +13,8 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
-    "test": "mocha test/test.js"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "test/setup.js"
+    "setupTestFrameworkScriptFile": "test/setup.js",
+    "test": "mocha test/test.js --compilers js:babel-core/register --exit"
   },
   "dependencies": {
     "airbnb-browser-shims": "^2.0.0",
@@ -28,7 +26,7 @@
     "fs": "0.0.1-security",
     "googlemaps": "^1.12.0",
     "jquery": "^3.2.1",
-    "mysql": "^2.15.0",
+    "mocha": "^4.1.0",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
     "pg": "^7.4.1",
@@ -56,9 +54,8 @@
     "eslint-plugin-react": "^7.5.1",
     "jest": "^22.0.6",
     "mocha": "^4.1.0",
-    "nodemon": "^1.14.9",
+    "nodemon": "^1.14.11",
     "react-test-renderer": "^16.2.0",
-    "supertest": "^3.0.0",
     "webpack": "^3.10.0"
   }
 }

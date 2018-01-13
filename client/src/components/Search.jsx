@@ -1,9 +1,11 @@
 import React from 'react';
+import $ from 'jquery';
 
 import SearchByRestaurantName from './SearchByRestaurantName.jsx';
 import SearchByRestaurantCategory from './SearchByRestaurantCategory.jsx';
 import SearchByRestaurantNearMe from './SearchByRestaurantNearMe.jsx';
 import RestaurantDetails from './RestaurantDetails.jsx';
+import FetchRecentReviews from './FetchRecentReviews.jsx';
 
 
 class Search extends React.Component {
@@ -12,6 +14,7 @@ class Search extends React.Component {
 
 		this.state={
 			restaurants: [],
+			reviews: [],
 			restaurantDetailView: false
 		};
 
@@ -23,6 +26,46 @@ class Search extends React.Component {
 			restaurantDetailView: true,
 			restaurants: restaurants
 		});
+	}
+
+	componentWillMount() {
+		this.getReviews();
+	}
+
+	getReviews() {
+		$.ajax({
+			url: '/reviews',
+			type: "GET",
+			success: (reviews) => {
+				console.log(reviews);
+				this.setState({
+					reviews: reviews
+				})
+			},
+			error: (err) => {
+				console.log(err);
+			}
+		});		
+	}
+
+	componentWillMount() {
+		this.getReviews();
+	}
+
+	getReviews() {
+		$.ajax({
+			url: '/reviews',
+			type: "GET",
+			success: (reviews) => {
+				console.log(reviews);
+				this.setState({
+					reviews: reviews
+				})
+			},
+			error: (err) => {
+				console.log(err);
+			}
+		});		
 	}
 
 	render() {
@@ -39,6 +82,7 @@ class Search extends React.Component {
 					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
 				})}
 
+				<FetchRecentReviews reviews={this.state.reviews} />
 			</div>
 		)
 	}
