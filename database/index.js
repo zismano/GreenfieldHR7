@@ -8,8 +8,9 @@ const client = new pg.Client({
 client.connect();
 
 let searchByRestaurantName = (name, callback) => {
-	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.name like $1::text';
-	client.query(text,[`%${name}%`] , (err, res) => {
+	const arguTwo = name[0].toUpperCase()+name.slice(1);
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.name like $1::text or a.name like $2::text';
+	client.query(text,[`%${name}%`, `%${arguTwo}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
@@ -27,8 +28,9 @@ let searchByRestaurantName = (name, callback) => {
 }
 
 let searchByRestaurantCategory = (category, callback) => {
-	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.category like $1::text';
-	client.query(text,[`%${category}%`] , (err, res) => {
+	const arguTwo = category[0].toUpperCase()+category.slice(1);
+	const text = 'SELECT * from (select restaurants.*, round(avg(reviews.star)) as star from restaurants join reviews on restaurants.id=reviews.restaurant_id group by restaurants.id) a where a.category like $1::text or a.category like $2::text';
+	client.query(text,[`%${category}%`, `%${arguTwo}%`] , (err, res) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
