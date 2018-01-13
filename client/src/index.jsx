@@ -60,7 +60,7 @@ class App extends React.Component {
 			            onClick={() => this.changeView('reviews')}>
 			            My Reviews
           			</span>
-          			<LoginButton handleLogin={this.handleLogin.bind(this)}/>
+          			<LoginButton handleLogin={this.handleLogin.bind(this)} user={this.state.user}/>
         		</div>
         		<div className="main">
 					{this.renderView()}

@@ -20,9 +20,32 @@ class LoginButton extends React.Component {
 		})
 	}
 
+	handleLogout() {
+		$.ajax({
+			url: `/api/logout`,
+			method: 'GET',
+			contentType: 'application/json',
+			success: (user) => {
+				this.props.handleLogin(user);
+			},
+			error: (err) => {
+				console.error('ERROR:', err);
+			}
+		})
+	}
+
 	render() {
+
+		var button;
+		if (typeof this.props.user === 'string') {
+			button = <a className="logIn" href="/auth/google">Login</a>;		
+		} else {
+			button = <a className="logIn" onClick={this.handleLogout.bind(this)}>Log out</a>;
+		}
 		return (
-			<a className="logIn" href="/auth/google">Login</a>		
+			<div>
+				{button}	
+			</div>
 		)
 	}
 }

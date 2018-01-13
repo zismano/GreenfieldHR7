@@ -1,8 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
 import WriteReview from './WriteReview.jsx';
-import $ from 'jquery';
-
 
 class RestaurantDetails extends React.Component {
 	constructor(props) {
