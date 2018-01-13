@@ -1,9 +1,10 @@
 import React from 'react';
+import $ from 'jquery';
 
 import SearchByRestaurantName from './SearchByRestaurantName.jsx';
 import SearchByRestaurantCategory from './SearchByRestaurantCategory.jsx';
 import SearchByRestaurantNearMe from './SearchByRestaurantNearMe.jsx';
-//import RestaurantDetails from './RestaurantDetails.jsx';
+import RestaurantDetails from './RestaurantDetails.jsx';
 import FetchRecentReviews from './FetchRecentReviews.jsx';
 
 
@@ -18,6 +19,23 @@ class Search extends React.Component {
 
 	handleSearchResults(restaurants) {
 		this.setState({restaurants: restaurants});
+	}
+
+	componentWillMount() {
+		this.getReviews();
+	}
+
+	getReviews() {
+		$.ajax({
+			url: '/reviews',
+			type: "GET",
+			success: (reviews) => {
+				console.log(reviews);
+			},
+			error: (err) => {
+				console.log(err);
+			}
+		});		
 	}
 
 	render() {
