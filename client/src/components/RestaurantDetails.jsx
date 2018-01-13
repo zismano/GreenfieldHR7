@@ -31,6 +31,7 @@ class RestaurantDetails extends React.Component {
 					<br/>
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
 				</p>
+				<WriteReview />
             </div>
 		)
 	}
