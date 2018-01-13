@@ -5,7 +5,8 @@ class WriteReview extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			reviewText: ''
+			reviewText: '',
+			reviewStars: -1
 		}
 	}
 
@@ -13,37 +14,56 @@ class WriteReview extends React.Component {
 		this.setState({
 			reviewText: e.target.value
 		});
-	} 
+	}
 
+	handleStars (number) {
+		this.setState({
+			reviewStars: number
+		});
+	}
+
+	handleReviewSubmit(reviewText) {
+		console.log(reviewText);
+	}
 	render() {
+
+		var starsFormat = "rating medium star-icon direction-ltr value-" + this.state.reviewStars + " half color-negative label-hidden";
+
 		return (
-			<div> 
-				<textarea onChange={this.handleReviewText.bind(this)}>test</textarea>
-				<div>
-					stars
-					<div className="rating large star-icon direction-rtl value-1 half color-default label-top">
-					  <div className="label-value">1.5</div>
-					    <div className="star-container">
-				        <div className="star">
-				            <i className="star-empty"></i>
-				            <i className="star-half"></i>
-				            <i className="star-filled"></i>
-				        </div>
-				        <div className="star">
-				            <i className="star-empty"></i>
-				            <i className="star-half"></i>
-				            <i className="star-filled"></i>
-				        </div>
-				        <div className="star">
-				            <i className="star-empty"></i>
-				            <i className="star-half"></i>
-				            <i className="star-filled"></i>
-				        </div>
-					  </div>
+			<form className="reviewBox"> 
+				<input className="reviewText" type="text" placeholder="Review" ref={input => this.review = input}/>
+				<div className={starsFormat}>
+				  <div className="label-value"></div>
+				    <div className="star-container">
+			        <div className ="star" onClick={this.handleStars.bind(this, 0)}>
+			            <i className="star-empty"></i>
+			            <i className="star-half"></i>
+			            <i className="star-filled"></i>
+			        </div>
+			        <div className="star" onClick={this.handleStars.bind(this, 1)}>
+			            <i className="star-empty"></i>
+			            <i className="star-half"></i>
+			            <i className="star-filled"></i>
+			        </div>
+			        <div className="star" onClick={this.handleStars.bind(this, 2)}>
+			            <i className="star-empty"></i>
+			            <i className="star-half"></i>
+			            <i className="star-filled"></i>
+			        </div>
+			         <div className="star" onClick={this.handleStars.bind(this, 3)}>
+			            <i className="star-empty"></i>
+			            <i className="star-half"></i>
+			            <i className="star-filled"></i>
+			        </div>
+			         <div className="star" onClick={this.handleStars.bind(this, 4)}>
+			            <i className="star-empty"></i>
+			            <i className="star-half"></i>
+			            <i className="star-filled"></i>
+			        </div>
 					</div>
-					<button>submit</button>
+				<button className="reviewSubmit" onClick={() => this.handleReviewSubmit(this.review.value)}> Submit </button>
 				</div>
-			</div>
+			</form>
 		)
 	}
 }

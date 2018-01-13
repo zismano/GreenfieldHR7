@@ -1,4 +1,5 @@
 import React from 'react';
+import WriteReview from './WriteReview.jsx';
 
 
 class RestaurantDetails extends React.Component {
