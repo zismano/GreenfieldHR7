@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0px;
   color: #2C3E50;
-/*  background-image: url("./food2.png");
-*/  background-size: cover;
+  background-image: url("./food2.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ECF0F1;
@@ -177,4 +177,26 @@ input {
 
 .restaurant-name {
   font-size: 22px;
+}
+
+.recent-reviews-box {
+  float: left;
+  width: 1100px;
+  display: block;
+  border: 2px solid;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 120px; /* this is not dynamic */
+  background-color: rgba(127, 63, 191, 0.5);
+}
+.recent-reveiws-title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 22px;
+  float: left;
+  width: 1100px;
+  display: block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 120px; /* this is not dynamic */
 }
