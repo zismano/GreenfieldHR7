@@ -31,6 +31,9 @@ client/dist/bundle.js
 node_modules/
 bower_components/
 config/config.js
+<<<<<<< HEAD
 config.js
+=======
+>>>>>>> 73c1481fcfa2d5d5038e00615977079af166465a
 .env
 

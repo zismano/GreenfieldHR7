@@ -23,6 +23,7 @@ const request = require('request');
 const expect = require('chai').expect;
 const pg = require('pg');
 
+
 const parse = require( 'utils-json-parse' );
 
 const staticMap = require('../helpers/googleMaps.js');
@@ -105,7 +106,6 @@ describe('server', function() {
    });
  });
 });
-<<<<<<< HEAD
 
 describe('server', function() {
  it('should return the content of index.html', function(done) {
@@ -128,7 +128,6 @@ describe('google map', function() {
     done();
   })
 })
-
 
 describe('server', function() {
  it('should return the content of index.html', function(done) {
