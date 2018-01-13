@@ -25,7 +25,7 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 		var distancesSorted = mergeSort(distances);
 
 		if (userId) {
-			getFavoriteCategories(userId, (err, favorites) => {
+			getFavoriteCategories(userId, (favorites) => {
 				var favoriteCount = favorites.length;
 
 				if (favoriteCount > 0) {
@@ -41,28 +41,28 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 						}
 					}
 
-					for (var z = 0; z < 5; z++) {
+					for (var z = 0; z < 6; z++) {
 						if (distancesSorted[z] !== distancesSorted[z - 1]) {
 							var restaurant = allResults[distancesSorted[z]];
-							closestResults.push(restaurant);
+							closestResultsWithFavorites.push(restaurant);
 						}
 					}
 
 					callback(closestResultsWithFavorites);
-					return;
+				} else {
+
 				}
 			});
-		}
-
-		for (var i = 0; i < 5; i++) {
-			if (distancesSorted[i] !== distancesSorted[i - 1]) {
-				var restaurant = allResults[distancesSorted[i]];
-				closestResults.push(restaurant);
+		} else {
+			for (var i = 0; i < 5; i++) {
+				if (distancesSorted[i] !== distancesSorted[i - 1]) {
+					var restaurant = allResults[distancesSorted[i]];
+					closestResults.push(restaurant);
+				}
 			}
+
+			callback(closestResults);
 		}
-
-
-		callback(closestResults);
 	});
 }
 

@@ -158,7 +158,7 @@ let getUserRestaurantCategories = (userId, callback) => {
 	const queryStr = 'select category from restaurants join reviews on restaurants.id = reviews.restaurant_id where reviews.user_id = $1';
 	client.query(queryStr, [userId], (err, restaurants) => {
 		if (err) {
-			callback(err.stack, null);
+			callback(err, null);
 		} else {
 			callback(null, restaurants.rows);
 		}

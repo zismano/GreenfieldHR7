@@ -83,7 +83,8 @@ app.get('/restaurant/near', (req, res) => {
   		} else {
   			var geo = JSON.parse(body);
   			
-  			locator.getCloseRestaurants(geo.location.lat, geo.location.lng, req.query.userId, (restaurants) => {
+  			//req.query.userId
+  			locator.getCloseRestaurants(geo.location.lat, geo.location.lng, 1, (restaurants) => {
 				restaurants.forEach(restaurant => {
 					restaurant.map = googleMaps.createMapURL(restaurant);
 				});
