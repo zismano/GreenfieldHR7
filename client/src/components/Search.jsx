@@ -66,6 +66,7 @@ class Search extends React.Component {
 				<SearchByRestaurantName handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantCategory handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} />
+				
 				{this.state.restaurantDetailView && this.state.restaurants.map(restaurant=>{
 					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} user={this.props.user}/>
 				})}

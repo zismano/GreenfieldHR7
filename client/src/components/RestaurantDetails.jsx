@@ -24,7 +24,6 @@ class RestaurantDetails extends React.Component {
 				contentType: 'application/json',
     			data: JSON.stringify(query),
     			complete: () => {
-    				console.log('added bookmark to bookmarks table')
     			},
     			failure: (err) => {
     				console.error(err);
