@@ -74,6 +74,8 @@ class RestaurantDetails extends React.Component {
 						{restaurant.star === '5' ? <span>☆☆☆☆☆</span> : ''}
 					<br/>
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
+					<br/>
+					{restaurant.recommendation ? <div>**{restaurant.recommendation}</div> : ''}
 				</p>
 				<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
       </div>

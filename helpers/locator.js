@@ -9,7 +9,6 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 		var allResults = {};
 		var distances = [];
 		var closestResults = [];
-		var closestResultsWithFavorites = [];
 
 		restaurants.forEach(restaurant => {
 			var resLat = parseFloat(restaurant.latitude);
@@ -24,43 +23,30 @@ var getCloseRestaurants = (userLat, userLon, userId, callback) => {
 
 		var distancesSorted = mergeSort(distances);
 
+		for (var i = 0; i < 10; i++) {
+			if (distancesSorted[i] !== distancesSorted[i - 1]) {
+				var restaurant = allResults[distancesSorted[i]];
+				closestResults.push(restaurant);
+			}
+		}
+
 		if (userId) {
 			getFavoriteCategories(userId, (favorites) => {
-				var favoriteCount = favorites.length;
+				console.log(favorites);
+				var closestResultsWithFavorites = [];
 
-				if (favoriteCount > 0) {
-					for (var i = 0; i < favoriteCount; i++) {
-						for (var j = 0; j < distancesSorted.length; j++) {
-							var restaurant = allResults[distancesSorted[j]];
-
-							if (restaurant.category === favorites[i]) {
-								restaurant.favorite = '**recommendation based on your history'
-
-								closestResultsWithFavorites.push(restaurant);
-							}
-						}
+				closestResults.forEach(restaurant => {
+					if (favorites.indexOf(restaurant.category) > -1) {
+						restaurant.recommendation = 'recommendation based on your history';
+						closestResultsWithFavorites.unshift(restaurant);
+					} else {
+						closestResultsWithFavorites.push(restaurant);
 					}
+				});
 
-					for (var z = 0; z < 6; z++) {
-						if (distancesSorted[z] !== distancesSorted[z - 1]) {
-							var restaurant = allResults[distancesSorted[z]];
-							closestResultsWithFavorites.push(restaurant);
-						}
-					}
-
-					callback(closestResultsWithFavorites);
-				} else {
-
-				}
+				callback(closestResultsWithFavorites);
 			});
 		} else {
-			for (var i = 0; i < 5; i++) {
-				if (distancesSorted[i] !== distancesSorted[i - 1]) {
-					var restaurant = allResults[distancesSorted[i]];
-					closestResults.push(restaurant);
-				}
-			}
-
 			callback(closestResults);
 		}
 	});
