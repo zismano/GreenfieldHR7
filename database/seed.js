@@ -44,6 +44,6 @@ var readFiles = (dirname) => {
   	});
 }
 
-//populate restaurants table by running node seed.js in command line with line below uncommented (there should be 548 rows)
-//readFiles(path.join(__dirname, '../database/categories/'));
+// populate restaurants table by running node seed.js in command line with line below uncommented (there should be 548 rows)
+// readFiles(path.join(__dirname, '../database/categories/'));
 

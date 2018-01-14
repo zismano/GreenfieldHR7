@@ -87,18 +87,6 @@ let searchUser = (id, callback) => {
 	})
 }
 
-let addReview = (review, callback) => {
-	const insertQuery = 'insert into reviews (user_id, restaurant_id, createddate, star, comment) values ($1, $2, localtimestamp, $3, $4)';
-	client.query(insertQuery, [review.userId, review.restaurantId, review.reviewStars, review.reviewComment], (err, res) => {
-		if (err) {
-			callback(err.stack, null);
-		} else {
-			callback(null, res.rows[0]);
-		}
-	})
-
-}
-
 let getReviews = (callback) => {
 	const numOfReviews = 5;
 	const selectQuery = 'select * from reviews join users on reviews.user_id = users.id join restaurants on reviews.restaurant_id = restaurants.id order by createdDate desc';
@@ -117,12 +105,13 @@ let getReviews = (callback) => {
 							callback(err.stack, null);
 						} else {					
 							const recentReviews = resReviews.rows.slice(0, numOfReviews);
-							const recenetHours = resHours.rows.slice(0, numOfReviews);
-							const recentMinutes = resMinutes.rows.slice(0, numOfReviews);
-							for (let i = 0; i < numOfReviews; i++) {
-								recentReviews[i].hours = recenetHours[i].date_part;
-								recentReviews[i].minutes = recentMinutes[i].date_part;
-							}
+							console.log('recentReviews', recentReviews)
+			//				const recenetHours = resHours.rows.slice(0, numOfReviews);
+				//			const recentMinutes = resMinutes.rows.slice(0, numOfReviews);
+							// for (let i = 0; i < numOfReviews; i++) {
+							// 	recentReviews[i].hours = recenetHours[i].date_part;
+							// 	recentReviews[i].minutes = recentMinutes[i].date_part;
+							// }
 							callback(null, recentReviews);
 						}
 					});
