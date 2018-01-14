@@ -4,5 +4,6 @@ module.exports = {
   googleGeolocationKey: 'AIzaSyCSRegvNfqAUA1pMq1iGCoFnyni6U7QwGk',
   cookieKey: 'abcdefg123456',
   googleClientID: '800658637140-v50fbe4pivl8s413k4uagnispjbbjjkb.apps.googleusercontent.com',
-  googleClientSecret: 'SAXGE-4qPydf3AwhV35G277z'
+  googleClientSecret: 'SAXGE-4qPydf3AwhV35G277z',
+  googlePlacesKey: ''
 };
