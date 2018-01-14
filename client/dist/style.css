@@ -60,7 +60,9 @@ input {
 
 .logIn {
   padding-left: 12px;
+  padding-right: 12px;
   padding-top: 4px;
+  padding-bottom: 4px;
   cursor: pointer;
   border: none;
   border-radius: 3px;
@@ -96,8 +98,12 @@ input {
 }
 
 .reviewText {
+  resize: none;
   box-sizing: content-box;
   border: 2px solid black;
+  width: 400px;
+  height: 150px;
+  float: top;
 }
 
 .restaurant-box {
@@ -121,14 +127,9 @@ input {
   margin: 15px;
 }
 
-.reviewText {
-  box-sizing: content-box;
-  border: 2px solid black;
-}
-
 .reviewBox {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 40%;
+  max-height: 40%;
   float: right;
 }
 
@@ -186,6 +187,7 @@ input {
 .reviewText {
   box-sizing: content-box;
   border: 2px solid black;
+  margin: 15px;
 }
 
 .restaurant-box {
@@ -254,4 +256,8 @@ input {
 .restaurant-text {
   color: white;
   margin: 15px;
+}
+
+.restaurant-details {
+  float: left;
 }
