@@ -152,7 +152,6 @@ let addReview = (review, callback) => {
 			callback(null, res.rows[0]);
 		}
 	})
-
 }
 
 
