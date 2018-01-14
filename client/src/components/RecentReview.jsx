@@ -9,6 +9,7 @@ class RecentReview extends React.Component {
 		return (
 			<div>
 				<div className="recent-reviews-box">
+					<img src={review.photoURL} className="restaurant-map"/>
 					<p className="restaurant-text">
 						<div className="restaurant-name"><b>{review.name}</b>
 							<span className="review-date">
