@@ -182,6 +182,7 @@ input {
 .restaurant-name {
   font-size: 22px;
 }
+<<<<<<< HEAD
 
 .reviewText {
   box-sizing: content-box;
@@ -231,3 +232,7 @@ input {
   float: right;
   font-size: 18px;
 }
+.filter-dropbox {
+  color: white;
+}
+
