@@ -93,7 +93,7 @@ let getReviews = (callback) => {
 	client.query(selectQuery, (err, resReviews) => {
 		if (err) {
 			callback(err.stack, null);
-		} else {				
+		} else {					
 			const recentReviews = resReviews.rows.slice(0, numOfReviews);
 			callback(null, recentReviews);
 		}
