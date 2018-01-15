@@ -1,6 +1,5 @@
 import React from 'react';
 import $ from 'jquery';
-import RestaurantDetails from './RestaurantDetails.jsx';
 
 class SearchByRestaurantName extends React.Component {
 	constructor(props) {
