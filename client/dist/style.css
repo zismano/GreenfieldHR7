@@ -234,7 +234,6 @@ input {
   float: right;
   font-size: 18px;
 }
-
 .reviewText {
   box-sizing: content-box;
   border: 2px solid black;
@@ -262,3 +261,7 @@ input {
 .restaurant-details {
   float: left;
 }
+.filter-dropbox {
+  color: white;
+}
+
