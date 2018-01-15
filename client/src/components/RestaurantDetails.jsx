@@ -1,8 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
 import WriteReview from './WriteReview.jsx';
-import $ from 'jquery';
-
 
 class RestaurantDetails extends React.Component {
 	constructor(props) {
@@ -54,33 +52,34 @@ class RestaurantDetails extends React.Component {
 		let restaurant = this.props.restaurant;
 		return(
 			<div className="restaurant-box">
-				<img alt="map" src={restaurant.map} className="restaurant-map"/>
-				<p className="restaurant-text">
-					<div className="restaurant-name">
-						<b>{restaurant.name}</b>
-					</div>
-					<br/>
-					<b>Address:</b> {restaurant.address}. {restaurant.city}, {restaurant.state} {restaurant.zip}
-					<br/>
-					<b>Phone:</b> {restaurant.phone}
-					<br/>
-					<b>Price:</b> {restaurant.price}
-					<br/>
-					<b>Reviews:</b> 
-						{restaurant.star === '1' ? <span>☆</span> : ''}
-						{restaurant.star === '2' ? <span>☆☆</span> : ''}
-						{restaurant.star === '3' ? <span>☆☆☆</span> : ''}
-						{restaurant.star === '4' ? <span>☆☆☆☆</span> : ''}
-						{restaurant.star === '5' ? <span>☆☆☆☆☆</span> : ''}
-					<br/>
-					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
-					<br/>
-					{restaurant.recommendation ? <div>**{restaurant.recommendation}</div> : ''}
-				</p>
-				<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
+				<div className="restaurant-details">
+					<img alt="map" src={restaurant.map} className="restaurant-map"/>
+					<p className="restaurant-text">
+						<div className="restaurant-name">
+							<b>{restaurant.name}</b>
+						</div>
+						<br/>
+						<b>Address:</b> {restaurant.address}. {restaurant.city}, {restaurant.state} {restaurant.zip}
+						<br/>
+						<b>Phone:</b> {restaurant.phone}
+						<br/>
+						<b>Price:</b> {restaurant.price}
+						<br/>
+						<b>Reviews:</b> 
+							{restaurant.star === '1' ? <span>☆</span> : ''}
+							{restaurant.star === '2' ? <span>☆☆</span> : ''}
+							{restaurant.star === '3' ? <span>☆☆☆</span> : ''}
+							{restaurant.star === '4' ? <span>☆☆☆☆</span> : ''}
+							{restaurant.star === '5' ? <span>☆☆☆☆☆</span> : ''}
+						<br/>
+						{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
+					</p>
+					<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
+				</div> 
+				<div className="reviewBox">
+					<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
+				</div>
       </div>
-				<button className="reviewSubmit" onClick={this.handleBookmark}>Bookmark</button>
-            </div>
 		)
 	}
 }

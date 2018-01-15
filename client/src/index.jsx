@@ -12,7 +12,7 @@ class App extends React.Component {
 
 		this.state = {
 			view: 'search',
-			user: undefined
+			user: 'undefined'
 		};
 
 	    this.changeView = this.changeView.bind(this);
@@ -60,7 +60,7 @@ class App extends React.Component {
 			            onClick={() => this.changeView('reviews')}>
 			            My Reviews
           			</span>
-          			<LoginButton handleLogin={this.handleLogin.bind(this)}/>
+          			<LoginButton handleLogin={this.handleLogin.bind(this)} user={this.state.user}/>
         		</div>
         		<div className="main">
 					{this.renderView()}

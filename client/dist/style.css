@@ -60,7 +60,9 @@ input {
 
 .logIn {
   padding-left: 12px;
+  padding-right: 12px;
   padding-top: 4px;
+  padding-bottom: 4px;
   cursor: pointer;
   border: none;
   border-radius: 3px;
@@ -96,8 +98,12 @@ input {
 }
 
 .reviewText {
+  resize: none;
   box-sizing: content-box;
   border: 2px solid black;
+  width: 400px;
+  height: 150px;
+  float: top;
 }
 
 .restaurant-box {
@@ -121,14 +127,9 @@ input {
   margin: 15px;
 }
 
-.reviewText {
-  box-sizing: content-box;
-  border: 2px solid black;
-}
-
 .reviewBox {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 40%;
+  max-height: 40%;
   float: right;
 }
 
@@ -136,6 +137,7 @@ input {
   margin-left: 8px;
   margin-right: 5px;
   margin-top: 5px;
+  margin-bottom: 12px;
   cursor: pointer;
   border: none;
   border-radius: 3px;
@@ -186,6 +188,7 @@ input {
 .reviewText {
   box-sizing: content-box;
   border: 2px solid black;
+  margin: 15px;
 }
 
 .restaurant-box {
@@ -230,6 +233,33 @@ input {
 .review-date {
   float: right;
   font-size: 18px;
+}
+.reviewText {
+  box-sizing: content-box;
+  border: 2px solid black;
+}
+
+.restaurant-box {
+  float: left;
+  max-width: 99%;
+  display: block;
+  border: 5px;
+  padding: 15px;
+  margin: 15px;
+  background-color: grey;
+}
+.restaurant-map {
+  float: left;
+  max-width: 50%;
+  margin: 15px;
+}
+.restaurant-text {
+  color: white;
+  margin: 15px;
+}
+
+.restaurant-details {
+  float: left;
 }
 .filter-dropbox {
   color: white;

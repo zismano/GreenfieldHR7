@@ -33,8 +33,8 @@ class WriteReview extends React.Component {
 		var starsFormat = "rating medium star-icon direction-ltr value-" + this.state.reviewStars + " half color-negative label-hidden";
 
 		return (
-			<form className="reviewBox"> 
-				<input className="reviewText" type="text" placeholder="Review" ref={input => this.review = input}/>
+			<form> 
+				<textarea className="reviewText" type="text" placeholder="Add a review here!" ref={input => this.review = input}/>
 				<div className={starsFormat}>
 				  <div className="label-value"></div>
 				    <div className="star-container">
