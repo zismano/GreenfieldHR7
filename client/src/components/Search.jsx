@@ -6,6 +6,7 @@ import SearchByRestaurantCategory from './SearchByRestaurantCategory.jsx';
 import SearchByRestaurantNearMe from './SearchByRestaurantNearMe.jsx';
 import RestaurantDetails from './RestaurantDetails.jsx';
 import FetchRecentReviews from './FetchRecentReviews.jsx';
+import FilterRestaurants from './FilterRestaurants.jsx';
 
 
 class Search extends React.Component {
@@ -18,6 +19,8 @@ class Search extends React.Component {
 			reviews: [],
 			restaurantDetailView: false,
 			user: {id: 1}
+			restaurantDetailView: false,
+			filter: ''
 		};
 
 		this.handleSearchResults = this.handleSearchResults.bind(this);
@@ -60,16 +63,34 @@ class Search extends React.Component {
 		return reviews;
 	}
 
+	handleFilter(e) {
+		this.setState({
+			filter: e.target.value
+		})
+	}
+
+	restaurantsAfterFilter() {
+		if (this.state.filter === '') {
+			return this.state.restaurants
+		} else {
+			return this.state.restaurants.filter(restaurant=>{
+				return restaurant.price === this.state.filter || restaurant.star === this.state.filter
+			})
+		}
+	}
+
 	render() {
 		return (
 			<div>
 				<SearchByRestaurantName handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantCategory handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} />
-				{this.state.restaurantDetailView && this.state.restaurants.map(restaurant=>{
-					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} user={this.props.user}/>
+				<br/>
+				{this.state.restaurantDetailView && <FilterRestaurants handleFilter={this.handleFilter.bind(this)} /> }
+				<br/>
+				{this.state.restaurantDetailView && this.restaurantsAfterFilter().map(restaurant=>{
+					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
 				})}
-
 				<FetchRecentReviews reviews={this.state.reviews} />
 			</div>
 		)
