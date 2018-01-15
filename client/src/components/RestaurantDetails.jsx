@@ -24,7 +24,6 @@ class RestaurantDetails extends React.Component {
 				contentType: 'application/json',
     			data: JSON.stringify(query),
     			complete: () => {
-    				console.log('added bookmark to bookmarks table')
     			},
     			failure: (err) => {
     				console.error(err);
@@ -75,6 +74,8 @@ class RestaurantDetails extends React.Component {
 						{restaurant.star === '5' ? <span>☆☆☆☆☆</span> : ''}
 					<br/>
 					{restaurant.distance ? <div><b>Distance:</b> {restaurant.distance}</div> : ''}
+					<br/>
+					{restaurant.recommendation ? <div>**{restaurant.recommendation}</div> : ''}
 				</p>
 				<WriteReview handleReviewSubmit={this.handleReviewSubmit.bind(this)}/>
       </div>

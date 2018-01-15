@@ -13,7 +13,6 @@ class Search extends React.Component {
 	constructor(props) {
 		super(props);
 
-  		//change user to this.props.user after Jimmy finishes his work
 		this.state={
 			restaurants: [],
 			reviews: [],
@@ -84,12 +83,12 @@ class Search extends React.Component {
 			<div>
 				<SearchByRestaurantName handleSearchResults={this.handleSearchResults} />
 				<SearchByRestaurantCategory handleSearchResults={this.handleSearchResults} />
-				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} />
-				<br/>
+				<SearchByRestaurantNearMe handleSearchResults={this.handleSearchResults} user={this.props.user}/>
+
 				{this.state.restaurantDetailView && <FilterRestaurants handleFilter={this.handleFilter.bind(this)} /> }
 				<br/>
 				{this.state.restaurantDetailView && this.restaurantsAfterFilter().map(restaurant=>{
-					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} />
+					return <RestaurantDetails restaurant={restaurant} key={restaurant.id} user={this.props.user} />
 				})}
 				<FetchRecentReviews reviews={this.state.reviews} />
 			</div>
