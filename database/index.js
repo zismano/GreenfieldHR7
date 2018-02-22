@@ -14,15 +14,7 @@ let searchByRestaurantName = (name, callback) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	  	// if (res.rows.length === 0) {
-	  	// 	client.query(text, ['Burgers'], (err, resTwo)=>{
-	  	// 		if(!err) {
-	  	// 			callback(null, resTwo.rows)
-	  	// 		}
-	  	// 	})
-	  	// } else {
-	  		callback(null, res.rows);	
-	  	//}
+	  	callback(null, res.rows);	
 	  }
     })
 }
@@ -34,15 +26,7 @@ let searchByRestaurantCategory = (category, callback) => {
 	  if (err) {
 	  	callback(err.stack, null);
 	  } else {
-	   //  if (res.rows.length === 0) {
-	  	// 	client.query(text, ['Burgers'], (err, resTwo)=>{
-	  	// 		if(!err) {
-	  	// 			callback(null, resTwo.rows)
-	  	// 		}
-	  	// 	})
-	  	// } else {
-	  		callback(null, res.rows);	
-	  	// }
+	  	callback(null, res.rows);	
 	  }
 	})
 }
