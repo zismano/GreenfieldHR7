@@ -7,7 +7,6 @@ let publicConfig = {
   stagger_time:       1000, // for elevationPath 
   encode_polylines:   false,
   secure:             true, // use https 
-//  proxy:              'http://127.0.0.1:9999' // optional, set a proxy for HTTP requests 
 };
 
 let createMapURL = (rest) => {
@@ -28,14 +27,6 @@ let createMapURL = (rest) => {
 	  }]
 	};
   return gmAPI.staticMap(params); // return static map URL 
-	// gmAPI.staticMap(params, function(err, binaryImage) {
-	//   // fetch asynchronously the binary image
-	//   if (err) {
-	//   	console.log(err);
-	//   } else {
-	//   	callback(binaryImage);
-	//   } 
-	// });
 }
 
 module.exports = {
